@@ -1,0 +1,11 @@
+{
+    "Format": "2.3.0",
+     "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/spring_tanpoponoko, Maps/summer_tanpoponoko, Maps/fall_tanpoponoko, Maps/winter_tanpoponoko",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        }
+     ]
+         
+ }

@@ -1,0 +1,16 @@
+{
+    "Format": "2.3.0",
+     "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/spring_katu_bridge_edits, Maps/summer_katu_bridge_edits, Maps/fall_katu_bridge_edits, Maps/winter_katu_bridge_edits",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/spring_katu_seasonal_leaf_border, Maps/summer_katu_seasonal_leaf_border, Maps/fall_katu_seasonal_leaf_border, Maps/winter_katu_seasonal_leaf_border",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        }
+     ]
+         
+ }

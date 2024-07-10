@@ -1,0 +1,7 @@
+The SDV discord for answering my dozens of noob questions, and in particular:
+
+Rakugin, for helping me figure out the warp network, and also helping to teach me the fundamentals of modding.
+
+Abagaianye, for teaching me some good practices and helping me troubleshoot.
+
+NoraCharles, for helping me learn to deconstruct maps and reverse engineer their workings.
