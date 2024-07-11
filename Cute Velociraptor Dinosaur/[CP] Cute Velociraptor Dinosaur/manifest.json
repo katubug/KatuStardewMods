@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] Cute Velociraptor Dinosaur",
+    "Author": "HeyKatu",
+    "Version": "1.0.0",
+    "Description": "Cute Velociraptor dino sprites by Zynonia",
+    "UniqueID": "HeyKatu.CVDinos",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

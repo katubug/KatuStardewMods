@@ -1,0 +1,12 @@
+{
+   "Name": "Dino Velociraptor Reskin",
+   "Author": "zynonia",
+   "Version": "1.6",
+   "Description": "Replace that nasty green lizard with a cute fluffy velociraptor. Content Patcher version w/ config created by Sparrow.",
+   "UniqueID": "zynonia.VelociraptorReskin",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:825" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

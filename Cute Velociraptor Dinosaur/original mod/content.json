@@ -1,0 +1,18 @@
+{
+    "Format": "1.19.0",
+    "ConfigSchema": {
+        "Colour": {
+            "AllowValues": "albino, brown, green, pink, tan, sand, blue, grey",
+	    "Default": "brown",
+	   "Description": "What color do you want the raptors to be?"
+        },
+    },
+
+    "Changes": [
+      {
+			"Action": "Load",
+			"Target": "Animals/Dinosaur",
+			"FromFile": "assets/dinosaur_{{colour}}.png",
+       }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "[AT] Cute Velociraptor Dinosaur",
+    "Author": "HeyKatu",
+    "Version": "1.0.0",
+    "Description": "Cute Velociraptor dino sprites by Zynonia",
+    "UniqueID": "HeyKatu.CVDinosAT",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures"
+    }
+}

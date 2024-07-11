@@ -6,7 +6,12 @@
 			"AllowValues": "Farmer, Forager, Florist, Fisher, Rancher",
 			"Default": "Farmer",
 			"Description": "Choose what starter gift you'll receive as a new arrival!"
-			}
+		},
+		"Daily Blessings": {
+			"AllowValues": "On, Off",
+			"Default": "On",
+			"Description": "If turned on, this option will allow the seasonal deity altar to give you a blessing each day when interacted with."
+		}
 	},
 	"Changes":[
 		{
@@ -27,7 +32,8 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
 			"When": {
-        	"HasMod |contains=spacechase0.SpaceCore": "true"
+        	"HasMod |contains=spacechase0.SpaceCore": "true",
+			"Daily Blessings": "On"
       		},
             "Entries": {
                 "HKHC_StatueBuff": {
@@ -480,7 +486,7 @@
 								"Height": 23
 							},
 							"CrabPotFishTypes": [ "ocean" ],
-							"CrabPotJunkChance": 0.2
+							"CrabPotJunkChance": 0.1
 						},
 						//Rivers
 						"HoneyCreek_River": {
