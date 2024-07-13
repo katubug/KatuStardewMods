@@ -1,0 +1,66 @@
+{
+  "WeatherForYesterday": "Sun",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Farm",
+      "Name": "257",
+      "Tile": "0, 31",
+      "Type": "Forage",
+      "ID": "257",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "257",
+      "Tile": "48, 113",
+      "Type": "Forage",
+      "ID": "257",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "20",
+      "Tile": "137, 125",
+      "Type": "Forage",
+      "ID": "20",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "20",
+      "Tile": "39, 37",
+      "Type": "Forage",
+      "ID": "20",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Katu.HoneyCreekFarm/TreeHouse",
+      "Name": null,
+      "Tile": "5, 9",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": [],
+        "PercentChanceToSpawn": 10.0
+      },
+      "MonType": null
+    }
+  ]
+}
