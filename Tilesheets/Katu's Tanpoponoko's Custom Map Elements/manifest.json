@@ -1,10 +1,10 @@
 {
     "Name": "Katu's Tanpoponoko's Custom Map Elements",
     "Author": "HeyKatu",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Description": "A refactoring of Tanpoponoko's Custom Map Elements.",
     "UniqueID": "HeyKatu.tanpoponoko",
-    "UpdateKeys": [ "Nexus:???" ],
+    "UpdateKeys": [ "Nexus:26044" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }

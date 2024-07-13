@@ -1,0 +1,110 @@
+{
+  "WeatherForYesterday": "Sun",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Katu.HoneyCreekFarm/TreeHouse",
+      "Name": null,
+      "Tile": "7, 8",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": [
+          {
+            "category": "object",
+            "name": "bug meat",
+            "stack": 10,
+            "percentchancetospawn": 80
+          }
+        ],
+        "PercentChanceToSpawn": 50.0
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Katu.HoneyCreekFarm/TreeHouse",
+      "Name": null,
+      "Tile": "3, 9",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [],
+        "PercentChanceToSpawn": 50.0
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Katu.HoneyCreekFarm/TreeHouse",
+      "Name": null,
+      "Tile": "3, 6",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "category": "object",
+            "name": "iron ore",
+            "stack": 5,
+            "percentchancetospawn": 50
+          }
+        ],
+        "PercentChanceToSpawn": 50.0
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Katu.HoneyCreekFarm/TreeHouse",
+      "Name": null,
+      "Tile": "5, 7",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "category": "object",
+            "name": "speed-gro",
+            "stack": 4,
+            "percentchancetospawn": 80
+          }
+        ],
+        "PercentChanceToSpawn": 50.0
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Katu.HoneyCreekFarm/TreeHouse",
+      "Name": null,
+      "Tile": "5, 9",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": [
+          {
+            "category": "object",
+            "name": "clay",
+            "stack": 5,
+            "percentchancetospawn": 80
+          }
+        ],
+        "PercentChanceToSpawn": 50.0
+      },
+      "MonType": null
+    }
+  ]
+}

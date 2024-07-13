@@ -1,0 +1,14 @@
+{
+    "Name": "Honey Creek Farm FTM",
+    "Author": "HeyKatu",
+    "Version": "1.0.3",
+    "Description": "A cute and useful farm map alternative.",
+    "UniqueID": "HeyKatu.HoneyCreekFTM",
+    "UpdateKeys": ["Nexus:26041"],
+    "MinimumApiVersion": "3.0.0",
+    "ContentPackFor": {
+      "UniqueID": "Esca.FarmTypeManager",
+      "MinimumVersion": "1.10.1"
+    },
+    "FarmTypes": "Katu.HoneyCreekFarm/HoneyCreekFarm"
+  }

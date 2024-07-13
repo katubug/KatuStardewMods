@@ -1,0 +1,1735 @@
+{
+	"Format":"2.3.0",
+	"ConfigSchema": { 
+	//Config Options
+		"Starter Gift": { 
+			"AllowValues": "Farmer, Forager, Florist, Fisher, Rancher",
+			"Default": "Farmer",
+			"Description": "Choose what starter gift you'll receive as a new arrival!"
+		},
+		"Daily Blessings": {
+			"AllowValues": "On, Off",
+			"Default": "On",
+			"Description": "If turned on, this option will allow the seasonal deity altar to give you a blessing each day when interacted with."
+		}
+	},
+	"Changes":[
+		{
+			//Add the farm
+			"Action":"EditData",
+			"Target":"Data/AdditionalFarms",
+			"Entries":{
+				"Katu.HoneyCreekFarm/HoneyCreekFarm":{
+					"ID":"Katu.HoneyCreekFarm/HoneyCreekFarm",
+					"TooltipStringPath":"Strings/UI:Katu_HoneyCreekFarm",
+					"MapName":"Katu_HoneyCreekFarm",
+					"IconTexture":"Mods/Katu.HoneyCreekFarm/Assets/FarmIcon"
+				}
+			}
+		},
+		//Random Buff At Statue
+		{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+			"When": {
+        	"HasMod |contains=spacechase0.SpaceCore": "true",
+			"Daily Blessings": "On"
+      		},
+            "Entries": {
+                "HKHC_StatueBuff": {
+                    "Id": "HKHC_StatueBuff",
+					"Trigger": "Manual",
+                    "Actions": [
+						//O: Speed, 1: Luck, 2: Energy (op), 3: Waters, 4: Friendship, 5: Fangs, 6: Butterfly (op)
+                        "AddBuff {{Random: statue_of_blessings_0, statue_of_blessings_1, statue_of_blessings_1, statue_of_blessings_3}}"
+                    ],
+					"MarkActionApplied": true
+                },
+				"HKHC_StatueBuffReset": {
+                    "Id": "HKHC_StatueBuffReset",
+					"Trigger": "DayEnding",
+                    "Actions": [
+						"MarkActionApplied All HKHC_StatueBuff false"
+                    ]
+                }
+            }
+        },
+		//Edit Strings
+		{
+			"Action":"EditData",
+			"Target":"Strings/UI",
+			"Entries":{
+				"Katu_HoneyCreekFarm":"Honey Creek Farm_A cute, well-rounded map suitable for most purposes."
+			}
+		},
+		//Load Farm icon
+		{
+			"Action":"Load",
+			"Target":"Mods/Katu.HoneyCreekFarm/Assets/FarmIcon",
+			"FromFile":"assets/FarmIcon.png"
+		},
+		//Load the main farm map
+		{
+			"Action":"Load",
+			"Target":"Maps/Katu_HoneyCreekFarm",
+			"FromFile":"assets/Farm_HoneyCreek.tmx"
+		},
+		//Load the Secret Woods teleport edit map
+		{
+			"Action":"Load",
+			"Target":"Maps/{{ModId}}_Woods_Edit",
+			"FromFile":"assets/Woods_HoneyCreek_Edit.tmx"
+		},
+		//Load the secondary Treehouse map
+		{
+			"Action":"Load",
+			"Target":"Maps/{{ModId}}_TreeHouse",
+			"FromFile":"assets/HeyKatu_HoneyCreek_TreeHouse.tmx"
+		},
+		//Load the secondary Tower map
+		{
+			"Action":"Load",
+			"Target":"Maps/{{ModId}}_Tower",
+			"FromFile":"assets/HeyKatu_HoneyCreek_Tower.tmx"
+		},
+		//Load the secondary Cave map
+		{
+			"Action":"Load",
+			"Target":"Maps/{{ModId}}_Cave",
+			"FromFile":"assets/HeyKatu_HoneyCreek_Cave.tmx"
+		},
+		//Actually edit the Secret Woods to include the teleport
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Woods",
+			"FromFile": "assets/Woods_HoneyCreek_Edit.tmx",
+			"FromArea": {
+			  "X": 0,
+			  "Y": 0,
+			  "Width": 4,
+			  "Height": 4
+			},
+			"ToArea": {
+			  "X": 49,
+			  "Y": 24,
+			  "Width": 4,
+			  "Height": 4
+			}
+		  },
+		//Starting Gift Bundles
+			//Farmer
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				
+				"When": { "Starter Gift": "Farmer" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)472 15 (O)210 3 (O)633 1"
+				}
+			},
+			//Forager
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				
+				"When": { "Starter Gift": "Forager" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)CarrotSeeds 10 (O)211 3 (H)42 1"
+				}
+			},
+			//Fisher
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				
+				"When": { "Starter Gift": "Fisher" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)219 3 (T)TrainingRod 1 (H)4 11"
+				}
+			},
+			//Rancher
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				
+				"When": { "Starter Gift": "Rancher" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)178 20 (O)186 1"
+				}
+			},
+			//Florist
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				
+				"When": { "Starter Gift": "Florist" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)427 9 (O)429 9 (F)1307 1"
+				}
+			},
+		//Make Custom Minecart system for fast travel around the farm
+		{			
+		
+		"Action":"EditData",
+		"Target":"Data/Minecarts",
+		"Entries":{
+			"HoneyCreek_Warps":{
+				"ChooseDestinationMessage":"Warp to where?",
+				"Destinations":[
+					{
+						"Id":"HoneyCreekNE",
+						"DisplayName":"Northeast Entrance",
+						"TargetLocation":"Farm",
+						"TargetTile":{
+							"X":140,
+							"Y":16
+						},
+						"TargetDirection":"down"
+					},
+					{
+						"Id":"HoneyCreekNW",
+						"DisplayName":"Northwest Creek",
+						"TargetLocation":"Farm",
+						"TargetTile":{
+							"X":10,
+							"Y":16
+						},
+						"TargetDirection":"down"
+					},
+					{
+						"Id":"HoneyCreekW",
+						"DisplayName":"West Swamp",
+						"TargetLocation":"Farm",
+						"TargetTile":{
+							"X":2,
+							"Y":71
+						},
+						"TargetDirection":"down"
+					},
+					{
+						"Id":"HoneyCreekS",
+						"DisplayName":"Southern Stretch",
+						"TargetLocation":"Farm",
+						"TargetTile":{
+							"X":104,
+							"Y":84
+						},
+						"TargetDirection":"down"
+					},
+					{
+						"Id":"HoneyCreekSE",
+						"DisplayName":"Southeast Glade",
+						"TargetLocation":"Farm",
+						"TargetTile":{
+							"X":141,
+							"Y":80
+						},
+						"TargetDirection":"down"
+					},
+					{
+						"Id":"HoneyCreekSW",
+						"DisplayName":"Southwest Meadow",
+						"TargetLocation":"Farm",
+						"TargetTile":{
+							"X":29,
+							"Y":111
+						},
+						"TargetDirection":"down"
+					},
+					{
+						"Id":"HoneyCreekSBeach",
+						"DisplayName":"Honey Creek Beach",
+						"TargetLocation":"Farm",
+						"TargetTile":{
+							"X":140,
+							"Y":154
+						},
+						"TargetDirection":"down"
+					},
+					{
+						//Make Quarry only accessible after vanilla quarry unlock
+						"Id":"HoneyCreekQuarry",
+						"DisplayName":"Hidden Quarry",
+						"Condition": "PLAYER_HAS_MAIL Host ccCraftsRoom Received",
+						"TargetLocation":"Farm",
+						"TargetTile":{
+							"X":6,
+							"Y":140
+						},
+						"TargetDirection":"down"
+					},
+					{
+						//Make Secret Woods only accessible after the first time any player enters there
+						"Id":"HCSecretWoods",
+						"DisplayName":"Secret Woods",
+						"Condition": "PLAYER_VISITED_LOCATION Any Woods",
+						"TargetLocation":"Woods",
+						"TargetTile":{
+							"X":50,
+							"Y":25
+						},
+						"TargetDirection":"down"
+					}
+				]
+			}
+		}
+	},
+		//Declare the farm location so we can make changes to it
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Farm_Katu.HoneyCreekFarm/HoneyCreekFarm": {
+					"DisplayName": "Honey Creek Farm",
+					"CanPlantHere": true,
+					"CanHaveGreenRainSpawns": true,
+					//Define fishing areas. Roughly listed in order from up to down, left to right
+					"FishAreas": {
+						
+						//Lakes
+						"HoneyCreek_Lake": {
+							"DisplayName": null,
+							"Position": {
+								"X": 115,
+								"Y": 0,
+								"Width": 21,
+								"Height": 14
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Lake2": {
+							"DisplayName": null,
+							"Position": {
+								"X": 0,
+								"Y": 50,
+								"Width": 14,
+								"Height": 12
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Lake3": {
+							"DisplayName": null,
+							"Position": {
+								"X": 41,
+								"Y": 42,
+								"Width": 12,
+								"Height": 5
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						//Ponds
+						"HoneyCreek_Pond": {
+							"DisplayName": null,
+							"Position": {
+								"X": 32,
+								"Y": 62,
+								"Width": 7,
+								"Height": 7
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Pond2": {
+							"DisplayName": null,
+							"Position": {
+								"X": 32,
+								"Y": 73,
+								"Width": 11,
+								"Height": 7
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Pond3": {
+							"DisplayName": null,
+							"Position": {
+								"X": 116,
+								"Y": 72,
+								"Width": 10,
+								"Height": 9
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Pond4": {
+							"DisplayName": null,
+							"Position": {
+								"X": 46,
+								"Y": 138,
+								"Width": 13,
+								"Height": 20
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Pond5": {
+							"DisplayName": null,
+							"Position": {
+								"X": 69,
+								"Y": 128,
+								"Width": 10,
+								"Height": 8
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						//Waterfalls
+						"HoneyCreek_Waterfall": {
+							"DisplayName": null,
+							"Position": {
+								"X": 23,
+								"Y": 9,
+								"Width": 9,
+								"Height": 3
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Waterfall2": {
+							"DisplayName": null,
+							"Position": {
+								"X": 6,
+								"Y": 50,
+								"Width": 8,
+								"Height": 4
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Waterfall3": {
+							"DisplayName": null,
+							"Position": {
+								"X": 49,
+								"Y": 20,
+								"Width": 6,
+								"Height": 3
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Waterfall4": {
+							"DisplayName": null,
+							"Position": {
+								"X": 42,
+								"Y": 39,
+								"Width": 8,
+								"Height": 3
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Waterfall5": {
+							"DisplayName": null,
+							"Position": {
+								"X": 32,
+								"Y": 17,
+								"Width": 11,
+								"Height": 7
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Waterfall6": {
+							"DisplayName": null,
+							"Position": {
+								"X": 58,
+								"Y": 28,
+								"Width": 6,
+								"Height": 3
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Waterfall7": {
+							"DisplayName": null,
+							"Position": {
+								"X": 65,
+								"Y": 11,
+								"Width": 5,
+								"Height": 3
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Waterfall8": {
+							"DisplayName": null,
+							"Position": {
+								"X": 46,
+								"Y": 138,
+								"Width": 13,
+								"Height": 20
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_Waterfall9": {
+							"DisplayName": null,
+							"Position": {
+								"X": 69,
+								"Y": 128,
+								"Width": 10,
+								"Height": 8
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						},
+						//Beach
+						"HoneyCreek_Beach": {
+							"DisplayName": null,
+							"Position": {
+								"X": 81,
+								"Y": 137,
+								"Width": 52,
+								"Height": 23
+							},
+							"CrabPotFishTypes": [ "ocean" ],
+							"CrabPotJunkChance": 0.1
+						},
+						//Rivers
+						"HoneyCreek_River": {
+							"DisplayName": null,
+							"Position": {
+								"X": 33,
+								"Y": 8,
+								"Width": 21,
+								"Height": 9
+							},
+							"CrabPotFishTypes": [ "freshwater" ],
+							"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_River2": {
+							"DisplayName": null,
+							"Position": {
+								"X": 37,
+								"Y": 46,
+								"Width": 17,
+								"Height": 14
+							},
+							"CrabPotFishTypes": [ "freshwater" ],
+							"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_River3": {
+							"DisplayName": null,
+							"Position": {
+								"X": 44,
+								"Y": 60,
+								"Width": 42,
+								"Height": 30
+							},
+							"CrabPotFishTypes": [ "freshwater" ],
+							"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_River4": {
+							"DisplayName": null,
+							"Position": {
+								"X": 41,
+								"Y": 90,
+								"Width": 31,
+								"Height": 27
+							},
+							"CrabPotFishTypes": [ "freshwater" ],
+							"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_River5": {
+							"DisplayName": null,
+							"Position": {
+								"X": 50,
+								"Y": 30,
+								"Width": 20,
+								"Height": 24
+							},
+							"CrabPotFishTypes": [ "freshwater" ],
+							"CrabPotJunkChance": 0.2
+						},
+						"HoneyCreek_River6": {
+							"DisplayName": null,
+							"Position": {
+								"X": 70,
+								"Y": 73,
+								"Width": 46,
+								"Height": 8
+							},
+							"CrabPotFishTypes": [ "freshwater" ],
+							"CrabPotJunkChance": 0.2
+						},
+						//Fallback/Default
+						"HoneyCreek_Default": {
+							"DisplayName": null,
+							"Position": {
+								"X": 0,
+								"Y": 0,
+								"Width": 150,
+								"Height": 136
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
+						}
+					},
+					"Fish": [
+						// Lake Fish
+						// Lake1 All Seasons
+						{
+							"Season": null,
+							"FishAreaId": "HoneyCreek_Lake",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekLake_AllSeasons",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)136",
+								"(O)142",
+								"(O)700"
+							]
+						},
+						//Lake1 Summer
+						{
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_Lake",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekLake_Summer",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)704",
+								"(O)698",
+								"(O)138"
+							]
+						},
+						//Lake1 Winter
+						{
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_Lake",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekLake_Winter",
+							"ItemId": "(O)707",
+							"RandomItemId": []
+						},
+						//Lake2 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_Lake2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekLake_AllSeasons2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)136",
+								"(O)142",
+								"(O)700"
+							]
+						},
+						//Lake2 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_Lake2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekLake_Summer2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)704",
+								"(O)698",
+								"(O)138"
+							]
+						},
+						//Lake2 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_Lake2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekLake_Winter2",
+							"ItemId": "(O)707"
+						},
+						//Lake3 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_Lake3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekLake_AllSeasons3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)136",
+								"(O)142",
+								"(O)700"
+							]
+						},
+						//Lake3 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_Lake3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekLake_Summer3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)704",
+								"(O)698",
+								"(O)138"
+							]
+						},
+						//Lake3 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_Lake3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekLake_Winter3",
+							"ItemId": "(O)707"
+						},
+						// Pond Fish
+						// Pond1 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_Pond",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_AllSeasons",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)734",
+								"(O)142"
+							]
+						},
+						// Pond1 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_Pond",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Spring",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)137",
+								"(O)143"
+							]
+						},
+						// Pond1 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_Pond",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Summer",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)143"
+							]
+						},
+						// Pond1 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_Pond",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Fall",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)269",
+								"(O)137",
+								"(O)140",
+								"(O)143"
+							]
+						},
+						// Pond1 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_Pond",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Winter",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)140",
+								"(O)141"
+							]
+						},
+						// Pond2 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_Pond2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_AllSeasons2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)734",
+								"(O)142"
+							]
+						},
+						// Pond2 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_Pond2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Spring2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)137",
+								"(O)143"
+							]
+						},
+						// Pond2 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_Pond2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Summer2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)143"
+							]
+						},
+						// Pond2 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_Pond2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Fall2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)269",
+								"(O)137",
+								"(O)140",
+								"(O)143"
+							]
+						},
+						// Pond2 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_Pond2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Winter2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)140",
+								"(O)141"
+							]
+						},
+						// Pond3 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_Pond3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_AllSeasons3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)734",
+								"(O)142"
+							]
+						},
+						// Pond3 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_Pond3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Spring3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)137",
+								"(O)143"
+							]
+						},
+						// Pond3 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_Pond3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Summer3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)143"
+							]
+						},
+						// Pond3 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_Pond3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Fall2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)269",
+								"(O)137",
+								"(O)140",
+								"(O)143"
+							]
+						},
+						// Pond3 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_Pond3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Winter2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)140",
+								"(O)141"
+							]
+						},
+						// Pond4 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_Pond4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_AllSeasons4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)734",
+								"(O)142"
+							]
+						},
+						// Pond4 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_Pond4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Spring4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)137",
+								"(O)143"
+							]
+						},
+						// Pond4 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_Pond4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Summer4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)143"
+							]
+						},
+						// Pond4 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_Pond4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Fall4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)269",
+								"(O)137",
+								"(O)140",
+								"(O)143"
+							]
+						},
+						// Pond4 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_Pond4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Winter4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)140",
+								"(O)141"
+							]
+						},
+						// Pond5 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_Pond5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_AllSeasons5",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)734",
+								"(O)142"
+							]
+						},
+						// Pond5 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_Pond5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Spring5",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)137",
+								"(O)143"
+							]
+						},
+						// Pond5 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_Pond5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Summer5",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)143"
+							]
+						},
+						// Pond5 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_Pond5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Fall5",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)269",
+								"(O)137",
+								"(O)140",
+								"(O)143"
+							]
+						},
+						// Pond5 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_Pond5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekPond_Winter5",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)140",
+								"(O)141"
+							]
+						},
+						// Waterfall Fish. We're only doing all seasons to keep this document from getting stupidly long
+						// Waterfall1 All Seasons
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Waterfall",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekWaterFall",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)Goby",
+								"(O)139",
+								"(O)734"
+							]
+						},
+						//Waterfall2 All Seasons
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Waterfall2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekWaterFall2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)Goby",
+								"(O)139",
+								"(O)734"
+							]
+						},
+						//Waterfall3 All Seasons
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Waterfall3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekWaterFall3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)Goby",
+								"(O)139",
+								"(O)734"
+							]
+						},
+						//Waterfall4 All Seasons
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Waterfall4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekWaterFall4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)Goby",
+								"(O)139",
+								"(O)734"
+							]
+						},
+						//Waterfall5 All Seasons
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Waterfall5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekWaterFall5",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)Goby",
+								"(O)139",
+								"(O)734"
+							]
+						},
+						// Waterfall6 All Seasons
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Waterfall6",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekWaterFall6",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)Goby",
+								"(O)139",
+								"(O)734"
+							]
+						},
+						// Waterfall7 All Seasons
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Waterfall7",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekWaterFall",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)Goby",
+								"(O)139",
+								"(O)734"
+							]
+						},
+						// Waterfall8 All Seasons
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Waterfall8",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekWaterFall8",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)Goby",
+								"(O)139",
+								"(O)734"
+							]
+						},
+						// Waterfall9 All Seasons
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Waterfall9",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekWaterFall9",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)Goby",
+								"(O)139",
+								"(O)734"
+							]
+						},
+						// River Fish
+						// River1 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_River",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)132",
+								"(O)702",
+								"(O)RiverJelly"
+							]
+						},
+						// River1 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_River",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Spring",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)706",
+								"(O)145"
+							]
+						},
+						// River1 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_River",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Summer",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)145",
+								"(O)706",
+								"(O)138",
+								"(O)144"
+							]
+						},
+						// River1 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_River",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Fall",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)139",
+								"(O)699",
+								"(O)140",
+								"(O)706"
+							]
+						},
+						// River1 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_River",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Winter",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)699"
+							]
+						},
+						// River2 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_River2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)132",
+								"(O)702",
+								"(O)RiverJelly"
+							]
+						},
+						// River2 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_River2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Spring2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)706",
+								"(O)145"
+							]
+						},
+						// River2 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_River2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Summer2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)145",
+								"(O)706",
+								"(O)138",
+								"(O)144"
+							]
+						},
+						// River2 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_River2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Fall2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)139",
+								"(O)699",
+								"(O)140",
+								"(O)706"
+							]
+						},
+						// River2 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_River2",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Winter2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)699"
+							]
+						},
+						// River3 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_River3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)132",
+								"(O)702",
+								"(O)RiverJelly"
+							]
+						},
+						// River3 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_River3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Spring3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)706",
+								"(O)145"
+							]
+						},
+						// River3 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_River3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Summer3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)145",
+								"(O)706",
+								"(O)138",
+								"(O)144"
+							]
+						},
+						// River3 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_River3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Fall3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)139",
+								"(O)699",
+								"(O)140",
+								"(O)706"
+							]
+						},
+						// River3 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_River3",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Winter3",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)699"
+							]
+						},
+						// River4 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_River4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)132",
+								"(O)702",
+								"(O)RiverJelly"
+							]
+						},
+						// River4 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_River4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Spring4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)706",
+								"(O)145"
+							]
+						},
+						// River4 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_River4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Summer4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)145",
+								"(O)706",
+								"(O)138",
+								"(O)144"
+							]
+						},
+						// River4 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_River4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Fall4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)139",
+								"(O)699",
+								"(O)140",
+								"(O)706"
+							]
+						},
+						// River4 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_River4",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Winter4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)699s"
+							]
+						},
+						// River5 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_River5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver5",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)132",
+								"(O)702",
+								"(O)RiverJelly"
+							]
+						},
+						// River5 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_River5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Spring2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)706",
+								"(O)145"
+							]
+						},
+						// River5 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_River5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Summer2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)145",
+								"(O)706",
+								"(O)138",
+								"(O)144"
+							]
+						},
+						// River5 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_River5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Fall2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)139",
+								"(O)699",
+								"(O)140",
+								"(O)706"
+							]
+						},
+						// River5 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_River5",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Winter2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)699"
+							]
+						},
+						// River6 All Seasons
+						{
+							"Chance": 1.0,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_River6",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver6",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)132",
+								"(O)702",
+								"(O)RiverJelly"
+							]
+						},
+						// River6 Spring
+						{
+							"Chance": 1.0,
+							"Season": "Spring",
+							"FishAreaId": "HoneyCreek_River6",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Spring2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)706",
+								"(O)145"
+							]
+						},
+						// River6 Summer
+						{
+							"Chance": 1.0,
+							"Season": "Summer",
+							"FishAreaId": "HoneyCreek_River6",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Summer2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)145",
+								"(O)706",
+								"(O)138",
+								"(O)144"
+							]
+						},
+						// River6 Fall
+						{
+							"Chance": 1.0,
+							"Season": "Fall",
+							"FishAreaId": "HoneyCreek_River6",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Fall2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)139",
+								"(O)699",
+								"(O)140",
+								"(O)706"
+							]
+						},
+						// River6 Winter
+						{
+							"Chance": 1.0,
+							"Season": "Winter",
+							"FishAreaId": "HoneyCreek_River6",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Winter2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)144",
+								"(O)699"
+							]
+						},
+						// Beach Fish
+						// This seems to work out of the box so we'll leave it
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Beach",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": false,
+							"Id": "HoneyCreekBeach",
+							"ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH"
+						},
+						// Fallback fish, this also works out of the box
+						{
+							"Chance": 1.0,
+							"FishAreaId": "HoneyCreek_Default",
+							"Precedence": 100,
+							"IgnoreFishDataRequirements": false,
+							"Id": "HoneyCreekDefault",
+							"ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH"
+						}
+					],
+					"MinDailyWeeds": 5,
+					"MaxDailyWeeds": 11,
+					"FirstDayWeedMultiplier": 15,
+					"MinDailyForageSpawn": 2,
+					"MaxDailyForageSpawn": 9,
+					"MaxSpawnedForageAtOnce": 30,
+					"ChanceForClay": 0.03
+				},
+				"Katu.HoneyCreekFarm/TreeHouse": {
+						"DisplayName": "TreeHouse",
+						"DefaultArrivalTile": {
+							"X": 11,
+							"Y": 13
+                    		},
+						"CanPlantHere": false,
+						"ExcludefromNpcPathfinding": true,
+						"CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_TreeHouse",
+                        "Type": "StardewValley.GameLocation",
+                        "AlwaysActive": false
+                    }
+				},
+				"Katu.HoneyCreekFarm/Tower": {
+						"DisplayName": "Tower",
+						"DefaultArrivalTile": {
+							"X": 11,
+							"Y": 13
+                    		},
+						"CanPlantHere": false,
+						"ExcludefromNpcPathfinding": true,
+						"CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_Tower",
+                        "Type": "StardewValley.GameLocation",
+                        "AlwaysActive": false
+                    }
+				},
+				"Katu.HoneyCreekFarm/Cave": {
+						"DisplayName": "Cave",
+						"DefaultArrivalTile": {
+							"X": 8,
+							"Y": 12
+                    		},
+						"CanPlantHere": false,
+						"ExcludefromNpcPathfinding": true,
+						"CreateOnLoad": {
+							"MapPath": "Maps/{{ModId}}_Cave",
+							"Type": "StardewValley.GameLocation",
+							"AlwaysActive": false
+							},
+						"FishAreas": {
+						//Define fishing areas. Roughly listed in order from up to down, left to right
+						//Cave
+						"HoneyCreek_Cave": {
+							"DisplayName": null,
+							"Position": {
+								"X": 15,
+								"Y": 4,
+								"Width": 14,
+								"Height": 9
+								},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.5
+							}
+						},
+						"Fish": [
+							{
+							"Chance": 0.2,
+							"Season": null,
+							"FishAreaId": "HoneyCreek_Cave",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekCave",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)158",
+								"(O)156",
+								"(O)161",
+								"(O)CaveJelly"
+							]
+						}
+					]
+					}
+			}
+		}
+	]
+}

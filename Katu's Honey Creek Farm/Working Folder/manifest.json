@@ -1,0 +1,39 @@
+{
+    "Name": "Honey Creek Farm",
+    "Author": "HeyKatu",
+    "Version": "1.0.0",
+    "Description": "A cute and useful farm map alternative.",
+    "UniqueID": "HeyKatu.HoneyCreek",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+		{
+			"UniqueID": "DaisyNiko.Tilesheets",
+			"MinimumVersion": "1.9.0",
+			"IsRequired": true
+		},
+        {
+			"UniqueID": "alvadea.tilesheet",
+			"MinimumVersion": "2.1.0",
+			"IsRequired": true
+		},
+        {
+			"UniqueID": "Lumisteria.TtilesheetsOutdoor",
+			"MinimumVersion": "1.4.0",
+			"IsRequired": true
+		},
+        {
+			"UniqueID": "HeyKatu.tilesheet",
+			"MinimumVersion": "1.0.1",
+			"IsRequired": true
+		},
+        {
+			"UniqueID": "spacechase0.SpaceCore",
+			"MinimumVersion": "1.23.1",
+			"IsRequired": false
+		}
+	]
+}
+
