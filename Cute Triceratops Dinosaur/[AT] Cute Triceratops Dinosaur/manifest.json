@@ -1,0 +1,11 @@
+{
+    "Name": "[AT] Cute Triceratops Dinosaur",
+    "Author": "HeyKatu",
+    "Version": "1.0.1",
+    "Description": "Cute triceratops dino sprites, inspired by IdentityPollution",
+    "UniqueID": "HeyKatu.CTDinosAT",
+    "UpdateKeys": ["Nexus:25941"],
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures"
+    }
+}

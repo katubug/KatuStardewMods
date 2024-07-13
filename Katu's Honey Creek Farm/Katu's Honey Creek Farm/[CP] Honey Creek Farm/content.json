@@ -2,12 +2,12 @@
 	"Format":"2.3.0",
 	"ConfigSchema": { 
 	//Config Options
-		"Starter Gift": { 
+		"starter_gifts": { 
 			"AllowValues": "Farmer, Forager, Florist, Fisher, Rancher",
 			"Default": "Farmer",
-			"Description": "Choose what starter gift you'll receive as a new arrival!"
+			"Description": "Choose what starter gifts you'll receive as a new arrival!"
 		},
-		"Daily Blessings": {
+		"daily_blessings": {
 			"AllowValues": "On, Off",
 			"Default": "On",
 			"Description": "If turned on, this option will allow the seasonal deity altar to give you a blessing each day when interacted with."
@@ -33,7 +33,7 @@
             "Target": "Data/TriggerActions",
 			"When": {
         	"HasMod |contains=spacechase0.SpaceCore": "true",
-			"Daily Blessings": "On"
+			"daily_blessings": "On"
       		},
             "Entries": {
                 "HKHC_StatueBuff": {
@@ -55,13 +55,21 @@
             }
         },
 		//Edit Strings
+        {
+            "Action":"EditData",
+            "Target":"Strings/UI",
+            "Entries":{
+                "Katu_HoneyCreekFarm":"{{i18n:ui.farm.name}}_{{i18n:ui.farm.desc}}",
+				"Katu_HoneyCreekSignpost": "{{i18n:ui.map.signpost}}"
+            }
+        },
 		{
-			"Action":"EditData",
-			"Target":"Strings/UI",
-			"Entries":{
-				"Katu_HoneyCreekFarm":"Honey Creek Farm_A cute, well-rounded map suitable for most purposes."
-			}
-		},
+            "Action":"EditData",
+            "Target":"Strings/StringsFromMaps",
+            "Entries":{
+				"honeycreekfarm.signpost": "{{i18n:ui.map.signpost}}"
+            }
+        },
 		//Load Farm icon
 		{
 			"Action":"Load",
@@ -122,7 +130,7 @@
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
 				
-				"When": { "Starter Gift": "Farmer" },
+				"When": { "starter_gifts": "Farmer" },
 				"MapProperties": { 
 				"FarmHouseStarterGift": "(O)472 15 (O)210 3 (O)633 1"
 				}
@@ -132,7 +140,7 @@
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
 				
-				"When": { "Starter Gift": "Forager" },
+				"When": { "starter_gifts": "Forager" },
 				"MapProperties": { 
 				"FarmHouseStarterGift": "(O)CarrotSeeds 10 (O)211 3 (H)42 1"
 				}
@@ -142,7 +150,7 @@
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
 				
-				"When": { "Starter Gift": "Fisher" },
+				"When": { "starter_gifts": "Fisher" },
 				"MapProperties": { 
 				"FarmHouseStarterGift": "(O)219 3 (T)TrainingRod 1 (H)4 11"
 				}
@@ -152,7 +160,7 @@
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
 				
-				"When": { "Starter Gift": "Rancher" },
+				"When": { "starter_gifts": "Rancher" },
 				"MapProperties": { 
 				"FarmHouseStarterGift": "(O)178 20 (O)186 1"
 				}
@@ -162,7 +170,7 @@
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
 				
-				"When": { "Starter Gift": "Florist" },
+				"When": { "starter_gifts": "Florist" },
 				"MapProperties": { 
 				"FarmHouseStarterGift": "(O)427 9 (O)429 9 (F)1307 1"
 				}
@@ -174,11 +182,11 @@
 		"Target":"Data/Minecarts",
 		"Entries":{
 			"HoneyCreek_Warps":{
-				"ChooseDestinationMessage":"Warp to where?",
+				"ChooseDestinationMessage":"{{i18n:ui.warp.choose}}",
 				"Destinations":[
 					{
 						"Id":"HoneyCreekNE",
-						"DisplayName":"Northeast Entrance",
+						"DisplayName":"{{i18n:ui.warp.HoneyCreekNE}}",
 						"TargetLocation":"Farm",
 						"TargetTile":{
 							"X":140,
@@ -188,7 +196,7 @@
 					},
 					{
 						"Id":"HoneyCreekNW",
-						"DisplayName":"Northwest Creek",
+						"DisplayName":"{{i18n:ui.warp.HoneyCreekNW}}",
 						"TargetLocation":"Farm",
 						"TargetTile":{
 							"X":10,
@@ -198,7 +206,7 @@
 					},
 					{
 						"Id":"HoneyCreekW",
-						"DisplayName":"West Swamp",
+						"DisplayName":"{{i18n:ui.warp.HoneyCreekW}}",
 						"TargetLocation":"Farm",
 						"TargetTile":{
 							"X":2,
@@ -208,7 +216,7 @@
 					},
 					{
 						"Id":"HoneyCreekS",
-						"DisplayName":"Southern Stretch",
+						"DisplayName":"{{i18n:ui.warp.HoneyCreekS}}",
 						"TargetLocation":"Farm",
 						"TargetTile":{
 							"X":104,
@@ -218,7 +226,7 @@
 					},
 					{
 						"Id":"HoneyCreekSE",
-						"DisplayName":"Southeast Glade",
+						"DisplayName":"{{i18n:ui.warp.HoneyCreekSE}}",
 						"TargetLocation":"Farm",
 						"TargetTile":{
 							"X":141,
@@ -228,7 +236,7 @@
 					},
 					{
 						"Id":"HoneyCreekSW",
-						"DisplayName":"Southwest Meadow",
+						"DisplayName":"{{i18n:ui.warp.HoneyCreekSW}}",
 						"TargetLocation":"Farm",
 						"TargetTile":{
 							"X":29,
@@ -238,7 +246,7 @@
 					},
 					{
 						"Id":"HoneyCreekSBeach",
-						"DisplayName":"Honey Creek Beach",
+						"DisplayName":"{{i18n:ui.warp.HoneyCreekBeach}}",
 						"TargetLocation":"Farm",
 						"TargetTile":{
 							"X":140,
@@ -249,7 +257,7 @@
 					{
 						//Make Quarry only accessible after vanilla quarry unlock
 						"Id":"HoneyCreekQuarry",
-						"DisplayName":"Hidden Quarry",
+						"DisplayName":"{{i18n:ui.warp.HoneyCreekQuarry}}",
 						"Condition": "PLAYER_HAS_MAIL Host ccCraftsRoom Received",
 						"TargetLocation":"Farm",
 						"TargetTile":{
@@ -261,7 +269,7 @@
 					{
 						//Make Secret Woods only accessible after the first time any player enters there
 						"Id":"HCSecretWoods",
-						"DisplayName":"Secret Woods",
+						"DisplayName":"{{i18n:ui.warp.HoneyCreekSecretWoods}}",
 						"Condition": "PLAYER_VISITED_LOCATION Any Woods",
 						"TargetLocation":"Woods",
 						"TargetTile":{
@@ -280,7 +288,7 @@
 			"Target": "Data/Locations",
 			"Entries": {
 				"Farm_Katu.HoneyCreekFarm/HoneyCreekFarm": {
-					"DisplayName": "Honey Creek Farm",
+					"DisplayName": "{{i18n:ui.farm.name}}",
 					"CanPlantHere": true,
 					"CanHaveGreenRainSpawns": true,
 					//Define fishing areas. Roughly listed in order from up to down, left to right
@@ -1656,7 +1664,7 @@
 					"ChanceForClay": 0.03
 				},
 				"Katu.HoneyCreekFarm/TreeHouse": {
-						"DisplayName": "TreeHouse",
+						"DisplayName": "{{i18n:ui.place.TreeHouse}}",
 						"DefaultArrivalTile": {
 							"X": 11,
 							"Y": 13
@@ -1670,7 +1678,7 @@
                     }
 				},
 				"Katu.HoneyCreekFarm/Tower": {
-						"DisplayName": "Tower",
+						"DisplayName": "{{i18n:ui.place.Tower}}",
 						"DefaultArrivalTile": {
 							"X": 11,
 							"Y": 13
@@ -1684,7 +1692,7 @@
                     }
 				},
 				"Katu.HoneyCreekFarm/Cave": {
-						"DisplayName": "Cave",
+						"DisplayName": "{{i18n:ui.place.Cave}}",
 						"DefaultArrivalTile": {
 							"X": 8,
 							"Y": 12

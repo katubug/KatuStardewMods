@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] Cute Lil Duck",
+    "Author": "HeyKatu",
+    "Version": "1.0.0",
+    "Description": "Cuter, smaller duckies!",
+    "UniqueID": "HeyKatu.Ducks",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
+

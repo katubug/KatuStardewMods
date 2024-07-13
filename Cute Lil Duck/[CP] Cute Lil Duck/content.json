@@ -1,0 +1,11 @@
+{
+    "Format": "2.3.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Animals/Duck",
+            "FromFile": "assets/Mallard.png"
+            
+        }
+    ]
+}
