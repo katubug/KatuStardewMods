@@ -1,0 +1,8 @@
+{
+    "config.upgrade_sprinklers.description": "Do you want to enable bomb upgrade recipes?",
+    "config.upgrade_sprinklers.name": "Bomb Upgrades",
+    "config.upgrade_sprinklers.values.Enabled": "Enabled",
+    "config.upgrade_sprinklers.values.Disabled": "Disabled",
+    "crafting.quality_sprinkler.display": "Quality Sprinkler",
+    "crafting.iridium_sprinkler.display": "Iridium Sprinkler"
+}

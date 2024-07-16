@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] Downgrade Transmutation",
+    "Author": "HeyKatu",
+    "Version": "1.0.0",
+    "Description": "Adds ability to downgrade metal bars via crafting.",
+    "UniqueID": "HeyKatu.DowngradeTransmute",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
+

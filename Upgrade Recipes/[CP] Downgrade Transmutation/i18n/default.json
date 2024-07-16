@@ -1,0 +1,9 @@
+{
+    "config.transmute_bars.description": "Do you want to enable metal bar transmutation recipes?",
+    "config.transmute_bars.name": "Transmute Bars",
+    "config.transmute_bars.values.Enabled": "Enabled",
+    "config.transmute_bars.values.Disabled": "Disabled",
+    "crafting.iron_to_copper.display": "Reverse Transmute (Cu)",
+    "crafting.gold_to_iron.display": "Reverse Transmute (Fe)",
+    "crafting.iridium_to_gold.display": "Reverse Transmute (Au)"
+}

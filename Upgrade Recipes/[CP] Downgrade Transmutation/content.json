@@ -1,0 +1,24 @@
+{
+    "Format": "2.3.0",
+    "ConfigSchema": {
+        "transmute_bars": {
+            "AllowValues": "Enabled, Disabled",
+            "Default": "Enabled",
+			"Description": "Do you want to enable metal bar transmutation recipes?"
+			}
+        },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+              "transmute_copper": "335 1/Home/334 3/false/Mining 2/{{i18n:crafting.iron_to_copper.display}}",
+              "transmute_iron": "336 1/Home/335 2/false/Mining 4/{{i18n:crafting.gold_to_iron.display}}",
+              "transmute_gold": "337 1/Home/336 2/false/Mining 4/{{i18n:crafting.iridium_to_gold.display}}"
+            },
+            "When": {
+                "transmute_bars": "Enabled"
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] Upgradable Sprinklers",
+    "Author": "HeyKatu",
+    "Version": "1.0.0",
+    "Description": "Adds ability to upgrade your sprinklers!",
+    "UniqueID": "HeyKatu.UpgradeSprinklers",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
+

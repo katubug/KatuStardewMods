@@ -1,0 +1,24 @@
+{
+    "Format": "2.3.0",
+    "ConfigSchema": {
+        "upgrade_sprinklers": {
+            "AllowValues": "Enabled, Disabled",
+            "Default": "Enabled",
+			"Description": "Do you want to enable sprinkler upgrade recipes?"
+			}
+        },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "upgrade_quality_sprinkler": "599 1 384 2 338 1/Home/621/false/Farming 6/{{i18n:crafting.quality_sprinkler.display}}",
+                "upgrade_iridium_sprinkler": "386 2 621 1 787 1/Home/645/false/Farming 9/{{i18n:crafting.iridium_sprinkler.display}}"
+    
+            },
+            "When": {
+                "upgrade_sprinklers": "Enabled"
+            }
+        }
+    ]
+}
