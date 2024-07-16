@@ -1,5 +1,17 @@
 {
     "Format": "2.3.0",
+    "ConfigSchema": {
+		"spring_color": { 
+			"AllowValues": "Green, Pink",
+			"Default": "Green",
+			"Description": "Would you like your Spring leafy border to be Pink or Green?"
+		},
+        "fall_color": {
+            "AllowValues": "Green, Orange",
+            "Default": "Orange",
+            "Description": "Would you like your Fall leafy border to be Green or Orange?"
+        }
+    },
      "Changes": [
         {
             "Action": "Load",
@@ -10,6 +22,22 @@
             "Action": "Load",
             "Target": "Maps/spring_katu_seasonal_leaf_border, Maps/summer_katu_seasonal_leaf_border, Maps/fall_katu_seasonal_leaf_border, Maps/winter_katu_seasonal_leaf_border",
             "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/spring_katu_seasonal_leaf_border",
+            "FromFile": "assets/green_katu_seasonal_leaf_border.png",
+            "When": {
+                "spring_color": "Green"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/fall_katu_seasonal_leaf_border",
+            "FromFile": "assets/green_katu_seasonal_leaf_border.png",
+            "When": {
+                "fall_color": "Green"
+            }
         }
      ]
          

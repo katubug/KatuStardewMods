@@ -11,6 +11,11 @@
 			"AllowValues": "On, Off",
 			"Default": "On",
 			"Description": "If turned on, this option will allow the seasonal deity altar to give you a blessing each day when interacted with."
+		},
+		"gift_level":{
+			"AllowValues": "Regular, Overpowered, Challenge",
+			"Default": "Regular",
+			"Description": "Affects starting gifts. If you choose Overpowered, you will receive a slightly better starter gift to help you skip early game. Choose Regular for a normal run, or Challenge for a harder run."
 		}
 	},
 	"Changes":[
@@ -125,54 +130,154 @@
 			}
 		  },
 		//Starting Gift Bundles
-			//Farmer
+			//Farmer Regular
 			{
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
-				
-				"When": { "starter_gifts": "Farmer" },
+				//10 Parsnip Seeds, 1 Chest, 10 Sap, 1 Apple Sapling
+				"When": { "starter_gifts": "Farmer", "gift_level": "Regular" },
 				"MapProperties": { 
-				"FarmHouseStarterGift": "(O)472 15 (O)210 3 (O)633 1"
+				"FarmHouseStarterGift": "(O)472 10 (BC)130 1 (O)92 10 (O)633 1"
 				}
 			},
-			//Forager
+			//Forager Regular
 			{
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
-				
-				"When": { "starter_gifts": "Forager" },
+				//3 Carrot Seeds, 2 Tent Kits, 5 Common Mushrooms, 1 Mushroom Log, 5 Moss, 2 Clay
+				"When": { "starter_gifts": "Forager", "gift_level": "Regular" },
 				"MapProperties": { 
-				"FarmHouseStarterGift": "(O)CarrotSeeds 10 (O)211 3 (H)42 1"
+				"FarmHouseStarterGift": "(O)CarrotSeeds 3 (O)TentKit 2 (O)404 5 (BC)MushroomLog 1 (O)Moss 5 (O)330 2"
 				}
 			},
-			//Fisher
+			//Fisher Regular
 			{
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
-				
-				"When": { "starter_gifts": "Fisher" },
+				//1 Fiberglass Rod, 2 Crab Pots, 25 Bait, 10 Deluxe Bait, 1 Straw Hat
+				"When": { "starter_gifts": "Fisher", "gift_level": "Regular" },
 				"MapProperties": { 
-				"FarmHouseStarterGift": "(O)219 3 (T)TrainingRod 1 (H)4 11"
+				"FarmHouseStarterGift": "(T)FiberglassRod 1 (O)710 2 (O)685 25 (O)DeluxeBait 10 (H)4 1"
 				}
 			},
-			//Rancher
+			//Rancher Regular
 			{
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
-				
-				"When": { "starter_gifts": "Rancher" },
+				//185 wood, 80 stone, 4 carrot seeds, 5 hay, 10 Blue Grass Starters
+				"When": { "starter_gifts": "Rancher", "gift_level": "Regular" },
 				"MapProperties": { 
-				"FarmHouseStarterGift": "(O)178 20 (O)186 1"
+				"FarmHouseStarterGift": "(O)388 185 (O)390 80 (O)CarrotSeeds 4 (O)178 5 (O)BlueGrassStarter 10"
 				}
 			},
-			//Florist
+			//Florist Regular
 			{
 				"Action": "EditMap",
 				"Target": "Maps/Katu_HoneyCreekFarm",
-				
-				"When": { "starter_gifts": "Florist" },
+				//2 beehives, 9 Tulip Bulbs, 9 Jazz Seeds, 9 mixed flower seeds, 1 dried sunflower
+				"When": { "starter_gifts": "Florist", "gift_level": "Regular" },
 				"MapProperties": { 
-				"FarmHouseStarterGift": "(O)427 9 (O)429 9 (F)1307 1"
+				"FarmHouseStarterGift": "(BC)10 2 (O)MixedFlowerSeeds 9 (O)427 9 (O)429 9 (F)1307 1"
+				}
+			},
+			//Farmer Overpowered
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//5 Parsnip Seeds, 2 Sprinklers, 5 Quality Fertilizer, 1 Scarecrow, 1 Apple Sapling, 5 Mixed Seeds
+				"When": { "starter_gifts": "Farmer", "gift_level": "Overpowered" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)472 5 (O)599 2 (O)369 5 (BC)8 1 (O)633 1 (O)770 5"
+				}
+			},
+			//Forager Overpowered
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//10 Mixed Seeds, 5 Pancakes, 10 Clay, 2 Mushroom Logs, 20 Moss, 3 Tent Kits, 5 Wild Plums
+				"When": { "starter_gifts": "Forager", "gift_level": "Overpowered" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)770 10 (O)211 5 (O)330 10 (BC)MushroomLog 2 (O)Moss 20 (O)TentKit 3 (O)406 5"
+				}
+			},
+			//Fisher Overpowered
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//1 Fiberglass Rod, 3 Crab Pots, 25 Deluxe Bait, 1 Straw Hat, 1 Recycling Machine, 5 Dish O' The Sea
+				"When": { "starter_gifts": "Fisher", "gift_level": "Overpowered" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(T)FiberglassRod 1 (O)710 3 (O)DeluxeBait 25 (H)4 1 (BC)20 1 (O)242 5"
+				}
+			},
+			//Rancher Overpowered
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//1 Earth Crystal, 370 Wood, 120 Stone, 20 Blue Grass Starters, 10 Ornamental Hay Bales, 2 Wood Lamp-Posts, 10 Carrot Seeds
+				"When": { "starter_gifts": "Rancher", "gift_level": "Overpowered" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)86 1 (O)388 370 (O)390 120 (O)BlueGrassStarter 20 (BC)45 10 (BC)152 2 (O)CarrotSeeds 10"
+				}
+			},
+			//Florist Overpowered
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//4 beehives, 5 Tulip Bulbs, 5 Jazz Seeds, 1 dried sunflower, 5 Fairy Seeds, 13 Mixed Flower Seeds, 1 Scarecrow, 1 Sprinkler, 10 Rustic Plank
+				"When": { "starter_gifts": "Florist", "gift_level": "Overpowered" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(BC)10 4 (O)427 5 (O)429 5 (F)1307 1 (O)425 5 (O)MixedFlowerSeeds 13 (BC)8 1 (O)599 1 (O)840 10"
+				}
+			},
+			//Farmer Challenge
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//5 Parsnip Seeds, 1 Chest, 10 Sap
+				"When": { "starter_gifts": "Farmer", "gift_level": "Challenge" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)472 5 (BC)130 1 (O)92 10"
+				}
+			},
+			//Forager Challenge
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//3 Carrot Seeds, 1 Tent Kit, 5 Moss, 2 Clay
+				"When": { "starter_gifts": "Forager", "gift_level": "Challenge" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)CarrotSeeds 3 (O)TentKit 1 (O)Moss 5 (O)330 2"
+				}
+			},
+			//Fisher Challenge
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//1 Training Rod, 10 Bait, 5 Deluxe Bait, 1 Straw Hat
+				"When": { "starter_gifts": "Fisher", "gift_level": "Challenge" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(T)TrainingRod 1 (O)685 10 (O)DeluxeBait 5 (H)4 1"
+				}
+			},
+			//Rancher Challenge
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//Suggested: 10 carrot seeds, 10 Blue Grass Starters
+				"When": { "starter_gifts": "Rancher", "gift_level": "Challenge" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)CarrotSeeds 10 (O)BlueGrassStarter 10"
+				}
+			},
+			//Florist Challenge
+			{
+				"Action": "EditMap",
+				"Target": "Maps/Katu_HoneyCreekFarm",
+				//20 mixed flower seeds, 1 dried sunflower
+				"When": { "starter_gifts": "Florist", "gift_level": "Challenge" },
+				"MapProperties": { 
+				"FarmHouseStarterGift": "(O)MixedFlowerSeeds 20 (F)1307 1"
 				}
 			},
 		//Make Custom Minecart system for fast travel around the farm

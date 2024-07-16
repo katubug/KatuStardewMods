@@ -1,8 +1,8 @@
 {
     "Name": "Katu's Tilesheets",
     "Author": "HeyKatu",
-    "Version": "1.0.1",
-    "Description": "Bridges, Stepping Stones, and Seasonal Leaf Borders",
+    "Version": "1.1.0",
+    "Description": "Bridges, Stepping Stones, Hanging Lanterns, and Seasonal Leaf Borders",
     "UniqueID": "HeyKatu.tilesheet",
     "UpdateKeys": [ "Nexus:25869" ],
     "ContentPackFor": {

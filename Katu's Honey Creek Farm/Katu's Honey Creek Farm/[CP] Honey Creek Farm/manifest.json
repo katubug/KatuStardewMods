@@ -1,7 +1,7 @@
 {
     "Name": "Honey Creek Farm",
     "Author": "HeyKatu",
-    "Version": "1.1.0",
+    "Version": "1.1.1",
     "Description": "A cute and useful farm map alternative.",
     "UniqueID": "HeyKatu.HoneyCreek",
     "UpdateKeys": ["Nexus:26041"],
@@ -26,7 +26,7 @@
 		},
         {
 			"UniqueID": "HeyKatu.tilesheet",
-			"MinimumVersion": "1.0.1",
+			"MinimumVersion": "1.1.0",
 			"IsRequired": true
 		},
         {
