@@ -198,7 +198,7 @@
 			},
 			"PatchMode": "Overlay"
 		},
-		//Gazebo
+		//Foliage
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Katu_HoneyCreekFarm",
@@ -744,6 +744,18 @@
 							},
 							"CrabPotFishTypes": [ "freshwater" ],
 							"CrabPotJunkChance": 0.2
+						},
+						//Swamp
+						"HoneyCreek_Swamp": {
+							"DisplayName": null,
+							"Position": {
+								"X": 0,
+								"Y": 75,
+								"Width": 20,
+								"Height": 37
+							},
+						"CrabPotFishTypes": [ "freshwater" ],
+						"CrabPotJunkChance": 0.2
 						},
 						//Fallback/Default
 						"HoneyCreek_Default": {
@@ -1817,6 +1829,45 @@
 								"(O)699"
 							]
 						},
+						// Swamp Fish Default
+						{
+							"Chance": 0.7,
+							"FishAreaId": "HoneyCreek_Swamp",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Swamp",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)143",
+								"(O)716",
+								"(O)734",
+								"(O)Goby"
+							]
+						},
+						// Swamp Fish Witchy
+						{
+							"Chance": 0.7,
+							"FishAreaId": "HoneyCreek_Swamp",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Condition": "PLAYER_VISITED_LOCATION Any WitchSwamp",
+							"Id": "HoneyCreekRiver_Swamp2",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"(O)795",
+								"(O)269"
+							]
+						},
+						// Swamp Fish Slimy
+						{
+							"Chance": 0.5,
+							"FishAreaId": "HoneyCreek_Swamp",
+							"Precedence": -100,
+							"Condition": "PLAYER_VISITED_LOCATION Any BugLand",
+							"IgnoreFishDataRequirements": true,
+							"Id": "HoneyCreekRiver_Swamp3",
+							"ItemId": "(O)796"
+						},
 						// Beach Fish
 						// This seems to work out of the box so we'll leave it
 						{
@@ -1903,20 +1954,31 @@
 						},
 						"Fish": [
 							{
-							"Chance": 0.2,
-							"Season": null,
-							"FishAreaId": "HoneyCreek_Cave",
-							"Precedence": -100,
-							"IgnoreFishDataRequirements": true,
-							"Id": "HoneyCreekCave",
-							"ItemId": "(O)128",
-							"RandomItemId": [
-								"(O)158",
-								"(O)156",
-								"(O)161",
-								"(O)CaveJelly"
-							]
-						}
+								"Chance": 0.2,
+								"Season": null,
+								"FishAreaId": "HoneyCreek_Cave",
+								"Precedence": -100,
+								"IgnoreFishDataRequirements": true,
+								"Id": "HoneyCreekCave",
+								"ItemId": "(O)128",
+								"RandomItemId": [
+									"(O)158",
+									"(O)156",
+									"(O)CaveJelly"
+								]
+							},
+							{
+								"Chance": 0.2,
+								"Season": "Winter",
+								"FishAreaId": "HoneyCreek_Cave",
+								"Precedence": -100,
+								"IgnoreFishDataRequirements": true,
+								"Id": "HoneyCreekCave",
+								"ItemId": "(O)128",
+								"RandomItemId": [
+									"(O)161"
+								]
+							}
 					]
 					}
 			}

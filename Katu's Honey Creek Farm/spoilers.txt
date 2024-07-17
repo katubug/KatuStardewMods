@@ -21,6 +21,7 @@ This document contains the following information:
 
 - 1. How to unlock all features of Honey Creek
 - 2. All hidden areas and their access points
+- 3. All fish which can be caught, and under what conditions
 
 |
 |
@@ -82,6 +83,10 @@ When anyone on your farm (you or a farmhand) accesses the Secret Woods for the f
 
 [How To Unlock Purple Mushroom Forage]
 Once you achieve level 88 of the mines or deeper, Purple Mushrooms will begin spawning in the swamp to the west.
+
+[How to Unlock Special Swamp Fish]
+Once anyone on your farm has visited the Witch's Swamp, Void Salmon and Midnight Carp can be caught in the Swamp. Once anyone on your farm visits the Mutant Bug Lair, you can catch Slimejacks in the Swamp!
+
 |
 |
 |
@@ -148,3 +153,135 @@ This area is between the Quarry and the Beach, and can be accessed from two diff
 
 [The Secluded Beach]
 This area is located to the west of the main beach, and can be accessed by passing under the overhanging leaves.
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+==============================================================
+
+(3)
+
+[Lake Fish]
+All Seasons:
+- Largemouth Bass
+- Carp
+- Bullhead
+Summer:
+- Dorado
+- Sturgeon
+- Rainbow Trout
+Winter:
+- Lingcod
+
+[River Fish]
+All Seasons:
+- Bream
+- Chub
+- River Jelly
+Spring:
+- Shad
+- Sunfish
+Summer:
+- Sunfish
+- Shad
+- Rainbow Trout
+- Pike
+Fall:
+- Salmon
+- Walleye
+- TigerTrout
+- Shad
+Winter:
+- Tiger Trout
+- Pike
+
+[Pond Fish]
+All Seasons: 
+- Woodskip
+- Carp
+Spring: 
+- Smallmouth Bass
+- Catfish
+Summer: 
+- Catfish
+- Pike
+Fall: 
+- Midnight Carp
+- Smallmouth Bass
+- Walleye
+- Catfish
+Winter: 
+- Walleye
+- Perch
+
+[Waterfall Fish]
+All waterfall fish can be caught in all seasons.
+- Goby
+- Salmon
+- Woodskip
+
+[Beach Fish]
+- Vanilla default for the Beach area
+
+[Swamp Fish]
+All Swamp fish can be caught in all seasons.
+- Catfish
+- Crayfish
+- Woodskip
+- Goby
+- Midnight Carp (unlockable)
+- Void Salmon (unlockable)
+- Slimejack (unlockable)
+
+[Cave Fish]
+All Seasons:
+- Stonefish
+- Ghostfish
+- Cave Jelly
+Winter:
+- Ice Pip
