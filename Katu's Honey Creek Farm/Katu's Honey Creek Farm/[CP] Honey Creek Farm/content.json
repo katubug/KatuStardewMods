@@ -20,17 +20,22 @@
 		"misc_deco":{
 			"AllowValues": "On, Off",
 			"Default": "On",
-			"Description": "Whether the dog house should be enabled or not."
+			"Description": "Enables or disables decorative elements such as the doghouse, fountain, etc."
 		},
 		"gazebo":{
 			"AllowValues": "On, Off",
 			"Default": "Off",
-			"Description": "Whether the farm should have the large gazebo in the south center area."
+			"Description": "Enables or disables the large gazebo in the south center area."
 		},
 		"extra_foliage":{
 			"AllowValues": "On, Off",
 			"Default": "On",
-			"Description": "Whether the accessible areas of the farm should have decorative foliage, or be plain."
+			"Description": "Enables or disables small decorative foliage in accessible areas of the farm."
+		},
+		"big_foliage":{
+			"AllowValues": "On, Off",
+			"Default": "On",
+			"Description": "Enables or disables large foliage deco like fallen logs and decorative trees."
 		}
 	},
 	"Changes":[
@@ -175,13 +180,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/Katu_HoneyCreekFarm",
 			"When": {"misc_deco": "On"},
-			"FromFile": "assets/HeyKatu_DogHouse.tmx",
-			"ToArea": {
-			  "X": 109,
-			  "Y": 8,
-			  "Width": 3,
-			  "Height": 3
-			},
+			"FromFile": "assets/HeyKatu_Decoration.tmx",
 			"PatchMode": "Overlay"
 		},
 		//Gazebo
@@ -198,12 +197,20 @@
 			},
 			"PatchMode": "Overlay"
 		},
-		//Foliage
+		//Small Foliage
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Katu_HoneyCreekFarm",
 			"When": {"extra_foliage": "On"},
 			"FromFile": "assets/HoneyCreek_Foliage.tmx",
+			"PatchMode": "Overlay"
+		},
+		//Big Foliage
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Katu_HoneyCreekFarm",
+			"When": {"big_foliage": "On"},
+			"FromFile": "assets/HoneyCreek_BigFoliage.tmx",
 			"PatchMode": "Overlay"
 		},
 		//Starting Gift Bundles
