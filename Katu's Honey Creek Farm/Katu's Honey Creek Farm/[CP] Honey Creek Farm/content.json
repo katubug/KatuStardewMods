@@ -130,6 +130,9 @@
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Woods",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+			},
 			"FromFile": "assets/Woods_HoneyCreek_Edit.tmx",
 			"FromArea": {
 			  "X": 0,
@@ -142,7 +145,30 @@
 			  "Y": 24,
 			  "Width": 4,
 			  "Height": 4
-			}
+			},
+			"PatchMode": "Overlay"
+		},
+		//Edit the Secret Woods Differently if SVE is installed
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Woods",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"FromFile": "assets/Woods_HoneyCreek_Edit.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 4,
+				"Height": 4
+			},
+			"ToArea": {
+				"X": 60,
+				"Y": 56,
+				"Width": 4,
+				"Height": 4
+			},
+			"PatchMode": "Overlay"
 		},
 		//Doghouse and other Deco
 		{
