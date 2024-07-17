@@ -1,7 +1,7 @@
 {
     "Name": "Honey Creek Farm FTM",
     "Author": "HeyKatu",
-    "Version": "1.1.1",
+    "Version": "1.2.0",
     "Description": "A cute and useful farm map alternative.",
     "UniqueID": "HeyKatu.HoneyCreekFTM",
     "UpdateKeys": ["Nexus:26041"],
