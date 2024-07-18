@@ -1875,6 +1875,21 @@
 							"Id": "HoneyCreekRiver_Swamp3",
 							"ItemId": "(O)796"
 						},
+						// Swamp Fish Witchy Modded
+						{
+							"Chance": 0.5,
+							"FishAreaId": "HoneyCreek_Swamp",
+							"Precedence": -100,
+							"IgnoreFishDataRequirements": true,
+							"Condition": "{{HasMod |contains=Aimon111.WitchSwampOverhaulCP}}, PLAYER_VISITED_LOCATION Any WitchSwamp",
+							"Id": "HoneyCreekRiver_Swamp4",
+							"ItemId": "(O)128",
+							"RandomItemId": [
+								"Aimon111.WitchSwampOverhaulCP_Swamp_Leech",
+								"Aimon111.WitchSwampOverhaulCP_Void_Minnow",
+								"Aimon111.WitchSwampOverhaulCP_Purple_Algae"
+							]
+						},
 						// Beach Fish
 						// This seems to work out of the box so we'll leave it
 						{

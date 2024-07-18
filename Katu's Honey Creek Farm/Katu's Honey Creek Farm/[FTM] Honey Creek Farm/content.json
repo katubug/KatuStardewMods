@@ -1679,6 +1679,49 @@
           "LimitedNumberOfSpawns": null
         },
         "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [
+        ],
+        "SummerItemIndex": [
+        ],
+        "FallItemIndex": [
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "HCForestForage_Wildflour",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,0/52,66",
+          "27,67/52,113",
+          "127,49/145,126"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
       }
     ],
     "PercentExtraSpawnsPerForagingLevel": 5,
