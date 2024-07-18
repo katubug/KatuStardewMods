@@ -36,6 +36,11 @@
 			"AllowValues": "On, Off",
 			"Default": "On",
 			"Description": "Enables or disables large foliage deco like fallen logs and decorative trees."
+		},
+		"duck_pond":{
+			"AllowValues": "On, Off",
+			"Default": "On",
+			"Description": "Enables or disables the duck pond in the center of the map."
 		}
 	},
 	"Changes":[
@@ -212,6 +217,19 @@
 			"When": {"big_foliage": "On"},
 			"FromFile": "assets/HoneyCreek_BigFoliage.tmx",
 			"PatchMode": "Overlay"
+		},
+		//Duck Pond
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Katu_HoneyCreekFarm",
+			"When": {"duck_pond": "Off"},
+			"FromFile": "assets/HoneyCreek_NoPond.tmx",
+			"ToArea": {
+			  "X": 101,
+			  "Y": 56,
+			  "Width": 16,
+			  "Height": 15
+			}
 		},
 		//Starting Gift Bundles
 			//Farmer Regular

@@ -1,0 +1,25 @@
+{
+    "Format": "2.3.0",
+    "Changes": [
+
+        {
+            "Action": "Include",
+            "FromFile": "data/mail.json, data/objects.json, data/recipes.json"
+        },
+
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCGiftTastes.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/GiftResponse/GiftResponse.json"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Dishes",
+            "FromFile": "assets/foods.png"
+        }
+    ]
+}

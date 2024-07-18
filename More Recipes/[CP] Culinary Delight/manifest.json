@@ -1,0 +1,20 @@
+{
+    "Name": "Culinary Delight",
+    "Author": "HeyKatu",
+    "Version": "1.0.0",
+    "Description": "Putting your ingredients to good use!",
+    "UniqueID": "HeyKatu.CookingDelight",
+    "UpdateKeys": [ "Nexus:???" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher" },
+    "Dependencies": [
+        {
+            "UniqueID": "Cornucopia.ArtisanMachines",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Cornucopia.MoreCrops",
+            "IsRequired": true
+        }
+    ]
+}
