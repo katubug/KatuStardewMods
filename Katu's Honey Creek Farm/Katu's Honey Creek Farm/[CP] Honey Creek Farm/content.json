@@ -180,7 +180,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/Katu_HoneyCreekFarm",
 			"When": {"misc_deco": "On"},
-			"FromFile": "assets/HeyKatu_Decoration.tmx",
+			"FromFile": "assets/HoneyCreek_Decoration.tmx",
 			"PatchMode": "Overlay"
 		},
 		//Gazebo

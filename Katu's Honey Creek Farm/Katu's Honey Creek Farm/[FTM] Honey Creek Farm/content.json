@@ -1557,7 +1557,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": null
+        "DaysUntilSpawnsExpire": 7
       },
       {
         "SpringItemIndex": [
@@ -1591,7 +1591,7 @@
         "UniqueAreaID": "HCSwampForageRare",
         "MapName": "Farm",
         "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -1623,7 +1623,110 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": null
+        "DaysUntilSpawnsExpire": 3
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_dusk_cap"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_blush_cap",
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_dawn_trumpet"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_amanita_cluster",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_mandrake"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_verdigris_agaric",
+          "wildflour.ateliercrops_faerie_helmets"
+        ],
+        "UniqueAreaID": "HCSwampForage_FG_Wildflour",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,69/20,74",
+          "20,76/24,92",
+          "0,93/23,113"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE FaerieGarden True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_chickenwoods"
+        ],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "HCSwampForage_WF_Wildflour",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,69/20,74",
+          "20,76/24,92",
+          "0,93/23,113"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
       },
       {
         "SpringItemIndex": [
@@ -1682,16 +1785,35 @@
       },
       {
         "SpringItemIndex": [
+          "wildflour.ateliercrops_puffball",
+          "wildflour.ateliercrops_clover",
+          "wildflour.ateliercrops_mysteria"
         ],
         "SummerItemIndex": [
+          "wildflour.ateliercrops_arctic_fox",
+          "wildflour.ateliercrops_yarrow",
+          "wildflour.ateliercrops_thistle"
         ],
         "FallItemIndex": [
+          "wildflour.ateliercrops_cherry",
+          "wildflour.ateliercrops_giant_amanita",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_mandrake"
+            ]
+          },
+          "wildflour.ateliercrops_raven_feather"
         ],
-        "WinterItemIndex": [],
-        "UniqueAreaID": "HCForestForage_Wildflour",
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_crow_feather",
+          "wildflour.ateliercrops_primrose",
+          "wildflour.ateliercrops_faerie_helmets"
+        ],
+        "UniqueAreaID": "HCForestForage_FG_Wildflour",
         "MapName": "Farm",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -1716,12 +1838,75 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
-          "GameStateQueries": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE FaerieGarden True"
+          ],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": null
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_strawberry",
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_almond"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_raspberry",
+          "wildflour.ateliercrops_chamomile",
+          "wildflour.ateliercrops_elderberries"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_wheatshroom",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_rosemary",
+          "wildflour.ateliercrops_walnut",
+          "wildflour.ateliercrops_almond",
+          "wildflour.ateliercrops_cinnamon"
+        ],
+        "UniqueAreaID": "HCForestForage_WF_Wildflour",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,0/52,66",
+          "27,67/52,113",
+          "127,49/145,126"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
       }
     ],
     "PercentExtraSpawnsPerForagingLevel": 5,
