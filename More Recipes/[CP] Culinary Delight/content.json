@@ -4,18 +4,8 @@
 
         {
             "Action": "Include",
-            "FromFile": "data/mail.json, data/objects.json, data/recipes.json"
+            "FromFile": "data/objects.json, data/recipes.json"
         },
-
-        {
-            "Action": "Include",
-            "FromFile": "data/NPCGiftTastes.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "data/GiftResponse/GiftResponse.json"
-        },
-
         {
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Dishes",

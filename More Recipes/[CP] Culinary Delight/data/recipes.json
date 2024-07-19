@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                //Milk, Vanilla, Sugar
+                "{{ModId}}_vanilla_ice_cream": "-6 1 Cornucopia_Vanilla 1 245 2/25 5/{{ModId}}_vanilla_ice_cream/default/"
+
+            }
+        }
+
+    ]
+}

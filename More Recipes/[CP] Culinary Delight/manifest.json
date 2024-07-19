@@ -3,7 +3,7 @@
     "Author": "HeyKatu",
     "Version": "1.0.0",
     "Description": "Putting your ingredients to good use!",
-    "UniqueID": "HeyKatu.CookingDelight",
+    "UniqueID": "HeyKatu.CulinaryDelight",
     "UpdateKeys": [ "Nexus:???" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher" },

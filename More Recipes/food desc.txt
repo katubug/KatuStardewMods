@@ -38,16 +38,16 @@
 37 brown chopped thing served on a leaf
 38 meat or portabella skewer (tofu?)
 39 another meat skewer thing with red sauce
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
+40 popcorn
+41 burger
+42 French fries with dipping sauce
+43 pizza with basil
+44 yellow (egg) dish with red sauce and green garnish. could be pancakes.
+45 sweet potato mash or some kind of orange soup/stew
+46 grilled cheese sandwich
+47 pink dish with yellow sauce and red cherry/tomato on top
+48 croquettes - some fried dish with dipping sauce and green
+49 pull-away bread with red dipping sauce
 50 shrimp or lobster dinner with green and lemon
 51 enchiladas with mole sauce or some kind of wrap with gravy
 52 fish and chips
