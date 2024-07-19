@@ -252,10 +252,10 @@
                     ]
                 },
                 //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
-                "{{ModId}}_chocolate_chip_cookies": {
-                    "Name": "{{ModId}}_chocolate_chip_cookies",
-                    "DisplayName": "{{i18n:item.chocolate_chip_cookies.name}}",
-                    "Description": "{{i18n:item.chocolate_chip_cookies.description}}",
+                "{{ModId}}_oatmeal_raisin_cookies": {
+                    "Name": "{{ModId}}_oatmeal_raisin_cookies",
+                    "DisplayName": "{{i18n:item.oatmeal_raisin_cookies.name}}",
+                    "Description": "{{i18n:item.oatmeal_raisin_cookies.description}}",
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 370,
@@ -343,6 +343,334 @@
                     "Price": 370,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 8,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_cinnamon_latte": {
+                    "Name": "{{ModId}}_cinnamon_latte",
+                    "DisplayName": "{{i18n:item.cinnamon_latte.name}}",
+                    "Description": "{{i18n:item.cinnamon_latte.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 9,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_cooked_egg": {
+                    "Name": "{{ModId}}_cooked_egg",
+                    "DisplayName": "{{i18n:item.cooked_egg.name}}",
+                    "Description": "{{i18n:item.cooked_egg.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 10,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_fried_egg": {
+                    "Name": "{{ModId}}_fried_egg",
+                    "DisplayName": "{{i18n:item.fried_egg.name}}",
+                    "Description": "{{i18n:item.fried_egg.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 11,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_pierogies": {
+                    "Name": "{{ModId}}_pierogies",
+                    "DisplayName": "{{i18n:item.pierogies.name}}",
+                    "Description": "{{i18n:item.pierogies.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 12,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_omelette": {
+                    "Name": "{{ModId}}_omelette",
+                    "DisplayName": "{{i18n:item.omelette.name}}",
+                    "Description": "{{i18n:item.omelette.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 13,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_green_salad": {
+                    "Name": "{{ModId}}_green_salad",
+                    "DisplayName": "{{i18n:item.green_salad.name}}",
+                    "Description": "{{i18n:item.green_salad.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 14,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_caprese_salad": {
+                    "Name": "{{ModId}}_caprese_salad",
+                    "DisplayName": "{{i18n:item.caprese_salad.name}}",
+                    "Description": "{{i18n:item.caprese_salad.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 15,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_sandwich": {
+                    "Name": "{{ModId}}_sandwich",
+                    "DisplayName": "{{i18n:item.sandwich.name}}",
+                    "Description": "{{i18n:item.sandwich.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 16,
                     "Edibility": 65,
                     "IsDrink": false,
                     "Buffs": [

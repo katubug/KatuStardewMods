@@ -8,8 +8,36 @@
                 "{{ModId}}_vanilla_ice_cream": "-6 1 Cornucopia_Vanilla 1 245 2/25 5/{{ModId}}_vanilla_ice_cream/default/",
                 //Gelling Powder, Sugar, Dragonfruit
                 "{{ModId}}_dragonfruit_gelatin": "Cornucopia_GellingPowder 1 245 1 Cornucopia_DragonFruit 1/25 5/{{ModId}}_dragonfruit_gelatin/default/",
-                //Cocoa, Sugar, Flour
-                "{{ModId}}_chocolate_cupcake": "Cornucopia_CocoaPod 1 245 1 246 1/25 5/{{ModId}}_chocolate_cupcake/default/"
+                //Cocoa, Sugar, Flour, Egg
+                "{{ModId}}_chocolate_cupcake": "Cornucopia_CocoaPod 1 245 1 246 1 -5 1/25 5/{{ModId}}_chocolate_cupcake/default/",
+                //Apple, Sugar, Flour, Melon, Butter, Egg
+                "{{ModId}}_apple_melon_pie": "613 1 245 1 246 1 Cornucopia_CanaryMelon 1 Cornucopia_Butter 1 -5 1/25 5/{{ModId}}_apple_melon_pie/default/",
+                //Gooseberries, Sugar, Flour, Butter, Egg
+                "{{ModId}}_gooseberry_pie": "Cornucopia_Gooseberry 2 245 1 246 1 Cornucopia_Butter 1 -5 1/25 5/{{ModId}}_gooseberry_pie/default/",
+                //Pecans, Sugar, Flour, Butter, Egg
+                "{{ModId}}_pecan_pie": "Cornucopia_Pecan 2 245 1 246 1 Cornucopia_Butter 1 -5 1/25 5/{{ModId}}_pecan_pie/default/",
+                //Oats, Raisins, Sugar, Butter
+                "{{ModId}}_oatmeal_raisin_cookies": "Cornucopia_Oats 3 Raisins 1 245 1 Cornucopia_Butter 1/25 5/{{ModId}}_oatmeal_raisin_cookies/default/",
+                //Cocoa, Chili Powder, Coconut Oil
+                "{{ModId}}_spicy_chocolate_bar": "Cornucopia_CocoaPod 1 Cornucopia_ChiliPowder 1 Cornucopia_CoconutOil 1/25 5/{{ModId}}_spicy_chocolate_bar/default/",
+                //Flour, Sugar, Oil, Prismatic Essence
+                "{{ModId}}_donut": "246 1 245 1 247 1 Cornucopia_PrismaticEssence 1/25 5/{{ModId}}_donut/default/",
+                //Coffee, Sugar, Milk, Cinnamon
+                "{{ModId}}_cinnamon_latte": "395 1 245 1 -6 1 Cornucopia_CinnamonSticks 1/25 5/{{ModId}}_cinnamon_latte/default/",
+                //Egg, Salt, Pepper
+                "{{ModId}}_cooked_egg": "-5 1 Cornucopia_Salt 1 Cornucopia_Pepper 1/25 5/{{ModId}}_cooked_egg/default/",
+                //Egg, Salt, Paprika, Parsley
+                "{{ModId}}_fried_egg": "-5 1 Cornucopia_Salt 1 Cornucopia_Paprika 1 Cornucopia_Parsley 1/25 5/{{ModId}}_fried_egg/default/",
+                //Potato, Cheese, Peas, Sweet Potato, Bell Pepper
+                "{{ModId}}_pierogies": "192 1 424 1 Cornucopia_GreenPeas 1 Cornucopia_SweetPotato 1 Cornucopia_BellPepper 1/25 5/{{ModId}}_pierogies/default/",
+                //Egg, Goat Cheese, Ground Cherries, Olive Oil
+                "{{ModId}}_omelette": "-5 1 426 1 Cornucopia_Groundcherries 1 Cornucopia_OliveOil 1/25 5/{{ModId}}_omelette/default/",
+                //Lettuce, Ground Cherries, Olive Oil, Vinegar
+                "{{ModId}}_green_salad": "Cornucopia_Lettuce 1 Cornucopia_Groundcherries 1 Cornucopia_OliveOil 1 419 1/25 5/{{ModId}}_green_salad/default/",
+                //Tomato, Cheese, Basil, Olive Oil
+                "{{ModId}}_caprese_salad": "256 1 426 1 Cornucopia_Basil 1 419 1 Cornucopia_OliveOil 1/25 5/{{ModId}}_caprese_salad/default/",
+                //Lettuce, Tomato, Tofu, Garlic Mayo
+                "{{ModId}}_sandwich": "Cornucopia_Lettuce 1 256 1 Cornucopia_Tofu 1 419 1 Cornucopia_GarlicMayonnaise 1/25 5/{{ModId}}_sandwich/default/"
 
             }
         }

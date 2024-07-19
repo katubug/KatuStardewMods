@@ -1678,7 +1678,9 @@
           "GameStateQueries": [
             "CAULDRON_CONFIG_VALUE FaerieGarden True"
           ],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasMod": "Atelier.Cauldron"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1722,7 +1724,9 @@
           "GameStateQueries": [
             "CAULDRON_CONFIG_VALUE WildFood True"
           ],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasMod": "Atelier.Cauldron"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1841,7 +1845,9 @@
           "GameStateQueries": [
             "CAULDRON_CONFIG_VALUE FaerieGarden True"
           ],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasMod": "Atelier.Cauldron"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1902,7 +1908,9 @@
           "GameStateQueries": [
             "CAULDRON_CONFIG_VALUE WildFood True"
           ],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasMod": "Atelier.Cauldron"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
