@@ -1,0 +1,135 @@
+0 ice cream
+1 pudding
+2 cupcake
+3 apple pie
+4 holly, cranberry, cherry pie
+5 chocolate pie?
+6 cookies
+7 chocolate bar
+8 donut
+9 iced latte
+10 cooked egg in a cup
+11 fried egg dish
+12 veggies and mashed potatoes
+13 plain looking omelette
+14 salad of some kind
+15 caprese salad
+16 chicken pot pie lookin thing
+17 sandwich or wrap with lettuce and tomato
+18 crepes with syrup, or possible egg omelette with curry
+19 rice or ice cream
+20 green soup with blue stud
+21 tomato and cream soup
+22 tomato soup, no cream
+23 dumplings
+24 noodles with beef or gravy or mushrooms
+25 brown soup with green onions
+26 onigiri topped with brown things
+27 maki
+28 sushi (shrimp or salmon)
+29 pavlova? looks like cream with strawberries maybe
+30 dish with meatballs or possibly tomatoes, in a tomato sauce
+31 some kind of grazing dish, maybe charcuterie or sushi
+32 ramen with shrimp, or could be dumplings with green veggie
+33 Yellowish soup or mashed potatoes with green garnish
+34 side with dipping sauce
+35 sweet potatoes or meat - brown nondescript with sticky outty bits
+36 rice dish with gravy and green veggies
+37 brown chopped thing served on a leaf
+38 meat or portabella skewer (tofu?)
+39 another meat skewer thing with red sauce
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50 shrimp or lobster dinner with green and lemon
+51 enchiladas with mole sauce or some kind of wrap with gravy
+52 fish and chips
+53 salmon with lemon
+54 pale pink dish with yellow and green garnish (yellow could be squash?)
+55 beef wellington lookin thing
+56 another fish looking dish with lemon, green garnish, and red bits
+57 salmon dish with green garnish
+58 this could be anything - it looks like burnt ends or beet fries
+59 low poly pixel dish, probably magical
+60 cooked egg
+61 hot cocoa
+
+
+
+ingredients from cornucopia:
+- lemon zest
+- orange zest
+- olive oil
+- stout
+- butter
+- Coconut milk
+- fish oil
+- fish sauce
+- garlic mayo
+- garum
+- gelling powder
+- glass noodles
+- miso paste
+- molasses
+- paprika
+- pepper
+- pickle spears
+- pine nuts
+- prismatic essence
+- saffron
+- salt
+- smoked salmon
+- spicy mayonnaise
+- tofu
+- truffle mayonnaise
+- wheat noodles
+- zoodles
+- cumin seeds
+- adzuki bean
+- asparagus
+- basil
+- bay leaves
+- black beans
+- butternut squash
+- celery
+- chickpea
+- chives
+- cilantro
+- cucumber
+- dill
+- fennel
+- ginseng
+- green peas
+- lettuce
+- mint
+- oats
+- onion
+- oregano
+- parsley
+- rosemary
+- sage
+- spinach
+- sweet potato
+- thyme
+- avocado
+- ground cherries (tomatoes)
+- jalapeno
+- lemon
+- watermelon
+- vanilla
+- cashew
+- chicken of the woods
+- cinnamon sticks
+- cacao
+- nutmeg
+- pecan
+- shiitake
+- walnut
+- wasabi root
