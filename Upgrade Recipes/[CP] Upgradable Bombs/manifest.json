@@ -1,10 +1,10 @@
 {
     "Name": "[CP] Upgradable Bombs",
     "Author": "HeyKatu",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Description": "Adds ability to upgrade bombs from lower quality versions.",
     "UniqueID": "HeyKatu.UpgradeBombs",
-    "UpdateKeys": ["Nexus:???"],
+    "UpdateKeys": ["Nexus:26141"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }

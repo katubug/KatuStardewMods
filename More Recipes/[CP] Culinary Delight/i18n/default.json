@@ -1,6 +1,26 @@
 {
-    "item.vanilla_ice_cream.name": "Vanilla Ice Cream Cone",
+    "item.vanilla_ice_cream.name": "Vanilla Bean Ice Cream",
     "item.vanilla_ice_cream.description": "A classic favorite.",
     "item.dragonfruit_gelatin.name": "Dragonfruit Gelatin",
-    "item.dragonfruit_gelatin.description": "An exotic, tropical treat."
+    "item.dragonfruit_gelatin.description": "An exotic, tropical treat.",
+    "item.chocolate_cupcake.name": "Chocolate Cupcake",
+    "item.chocolate_cupcake.description": "",
+    "item.apple_melon_pie.name": "Apple Melon Pie",
+    "item.apple_melon_pie.description": "",
+    "item.gooseberry_pie.name": "Gooseberry Pie",
+    "item.gooseberry_pie.description": "",
+    "item.pecan_pie.name": "Pecan Pie",
+    "item.pecan_pie.description": "",
+    "item.chocolate_chip_cookies.name": "",
+    "item.chocolate_chip_cookies.description": "",
+    "item.spicy_chocolate_bar.name": "Chili Chocolate Bar",
+    "item.spicy_chocolate_bar.description": "",
+    "item.donut.name": "Donut",
+    "item.donut.description": ""
+
 }
+
+/*
+    "item.dragonfruit_gelatin.name": "",
+    "item.dragonfruit_gelatin.description": "",
+*/

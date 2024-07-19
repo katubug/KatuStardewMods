@@ -5,7 +5,11 @@
             "Target": "Data/CookingRecipes",
             "Entries": {
                 //Milk, Vanilla, Sugar
-                "{{ModId}}_vanilla_ice_cream": "-6 1 Cornucopia_Vanilla 1 245 2/25 5/{{ModId}}_vanilla_ice_cream/default/"
+                "{{ModId}}_vanilla_ice_cream": "-6 1 Cornucopia_Vanilla 1 245 2/25 5/{{ModId}}_vanilla_ice_cream/default/",
+                //Gelling Powder, Sugar, Dragonfruit
+                "{{ModId}}_dragonfruit_gelatin": "Cornucopia_GellingPowder 1 245 1 Cornucopia_DragonFruit 1/25 5/{{ModId}}_dragonfruit_gelatin/default/",
+                //Cocoa, Sugar, Flour
+                "{{ModId}}_chocolate_cupcake": "Cornucopia_CocoaPod 1 245 1 246 1/25 5/{{ModId}}_chocolate_cupcake/default/"
 
             }
         }

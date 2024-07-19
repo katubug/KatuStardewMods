@@ -4,15 +4,58 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
+                //TODO: Buffs, Buff Duration
                 "{{ModId}}_vanilla_ice_cream": {
                     "Name": "{{ModId}}_vanilla_ice_cream",
                     "DisplayName": "{{i18n:item.vanilla_ice_cream.name}}",
                     "Description": "{{i18n:item.vanilla_ice_cream.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 450,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 0,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_white",
+                        "food_nonvegan"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_dragonfruit_gelatin": {
+                    "Name": "{{ModId}}_dragonfruit_gelatin",
+                    "DisplayName": "{{i18n:item.dragonfruit_gelatin.name}}",
+                    "Description": "{{i18n:item.dragonfruit_gelatin.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 1,
                     "Edibility": 65,
                     "IsDrink": false,
                     "Buffs": [
@@ -41,19 +84,265 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_white",
-                        "food_nonvegan"
+                        "color_pink"
                     ]
                 },
-                "{{ModId}}_dragonfruit_gelatin": {
-                    "Name": "{{ModId}}_dragonfruit_gelatin",
-                    "DisplayName": "{{i18n:item.dragonfruit_gelatin.name}}",
-                    "Description": "{{i18n:item.dragonfruit_gelatin.description}}",
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_chocolate_cupcake": {
+                    "Name": "{{ModId}}_chocolate_cupcake",
+                    "DisplayName": "{{i18n:item.chocolate_cupcake.name}}",
+                    "Description": "{{i18n:item.chocolate_cupcake.description}}",
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 370,
                     "Texture": "Mods/{{ModId}}/Dishes",
-                    "SpriteIndex": 0,
+                    "SpriteIndex": 2,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_apple_melon_pie": {
+                    "Name": "{{ModId}}_apple_melon_pie",
+                    "DisplayName": "{{i18n:item.apple_melon_pie.name}}",
+                    "Description": "{{i18n:item.apple_melon_pie.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 3,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_gooseberry_pie": {
+                    "Name": "{{ModId}}_gooseberry_pie",
+                    "DisplayName": "{{i18n:item.gooseberry_pie.name}}",
+                    "Description": "{{i18n:item.gooseberry_pie.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 4,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_pecan_pie": {
+                    "Name": "{{ModId}}_pecan_pie",
+                    "DisplayName": "{{i18n:item.pecan_pie.name}}",
+                    "Description": "{{i18n:item.pecan_pie.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 5,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_chocolate_chip_cookies": {
+                    "Name": "{{ModId}}_chocolate_chip_cookies",
+                    "DisplayName": "{{i18n:item.chocolate_chip_cookies.name}}",
+                    "Description": "{{i18n:item.chocolate_chip_cookies.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 6,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                 //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                 "{{ModId}}_spicy_chocolate_bar": {
+                    "Name": "{{ModId}}_spicy_chocolate_bar",
+                    "DisplayName": "{{i18n:item.spicy_chocolate_bar.name}}",
+                    "Description": "{{i18n:item.spicy_chocolate_bar.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 7,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                 //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                 "{{ModId}}_donut": {
+                    "Name": "{{ModId}}_donut",
+                    "DisplayName": "{{i18n:item.donut.name}}",
+                    "Description": "{{i18n:item.donut.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 370,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 8,
                     "Edibility": 65,
                     "IsDrink": false,
                     "Buffs": [
