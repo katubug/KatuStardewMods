@@ -10,8 +10,8 @@
                 "{{ModId}}_dragonfruit_gelatin": "Cornucopia_GellingPowder 1 245 1 Cornucopia_DragonFruit 1/25 5/{{ModId}}_dragonfruit_gelatin/default/",
                 //Cocoa, Sugar, Flour, Egg
                 "{{ModId}}_chocolate_cupcake": "Cornucopia_CocoaPod 1 245 1 246 1 -5 1/25 5/{{ModId}}_chocolate_cupcake/default/",
-                //Apple, Sugar, Flour, Melon, Butter, Egg
-                "{{ModId}}_apple_melon_pie": "613 1 245 1 246 1 Cornucopia_CanaryMelon 1 Cornucopia_Butter 1 -5 1/25 5/{{ModId}}_apple_melon_pie/default/",
+                //Apple, Sugar, Flour, Melon, Butter
+                "{{ModId}}_apple_melon_pie": "613 1 245 1 246 1 Cornucopia_CanaryMelon 1 Cornucopia_Butter 1/25 5/{{ModId}}_apple_melon_pie/default/",
                 //Gooseberries, Sugar, Flour, Butter, Egg
                 "{{ModId}}_gooseberry_pie": "Cornucopia_Gooseberry 2 245 1 246 1 Cornucopia_Butter 1 -5 1/25 5/{{ModId}}_gooseberry_pie/default/",
                 //Pecans, Sugar, Flour, Butter, Egg
@@ -36,8 +36,52 @@
                 "{{ModId}}_green_salad": "Cornucopia_Lettuce 1 Cornucopia_Groundcherries 1 Cornucopia_OliveOil 1 419 1/25 5/{{ModId}}_green_salad/default/",
                 //Tomato, Cheese, Basil, Olive Oil
                 "{{ModId}}_caprese_salad": "256 1 426 1 Cornucopia_Basil 1 419 1 Cornucopia_OliveOil 1/25 5/{{ModId}}_caprese_salad/default/",
-                //Lettuce, Tomato, Tofu, Garlic Mayo
-                "{{ModId}}_sandwich": "Cornucopia_Lettuce 1 256 1 Cornucopia_Tofu 1 419 1 Cornucopia_GarlicMayonnaise 1/25 5/{{ModId}}_sandwich/default/"
+                //Bread, Lettuce, Tomato, Tofu, Garlic Mayo
+                "{{ModId}}_sandwich": "216 1 Cornucopia_Lettuce 1 256 1 Cornucopia_Tofu 1 419 1 Cornucopia_GarlicMayonnaise 1/25 5/{{ModId}}_sandwich/default/",
+                //Tortilla, Pine Nuts, Tomato, Spinach, Chickpea
+                "{{ModId}}_pita": "229 1 Cornucopia_PineNuts 1 256 1 Cornucopia_Spinach 1 Cornucopia_Chickpea 1/25 5/{{ModId}}_pita/default/",
+                //Mushroom, Onion, Egg, Truffle Mayo
+                "{{ModId}}_crepes": "Cornucopia_ChickenoftheWoods 1 Cornucopia_Onion 1 -5 1 Cornucopia_TruffleMayonnaise 1/25 5/{{ModId}}_crepes/default/",
+                //Rice, Vinegar, Sugar, Salt
+                "{{ModId}}_sushi_rice": "423 1 419 1 245 1 Cornucopia_Salt 1/25 5/{{ModId}}_sushi_rice/default/",
+                //Avocado, Onion, Cilantro, Lime, Blue Agave
+                "{{ModId}}_guacamole": "Cornucopia_Avocado 1 Cornucopia_Onion 1 Cornucopia_Cilantro 1 Cornucopia_Lime 1 Cornucopia_BlueAgave 1/25 5/{{ModId}}_guacamole/default/",
+                //Tomato, Fennel, Yogurt, Basil
+                "{{ModId}}_tomato_soup": "256 1 Cornucopia_Fennel 1 Cornucopia_PlainYogurt 1 Cornucopia_Basil 1/25 5/{{ModId}}_tomato_soup/default/",
+                //Tomato, Navy Bean, Noodles, Onion, Bay
+                "{{ModId}}_minestrone_soup": "256 1 Cornucopia_NavyBeans 1 Cornucopia_WheatNoodles 1 Cornucopia_Onion 1 Cornucopia_BayLeaves 1/25 5/{{ModId}}_minestrone_soup/default/",
+                //Flour, Garlic, Onion, Celery, Dill
+                "{{ModId}}_dumpling_soup": "246 1 Cornucopia_RoastedGarlic 1 Cornucopia_Onion 1 Cornucopia_Celery 1 Cornucopia_Dill 1/25 5/{{ModId}}_dumpling_soup/default/",
+                //Shiitake Mushroom, Yogurt, Noodles, Thyme, Salt
+                "{{ModId}}_mushroom_stroganoff": "Cornucopia_Shiitake 2 Cornucopia_PlainYogurt 1 Cornucopia_WheatNoodles 1 Cornucopia_Thyme 1 Cornucopia_Salt 1/25 5/{{ModId}}_mushroom_stroganoff/default/",
+                //Miso Paste, Tofu, Chives, Salt
+                "{{ModId}}_miso_soup": "Cornucopia_MisoPaste 1 Cornucopia_Tofu 1 Cornucopia_Chives 1 Cornucopia_Salt 1/25 5/{{ModId}}_miso_soup/default/",
+                //Sushi Rice, Seaweed, Adzuki Bean
+                "{{ModId}}_adzuki_onigiri": "{{ModId}}_sushi_rice 1 152 1 Cornucopia_AdzukiBean 1/25 5/{{ModId}}_adzuki_onigiri/default/",
+                //Sushi Rice, Seaweed, Salmon, Asparagus, Avocado
+                "{{ModId}}_fresh_maki": "{{ModId}}_sushi_rice 1 152 1 139 1 Cornucopia_Asparagus 1 Cornucopia_Avocado 1/25 5/{{ModId}}_fresh_maki/default/",
+                //Sushi Rice, Shrimp, Chives, Soy Sauce
+                "{{ModId}}_shrimp_nigiri": "{{ModId}}_sushi_rice 1 720 1 Cornucopia_Chives 1 Cornucopia_SoySauce 1/25 5/{{ModId}}_shrimp_nigiri/default/",
+                //Bread, Cheese, Smoked Salmon, Dill
+                "{{ModId}}_smoked_salmon_bagel": "216 1 424 1 Cornucopia_SmokedSalmon 1 Cornucopia_Dill 1/25 5/{{ModId}}_smoked_salmon_bagel/default/",
+                //Lobster, Quinoa, Lemon, Butter, Groundcherry
+                "{{ModId}}_lobster_quinoa": "715 1 Cornucopia_Quinoa 1 Cornucopia_Lemon 1 Cornucopia_Butter 1 Cornucopia_Groundcherries 1/25 5/{{ModId}}_lobster_quinoa/default/",
+                //Grapefruit, Walnut, Smoked Cheese
+                "{{ModId}}_charcuterie": "Cornucopia_Grapefruit 1 Cornucopia_Walnut 1 Cornucopia_SmokedCheese 1/25 5/{{ModId}}_charcuterie/default/",
+                //Sushi Rice, Shrimp, Wasabi, Soy Sauce
+                "{{ModId}}_shrimp_rice": "{{ModId}}_sushi_rice 1 720 1 Cornucopia_WasabiRoot 1 Cornucopia_SoySauce 1/25 5/{{ModId}}_shrimp_rice/default/",
+                //Glass Noodles, Fish Sauce, Egg, Chives
+                "{{ModId}}_fancy_ramen": "Cornucopia_GlassNoodles 1 Cornucopia_FishSauce 1 -5 1 Cornucopia_Chives 1/25 5/{{ModId}}_fancy_ramen/default/",
+                //Cucumber, Carrot, Yellow Bell Pepper, Yogurt, Dill
+                "{{ModId}}_veggies_dip": "Cornucopia_Cucumber 1 Carrot 1 Cornucopia_BellPepperYellow 1 Cornucopia_PlainYogurt 1 Cornucopia_Dill 1/25 5/{{ModId}}_veggies_dip/default/",
+                //Sweet Potato, Oil, Salt, Sugar, Nutmeg
+                "{{ModId}}_sweet_potato_fries": "Cornucopia_SweetPotato 1 247 1 Cornucopia_Salt 1 245 1 Cornucopia_Nutmeg 1/25 5/{{ModId}}_sweet_potato_fries/default/",
+                //Butternut Squash, Sweet Potato, Olive Oil, Asparagus, Chicken of the Woods, Rice
+                "{{ModId}}_sauteed_vegetables": "Cornucopia_ButternutSquash 1 Cornucopia_SweetPotato 1 Cornucopia_OliveOil 1 Cornucopia_Asparagus 1 423 1/25 5/{{ModId}}_sauteed_vegetables/default/",
+                //Bamboo Shoots, Cassava, Coconut Oil, Soy Sauce
+                "{{ModId}}_bamboo_shoots": "Cornucopia_BambooSeeds 1 Cornucopia_Cassava 1 Cornucopia_CoconutOil 1 Cornucopia_SoySauce 1/25 5/{{ModId}}_bamboo_shoots/default/",
+                //Shiitake Mushroom, Cumin, Turmeric, Paprika, Garlic
+                "{{ModId}}_mushroom_skewer": "Cornucopia_Shiitake 1 Cornucopia_CuminSeeds 1 Cornucopia_Turmeric 1 Cornucopia_Paprika 1 248 1/25 5/{{ModId}}_mushroom_skewer/default/"
 
             }
         }

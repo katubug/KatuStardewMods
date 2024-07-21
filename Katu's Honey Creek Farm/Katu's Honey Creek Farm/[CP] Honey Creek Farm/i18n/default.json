@@ -50,5 +50,6 @@
     "ui.place.Treehouse": "TreeHouse",
     "ui.place.Tower": "Tower",
     "ui.place.Cave": "Cave",
-    "ui.map.signpost": "South to the Forest"
+    "ui.map.signpost": "South to the Forest",
+    "ui.blessing.text": "\"You have been blessed!\""
 }

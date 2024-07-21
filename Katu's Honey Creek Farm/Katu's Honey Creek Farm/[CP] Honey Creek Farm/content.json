@@ -71,7 +71,8 @@
 					"Trigger": "Manual",
                     "Actions": [
 						//O: Speed, 1: Luck, 2: Energy (op), 3: Waters, 4: Friendship, 5: Fangs, 6: Butterfly (op)
-                        "AddBuff {{Random: statue_of_blessings_0, statue_of_blessings_1, statue_of_blessings_1, statue_of_blessings_3}}"
+                        "AddBuff {{Random: statue_of_blessings_0, statue_of_blessings_1, statue_of_blessings_1, statue_of_blessings_3}}",
+						"spacechase0.SpaceCore_ShowHudMessage {{i18n:ui.blessing.text}}"
                     ],
 					"MarkActionApplied": true
                 },
