@@ -11,7 +11,7 @@
                     "Description": "{{i18n:item.vanilla_ice_cream.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 450,
+                    "Price": 525,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 0,
                     "Edibility": 50,
@@ -22,7 +22,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 388,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -46,17 +46,17 @@
                         "food_nonvegan"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                //TODO: Context tags
                 "{{ModId}}_dragonfruit_gelatin": {
                     "Name": "{{ModId}}_dragonfruit_gelatin",
                     "DisplayName": "{{i18n:item.dragonfruit_gelatin.name}}",
                     "Description": "{{i18n:item.dragonfruit_gelatin.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 488,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 1,
-                    "Edibility": 65,
+                    "Edibility": 89,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -64,20 +64,20 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 392,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
-                                "Speed": 0.0,
+                                "Speed": 0.3,
                                 "Defense": 0.0,
-                                "Attack": 0.0
+                                "Attack": 1.0
                             }
                         }
                     ],
@@ -87,17 +87,17 @@
                         "color_pink"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                //TODO: Context tags
                 "{{ModId}}_chocolate_cupcake": {
                     "Name": "{{ModId}}_chocolate_cupcake",
                     "DisplayName": "{{i18n:item.chocolate_cupcake.name}}",
                     "Description": "{{i18n:item.chocolate_cupcake.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 338,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 2,
-                    "Edibility": 65,
+                    "Edibility": 41,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -105,17 +105,17 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 323,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
+                                "MagneticRadius": 0.5,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
                                 "Attack": 0.0
@@ -125,20 +125,20 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                //TODO: Context tags
                 "{{ModId}}_apple_melon_pie": {
                     "Name": "{{ModId}}_apple_melon_pie",
                     "DisplayName": "{{i18n:item.apple_melon_pie.name}}",
                     "Description": "{{i18n:item.apple_melon_pie.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 937,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 3,
-                    "Edibility": 65,
+                    "Edibility": 133,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -146,19 +146,19 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 725,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
+                                "MaxStamina": 20.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 0.0,
+                                "Defense": 1.0,
                                 "Attack": 0.0
                             }
                         }
@@ -176,10 +176,10 @@
                     "Description": "{{i18n:item.gooseberry_pie.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 660,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 4,
-                    "Edibility": 65,
+                    "Edibility": 107,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -187,15 +187,15 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 520,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
-                                "ForagingLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 2.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
