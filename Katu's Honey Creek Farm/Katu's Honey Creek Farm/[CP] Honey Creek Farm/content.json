@@ -474,22 +474,38 @@
 						},
 						"TargetDirection":"down"
 					},
-					{
-						//Make Secret Woods only accessible after the first time any player enters there
-						"Id":"HCSecretWoods",
-						"DisplayName":"{{i18n:ui.warp.HoneyCreekSecretWoods}}",
-						"Condition": "PLAYER_VISITED_LOCATION Any Woods",
-						"TargetLocation":"Woods",
-						"TargetTile":{
-							"X":50,
-							"Y":25
-						},
-						"TargetDirection":"down"
-					}
+				{
+					//Make Secret Woods only accessible after the first time any player enters there, vanilla style
+					"Id":"HCSecretWoods",
+					"DisplayName":"{{i18n:ui.warp.HoneyCreekSecretWoods}}",
+					"Condition": "PLAYER_VISITED_LOCATION Any Woods",
+					"TargetLocation":"Woods",
+					"TargetTile":{
+						"X":50,
+						"Y":25
+					},
+					"TargetDirection":"down"
+				}
 				]
 			}
 		}
 	},
+	//Add SVE Support
+	{		
+		"Action":"EditData",
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+		},
+		"Target":"Data/Minecarts",
+		"TargetField": ["HoneyCreek_Warps", "Destinations", "HCSecretWoods"],
+		"Entries":{
+					"TargetTile":{
+						"X": 60,
+						"Y": 56
+					}
+			}
+	},
+	
 		//Declare the farm location so we can make changes to it
 		{
 			"Action": "EditData",
