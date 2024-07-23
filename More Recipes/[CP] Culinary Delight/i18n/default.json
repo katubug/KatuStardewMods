@@ -122,6 +122,7 @@
     "item.the_egg.name": "'The Egg'",
     "item.the_egg.description": "This dish is simply known as 'the egg,' please refer to it as such.",
     "item.hot_cocoa.name": "Peppermint Hot Cocoa",
-    "item.hot_cocoa.description": "Perfect for a cold winter day!"
+    "item.hot_cocoa.description": "Perfect for a cold winter day!",
+    "recipe.any_milk": "Any Milk"
 
 }

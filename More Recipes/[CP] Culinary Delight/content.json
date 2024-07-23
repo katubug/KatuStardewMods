@@ -1,10 +1,18 @@
 {
     "Format": "2.3.0",
+    "ConfigSchema": { 
+	//Config Options
+		"flexible_recipes": { 
+			"AllowValues": "On, Off",
+			"Default": "On",
+			"Description": "Whether recipes can accept inputs from multiple installed mods."
+		}
+    },
     "Changes": [
 
         {
             "Action": "Include",
-            "FromFile": "data/objects.json, data/recipes.json"
+            "FromFile": "data/objects.json, data/recipes.json, data/recipereplacements.json"
         },
         {
             "Action": "Load",

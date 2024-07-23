@@ -1,42 +1,99 @@
 {
 	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"When": {
+				"flexible_recipes": "On"
+			},
+			"Entries": {
+				"{{ModId}}_vanilla_ice_cream": {
+					"ProductQualifiedId": "(O){{ModId}}_vanilla_ice_cream",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)190",
+							"Amount": 1
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg, egg_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:recipe.any_egg}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk, milk_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}
+
+
+
+/*
 {
-    "Action": "EditData",
-    "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
-    "Entries": {
-        "Omelet": {
-            "ProductQualifiedId": "(O)195",
-            "ProductAmount": 1,
-            "Ingredients": [
-                {
-                    "Type": "ContextTag",
-                    "Value": "category_egg, egg_item",
-                    "Amount": 1,
-                    "OverrideText": "{{i18n:Ingredient_EggAny}}",
-                    "OverrideTexturePath": "Maps/springobjects",
-                    "OverrideTextureRect": {
-                        "X": 128,
-                        "Y": 112,
-                        "Width": 16,
-                        "Height": 16
-                    }
-                },
-                {
-                    "Type": "ContextTag",
-                    "Value": "category_milk, milk_item",
-                    "Amount": 1,
-                    "OverrideText": "{{i18n:Ingredient_MilkAny}}",
-                    "OverrideTexturePath": "Maps/springobjects",
-                    "OverrideTextureRect": {
-                        "X": 256,
-                        "Y": 112,
-                        "Width": 16,
-                        "Height": 16
-                    }
-                }
-            ]
-        }
-    }
-}
-    ]
-}
+    "Type": "Item",
+    "Value": "(O)190",
+    "Amount": 1
+},
+{
+	"Type": "ContextTag",
+	"Value": "cheese_item",
+	"Amount": 1,
+	"OverrideText": "{{i18n:recipe.any_cheese}}",
+	"OverrideTexturePath": "Maps/springobjects",
+	"OverrideTextureRect": {
+		"X": 256,
+		"Y": 272,
+		"Width": 16,
+		"Height": 16
+	}
+},
+{
+	"Type": "ContextTag",
+	"Value": "category_milk, milk_item",
+	"Amount": 1,
+	"OverrideText": "{{i18n:recipe.any_milk}}",
+	"OverrideTexturePath": "Maps/springobjects",
+	"OverrideTextureRect": {
+		"X": 256,
+		"Y": 112,
+		"Width": 16,
+		"Height": 16
+	}
+},
+{
+	"Type": "ContextTag",
+	"Value": "category_egg, egg_item",
+	"Amount": 1,
+	"OverrideText": "{{i18n:recipe.any_egg}}",
+	"OverrideTexturePath": "Maps/springobjects",
+	"OverrideTextureRect": {
+		"X": 128,
+		"Y": 112,
+		"Width": 16,
+		"Height": 16
+	}
+},
+*/
