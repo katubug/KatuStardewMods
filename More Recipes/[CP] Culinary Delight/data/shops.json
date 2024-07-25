@@ -13,40 +13,45 @@
                 }
             }
         },
-        //TODO Saloon
+        //Saloon
         {
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "Saloon", "Items" ],
             "Entries": {
-                "{{ModId}}_vanilla_ice_cream": {
-                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                "{{ModId}}_green_salad": {
+                    "ItemId": "{{ModId}}_green_salad",
                     "IsRecipe": true,
-                    "Price": 2000
+                    "Price": 700
+                },
+                "{{ModId}}_dipping_fries": {
+                    "ItemId": "{{ModId}}_dipping_fries",
+                    "IsRecipe": true,
+                    "Price": 500
                 }
             }
         },
-        //TODO Traveling Merchant
+        //Traveling Merchant
         {
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "Traveler", "Items" ],
             "Entries": {
-                "{{ModId}}_vanilla_ice_cream": {
-                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                "{{ModId}}_savory_crepes": {
+                    "ItemId": "{{ModId}}_savory_crepes",
                     "IsRecipe": true,
-                    "Price": 2000
+                    "Price": 10000
                 }
             }
         },
-        //TODO Moonlight Jellies
+        //Moonlight Jellies
         {
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "Festival_DanceOfTheMoonlightJellies_Pierre", "Items" ],
             "Entries": {
-                "{{ModId}}_vanilla_ice_cream": {
-                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                "{{ModId}}_lobster_quinoa": {
+                    "ItemId": "{{ModId}}_lobster_quinoa",
                     "IsRecipe": true,
                     "Price": 2000
                 }
@@ -70,42 +75,47 @@
                 }
             }
         },
-        //TODO Winter Star Festival
+        //Winter Star Festival
         {
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "Festival_FeastOfTheWinterStar_Pierre", "Items" ],
             "Entries": {
-                "{{ModId}}_vanilla_ice_cream": {
-                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                "{{ModId}}_hot_cocoa": {
+                    "ItemId": "{{ModId}}_hot_cocoa",
                     "IsRecipe": true,
-                    "Price": 2000
+                    "Price": 500
                 }
             }
         },
-        //TODO Luau
+        //Luau
         {
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "Festival_Luau_Pierre", "Items" ],
             "Entries": {
-                "{{ModId}}_vanilla_ice_cream": {
-                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                "{{ModId}}_dragonfruit_gelatin": {
+                    "ItemId": "{{ModId}}_dragonfruit_gelatin",
                     "IsRecipe": true,
-                    "Price": 2000
+                    "Price": 800
+                },
+                "{{ModId}}_tropical_delight": {
+                    "ItemId": "{{ModId}}_tropical_delight",
+                    "IsRecipe": true,
+                    "Price": 3000
                 }
             }
         },
-        //TODO Star Tokens
+        //Star Tokens
         {
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "Festival_StardewValleyFair_StarTokens", "Items" ],
             "Entries": {
-                "{{ModId}}_vanilla_ice_cream": {
-                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                "{{ModId}}_cinnamon_latte": {
+                    "ItemId": "{{ModId}}_cinnamon_latte",
                     "IsRecipe": true,
-                    "Price": 2000
+                    "Price": 400
                 }
             }
         },
@@ -119,6 +129,19 @@
                     "ItemId": "{{ModId}}_vanilla_ice_cream",
                     "IsRecipe": true,
                     "Price": 500
+                }
+            }
+        },
+        //Sandy
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "Entries": {
+                "{{ModId}}_bamboo_shoots": {
+                    "ItemId": "{{ModId}}_bamboo_shoots",
+                    "IsRecipe": true,
+                    "Price": 1000
                 }
             }
         }

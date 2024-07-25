@@ -1,0 +1,65 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_salmon_caught": {
+                    "Id": "{{ModId}}_salmon_caught",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O)139",
+                    "Actions": [
+                        "MarkCookingRecipeKnown Current {{ModId}}_salmon_filet",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.salmon_filet.name}}\""
+                    ]
+                },
+                "{{ModId}}_catfish_caught": {
+                    "Id": "{{ModId}}_catfish_caught",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O)143, PLAYER_FISHING_LEVEL Current 6",
+                    "Actions": [
+                        "MarkCookingRecipeKnown Current {{ModId}}_catfish_dinner",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.catfish_dinner.name}}\""
+                    ]
+                },
+                "{{ModId}}_tiger_trout_caught": {
+                    "Id": "{{ModId}}_tiger_trout_caught",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O)699",
+                    "Actions": [
+                        "MarkCookingRecipeKnown Current {{ModId}}_broiled_tiger_trout",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.broiled_tiger_trout.name}}\""
+                    ]
+                },
+                "{{ModId}}_mines_level_80": {
+                    "Id": "{{ModId}}_mines_level_80",
+                    "Trigger": "DayStarted",
+                    "Condition": "MINE_LOWEST_LEVEL_REACHED 80",
+                    "Actions": [
+                        "MarkCookingRecipeKnown Current {{ModId}}_mushroom_stroganoff",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.mushroom_stroganoff.name}}\""
+                    ]
+                },
+                "{{ModId}}_garbage_unlock": {
+                    "Id": "{{ModId}}_garbage_unlock",
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Condition": "ITEM_ID Input {{ModId}}_unknowable_recipe",
+                    "Actions": [
+                        "MarkCookingRecipeKnown Current {{ModId}}_unknowable_dish",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.unknowable_dish.name}}\""
+                    ]
+                },
+                "{{ModId}}_donut_unlock": {
+                    "Id": "{{ModId}}_donut_unlock",
+                    "Trigger": "DayStarted",
+                    //"13": "Popular^Reach a 5-heart friend level with 20 people.^true^12^11",
+                    "Condition": "PLAYER_HAS_ACHIEVEMENT Current 13",
+                    "Actions": [
+                        "MarkCookingRecipeKnown Current {{ModId}}_donut",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.unknowable_dish.name}}\""
+                    ]
+                }
+            }
+        }
+    ]
+}

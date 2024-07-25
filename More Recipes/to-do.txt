@@ -1,4 +1,3 @@
-
 change buffs, buff duration
 add context tags to finished dishes
 figure out who likes each dish as a gift
@@ -7,11 +6,4 @@ figure out how player unlocks each recipe
 animal husbandry compatibility for meat dishes?
 
 
-
-
-How to obtain all the recipes:
-
-Fugu (Level 6 Fishing)
-Vanilla Ice Cream (Ice Cream Stand)
-Soft Boiled Egg (Egg Festival)
-The Egg (Egg Festival)
+debug action MarkCookingRecipeKnown Current HeyKatu.CulinaryDelight_unknowable_dish false

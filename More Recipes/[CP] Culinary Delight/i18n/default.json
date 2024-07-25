@@ -160,6 +160,7 @@
     "ingredient.any_cream": "Cream (Any)",
     "ingredient.any_oats": "Oats (Any)",
     "ingredient.any_onion": "Onion (Any)",
-    "ingredient.any_avocado": "Avocado (Any)"
+    "ingredient.any_avocado": "Avocado (Any)",
+    "ui.recipe_unlocked.text": "You thought of a new recipe"
 
 }
