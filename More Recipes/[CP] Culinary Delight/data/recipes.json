@@ -5,13 +5,13 @@
             "Target": "Data/CookingRecipes",
             "Entries": {
                 //Milk x1, Vanilla x1, Sugar x2
-                "{{ModId}}_vanilla_ice_cream": "-6 1 Cornucopia_Vanilla 1 245 2/25 5/{{ModId}}_vanilla_ice_cream/default/",
+                "{{ModId}}_vanilla_ice_cream": "-6 1 Cornucopia_Vanilla 1 245 2/25 5/{{ModId}}_vanilla_ice_cream/none/",
                 //Gelling Powder x1, Sugar x1, Dragonfruit x1
                 "{{ModId}}_dragonfruit_gelatin": "Cornucopia_GellingPowder 1 245 1 Cornucopia_DragonFruit 1/25 5/{{ModId}}_dragonfruit_gelatin/default/",
                 //Cocoa x1, Sugar x1, Flour x1, Egg x1
                 "{{ModId}}_chocolate_cupcake": "Cornucopia_CocoaPod 1 245 1 246 1 -5 1/25 5/{{ModId}}_chocolate_cupcake/default/",
-                //Apple x1, Sugar x1, Flour x1, Melon x1, Butter x1
-                "{{ModId}}_apple_melon_pie": "613 1 245 1 246 1 Cornucopia_CanaryMelon 1 Cornucopia_Butter 1/25 5/{{ModId}}_apple_melon_pie/default/",
+                //Apple x2, Sugar x1, Flour x1, Melon x1, Butter x1
+                "{{ModId}}_apple_melon_pie": "613 2 245 1 246 1 Cornucopia_CanaryMelon 1 Cornucopia_Butter 1/25 5/{{ModId}}_apple_melon_pie/default/",
                 //Gooseberries x2, Sugar x1, Flour x1, Butter x1, Egg x1
                 "{{ModId}}_gooseberry_pie": "Cornucopia_Gooseberry 2 245 1 246 1 Cornucopia_Butter 1 -5 1/25 5/{{ModId}}_gooseberry_pie/default/",
                 //Pecans x2, Sugar x1, Flour x1, Butter x1, Egg x1
@@ -25,13 +25,13 @@
                 //Coffee x1, Sugar x1, Milk x1, Cinnamon x1
                 "{{ModId}}_cinnamon_latte": "395 1 245 1 -6 1 Cornucopia_CinnamonSticks 1/25 5/{{ModId}}_cinnamon_latte/default/",
                 //Egg x1, Salt x1, Pepper x1
-                "{{ModId}}_cooked_egg": "-5 1 Cornucopia_Salt 1 Cornucopia_Pepper 1/25 5/{{ModId}}_cooked_egg/default/",
+                "{{ModId}}_cooked_egg": "-5 1 Cornucopia_Salt 1 Cornucopia_Pepper 1/25 5/{{ModId}}_cooked_egg/none/",
                 //Egg x1, Salt x1, Paprika x1, Parsley x1
                 "{{ModId}}_fried_egg": "-5 1 Cornucopia_Salt 1 Cornucopia_Paprika 1 Cornucopia_Parsley 1/25 5/{{ModId}}_fried_egg/default/",
                 //Potato x1, Cheese x1, Peas x1, Sweet Potato x1, Bell Pepper x1
                 "{{ModId}}_pierogies": "192 1 424 1 Cornucopia_GreenPeas 1 Cornucopia_SweetPotato 1 Cornucopia_BellPepper 1/25 5/{{ModId}}_pierogies/default/",
-                //Egg x1, Goat Cheese x1, Ground Cherries x1, Brined Olives x1, Olive Oil x1
-                "{{ModId}}_omelette": "-5 1 426 1 Cornucopia_Groundcherries 1 Cornucopia_BrinedOlives 1 Cornucopia_OliveOil 1/25 5/{{ModId}}_omelette/default/",
+                //Egg x2, Goat Cheese x1, Ground Cherries x1, Brined Olives x1, Olive Oil x1
+                "{{ModId}}_omelette": "-5 2 426 1 Cornucopia_Groundcherries 1 Cornucopia_BrinedOlives 1 Cornucopia_OliveOil 1/25 5/{{ModId}}_omelette/default/",
                 //Lettuce x1, Ground Cherries x1, Olive Oil x1, Vinegar x1
                 "{{ModId}}_green_salad": "Cornucopia_Lettuce 1 Cornucopia_Groundcherries 1 Cornucopia_OliveOil 1 419 1/25 5/{{ModId}}_green_salad/default/",
                 //Tomato x1, Cheese x1, Basil x1, Olive Oil x1
@@ -41,7 +41,7 @@
                 //Tortilla x1, Pine Nuts x1, Tomato x1, Spinach x1, Chickpea x2
                 "{{ModId}}_pita": "229 1 Cornucopia_PineNuts 1 256 1 Cornucopia_Spinach 1 Cornucopia_Chickpea 2/25 5/{{ModId}}_pita/default/",
                 //Mushroom x1, Onion x1, Egg x1, Truffle Mayo x1
-                "{{ModId}}_crepes": "Cornucopia_ChickenoftheWoods 1 Cornucopia_Onion 1 -5 1 Cornucopia_TruffleMayonnaise 1/25 5/{{ModId}}_crepes/default/",
+                "{{ModId}}_crepes": "Cornucopia_ChickenoftheWoods 1 Cornucopia_Onion 1 -5 1 Cornucopia_TruffleMayonnaise 1 246 1/25 5/{{ModId}}_crepes/default/",
                 //Rice x1, Vinegar x1, Sugar x1, Salt x1
                 "{{ModId}}_sushi_rice": "423 1 419 1 245 1 Cornucopia_Salt 1/25 5/{{ModId}}_sushi_rice/default/",
                 //Avocado x1, Onion x1, Cilantro x1, Lime x1, Blue Agave x1
@@ -53,7 +53,7 @@
                 //Flour x1, Garlic x1, Onion x1, Celery x1, Dill x1
                 "{{ModId}}_dumpling_soup": "246 1 Cornucopia_RoastedGarlic 1 Cornucopia_Onion 1 Cornucopia_Celery 1 Cornucopia_Dill 1/25 5/{{ModId}}_dumpling_soup/default/",
                 //Shiitake Mushroom x1, Yogurt x1, Noodles x1, Thyme x1, Salt x1
-                "{{ModId}}_mushroom_stroganoff": "Cornucopia_Shiitake 2 Cornucopia_PlainYogurt 1 Cornucopia_WheatNoodles 1 Cornucopia_Thyme 1 Cornucopia_Salt 1/25 5/{{ModId}}_mushroom_stroganoff/default/",
+                "{{ModId}}_mushroom_stroganoff": "Cornucopia_Shiitake 1 Cornucopia_PlainYogurt 1 Cornucopia_WheatNoodles 1 Cornucopia_Thyme 1 Cornucopia_Salt 1/25 5/{{ModId}}_mushroom_stroganoff/default/",
                 //Miso Paste x1, Tofu x1, Chives x1, Salt x1
                 "{{ModId}}_miso_soup": "Cornucopia_MisoPaste 1 Cornucopia_Tofu 1 Cornucopia_Chives 1 Cornucopia_Salt 1/25 5/{{ModId}}_miso_soup/default/",
                 //Sushi Rice x1, Seaweed x1, Adzuki Bean x1
@@ -76,8 +76,8 @@
                 "{{ModId}}_veggies_dip": "Cornucopia_Cucumber 1 Carrot 1 Cornucopia_BellPepperYellow 1 Cornucopia_PlainYogurt 1 Cornucopia_Dill 1/25 5/{{ModId}}_veggies_dip/default/",
                 //Sweet Potato x1, Oil x1, Salt x1, Sugar x1, Nutmeg x1
                 "{{ModId}}_sweet_potato_fries": "Cornucopia_SweetPotato 1 247 1 Cornucopia_Salt 1 245 1 Cornucopia_Nutmeg 1/25 5/{{ModId}}_sweet_potato_fries/default/",
-                //Butternut Squash x1, Sweet Potato x1, Olive Oil x1, Asparagus x1, Chicken of the Woods x1, Rice x1
-                "{{ModId}}_sauteed_vegetables": "Cornucopia_ButternutSquash 1 Cornucopia_SweetPotato 1 Cornucopia_OliveOil 1 Cornucopia_Asparagus 1 423 1/25 5/{{ModId}}_sauteed_vegetables/default/",
+                //Butternut Squash x1, Olive Oil x1, Asparagus x1, Chicken of the Woods x1, Rice x1
+                "{{ModId}}_sauteed_vegetables": "Cornucopia_ButternutSquash 1 Cornucopia_OliveOil 1 Cornucopia_Asparagus 1 423 1/25 5/{{ModId}}_sauteed_vegetables/default/",
                 //Bamboo Shoots x1, Cassava x1, Coconut Oil x1, Soy Sauce x1
                 "{{ModId}}_bamboo_shoots": "Cornucopia_BambooSeeds 1 Cornucopia_Cassava 1 Cornucopia_CoconutOil 1 Cornucopia_SoySauce 1/25 5/{{ModId}}_bamboo_shoots/default/",
                 //Shiitake Mushroom x3, Cumin x1, Turmeric x1, Paprika x1, Garlic x1
@@ -94,8 +94,8 @@
                 "{{ModId}}_margherita_pizza": "246 1 256 1 426 1 Cornucopia_Basil 1 Cornucopia_RoastedGarlic 1/25 5/{{ModId}}_margherita_pizza/default/",
                 //Flour x1, Yogurt x1, Saffron x2, Lemon Zest x1, Rosemary x1, Groundcherries x1
                 "{{ModId}}_savory_crepes": "246 1 Cornucopia_PlainYogurt 1 Cornucopia_Saffron 2 Cornucopia_LemonZest 1 Cornucopia_Rosemary 1 Cornucopia_Groundcherries 1/25 5/{{ModId}}_savory_crepes/default/",
-                //Sweet Potato x1, Orange Zest x1, Honey Butter x1, Cinnamon x1, Nutmeg x1
-                "{{ModId}}_sweet_potato_mash": "Cornucopia_SweetPotato 1 Cornucopia_OrangeZest 1 Cornucopia_HoneyButter 1 Cornucopia_CinnamonSticks 1 Cornucopia_Nutmeg 1/25 5/{{ModId}}_sweet_potato_mash/default/",
+                //Sweet Potato x2, Orange Zest x1, Honey Butter x1, Cinnamon x1, Nutmeg x1
+                "{{ModId}}_sweet_potato_mash": "Cornucopia_SweetPotato 2 Cornucopia_OrangeZest 1 Cornucopia_HoneyButter 1 Cornucopia_CinnamonSticks 1 Cornucopia_Nutmeg 1/25 5/{{ModId}}_sweet_potato_mash/default/",
                 //Bread x1, Cheese x1, Spicy Mayonnaise x1, Jalapeno x1
                 "{{ModId}}_grilled_cheese": "216 1 424 1 Cornucopia_SpicyMayonnaise 1 Cornucopia_Jalapeno 1/25 5/{{ModId}}_grilled_cheese/default/",
                 //Passionfruit x1, Persimmon x1, Pistachio x1, Cashew x1, Honey x1
@@ -112,8 +112,6 @@
                 "{{ModId}}_fish_and_chips": "-4 1 246 1 192 1 Cornucopia_Lemon 1 419 1/25 5/{{ModId}}_fish_and_chips/default/",
                 //Tiger Trout x1, Lemon x1, Butter x1, Parsley x1
                 "{{ModId}}_broiled_tiger_trout": "699 1 Cornucopia_Lemon 1 Cornucopia_Butter 1 Cornucopia_Parsley 1/25 5/{{ModId}}_broiled_tiger_trout/default/",
-                //Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
-                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_fugu/default/",
                 //Void Salmon x1, Void Mayo x1, Sage x1, Tarragon x1, Butter x1
                 "{{ModId}}_baked_void_salmon": "795 1 308 1 Cornucopia_Sage 1 Cornucopia_Tarragon 1 Cornucopia_Butter 1/25 5/{{ModId}}_baked_void_salmon/default/",
                 //Catfish x1, River Jelly x1, Lemon x1, Butter x1, Salt x1
@@ -125,12 +123,49 @@
                 //Prismatic Essence x1, Blue Agave x1, Saffron x1, Dragon Fruit x1, Kiwi x1
                 "{{ModId}}_unknowable_dish": "Cornucopia_PrismaticEssence 1 Cornucopia_BlueAgave 1 Cornucopia_Saffron 1 Cornucopia_DragonFruit 1 Cornucopia_Kiwi 1/25 5/{{ModId}}_unknowable_dish/default/",
                 //Ostrich Egg x1, Salt x1, Pepper x1
-                "{{ModId}}_the_egg": "289 1 Cornucopia_Salt 1 Cornucopia_Pepper 1/25 5/{{ModId}}_the_egg/default/",
+                "{{ModId}}_the_egg": "289 1 Cornucopia_Salt 1 Cornucopia_Pepper 1/25 5/{{ModId}}_the_egg/none/",
                 //Cocoa x1, Milk x1, Sugar x1, Mint x1
-                "{{ModId}}_hot_cocoa": "Cornucopia_CocoaPod 1 -6 1 245 1 Cornucopia_Mint 1/25 5/{{ModId}}_hot_cocoa/default/"
+                "{{ModId}}_hot_cocoa": "Cornucopia_CocoaPod 1 -6 1 245 1 Cornucopia_Mint 1/25 5/{{ModId}}_hot_cocoa/default/",
+                //Milk x2
+                "{{ModId}}_heavy_cream": "-6 2/25 5/{{ModId}}_heavy_cream/default/"
 
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "Query: {{DailyLuck}} < 0": true //spirits unhappy today
+            },
+            "Entries": {
+                //Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
+                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_unlucky_fugu/Fishing 6/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "Query: {{DailyLuck}} = 0": true //spirits neutral today
+            },
+            "Entries": {
+                //Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
+                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}neutral_fugu/Fishing 6/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When": {
+                "Query: {{DailyLuck}} > 0": true //spirits happy today
+            },
+            "Entries": {
+                //Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
+                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}lucky_fugu/Fishing 6/"
+            }
         }
-
     ]
 }
+
+
+

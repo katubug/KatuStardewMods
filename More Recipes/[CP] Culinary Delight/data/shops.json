@@ -1,0 +1,126 @@
+{
+    "Changes": [
+        //TODO Pierre Shop
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+                "{{ModId}}_vanilla_ice_cream": {
+                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                    "IsRecipe": true,
+                    "Price": 2000
+                }
+            }
+        },
+        //TODO Saloon
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Saloon", "Items" ],
+            "Entries": {
+                "{{ModId}}_vanilla_ice_cream": {
+                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                    "IsRecipe": true,
+                    "Price": 2000
+                }
+            }
+        },
+        //TODO Traveling Merchant
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Items" ],
+            "Entries": {
+                "{{ModId}}_vanilla_ice_cream": {
+                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                    "IsRecipe": true,
+                    "Price": 2000
+                }
+            }
+        },
+        //TODO Moonlight Jellies
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Festival_DanceOfTheMoonlightJellies_Pierre", "Items" ],
+            "Entries": {
+                "{{ModId}}_vanilla_ice_cream": {
+                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                    "IsRecipe": true,
+                    "Price": 2000
+                }
+            }
+        },
+        //Egg Festival
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Festival_EggFestival_Pierre", "Items" ],
+            "Entries": {
+                "{{ModId}}_cooked_egg": {
+                    "ItemId": "{{ModId}}_cooked_egg",
+                    "IsRecipe": true,
+                    "Price": 500
+                },
+                "{{ModId}}_the_egg": {
+                    "ItemId": "{{ModId}}_the_egg",
+                    "IsRecipe": true,
+                    "Price": 5000
+                }
+            }
+        },
+        //TODO Winter Star Festival
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Festival_FeastOfTheWinterStar_Pierre", "Items" ],
+            "Entries": {
+                "{{ModId}}_vanilla_ice_cream": {
+                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                    "IsRecipe": true,
+                    "Price": 2000
+                }
+            }
+        },
+        //TODO Luau
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Festival_Luau_Pierre", "Items" ],
+            "Entries": {
+                "{{ModId}}_vanilla_ice_cream": {
+                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                    "IsRecipe": true,
+                    "Price": 2000
+                }
+            }
+        },
+        //TODO Star Tokens
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Festival_StardewValleyFair_StarTokens", "Items" ],
+            "Entries": {
+                "{{ModId}}_vanilla_ice_cream": {
+                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                    "IsRecipe": true,
+                    "Price": 2000
+                }
+            }
+        },
+        //Ice Cream
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "IceCreamStand", "Items" ],
+            "Entries": {
+                "{{ModId}}_vanilla_ice_cream": {
+                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                    "IsRecipe": true,
+                    "Price": 500
+                }
+            }
+        }
+    ]
+}

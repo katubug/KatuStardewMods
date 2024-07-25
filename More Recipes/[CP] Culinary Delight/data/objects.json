@@ -94,10 +94,10 @@
                     "Description": "{{i18n:item.chocolate_cupcake.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 338,
+                    "Price": 428,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 2,
-                    "Edibility": 41,
+                    "Edibility": 51,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -110,7 +110,7 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
+                                "FishingLevel": 3.0,
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
@@ -135,10 +135,10 @@
                     "Description": "{{i18n:item.apple_melon_pie.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 937,
+                    "Price": 1087,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 3,
-                    "Edibility": 133,
+                    "Edibility": 157,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -146,12 +146,12 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 725,
+                            "Duration": 843,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
+                                "FishingLevel": 3.0,
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
@@ -176,10 +176,10 @@
                     "Description": "{{i18n:item.gooseberry_pie.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 660,
+                    "Price": 780,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 4,
-                    "Edibility": 107,
+                    "Edibility": 136,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -187,7 +187,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 520,
+                            "Duration": 622,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -217,10 +217,10 @@
                     "Description": "{{i18n:item.pecan_pie.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 728,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 5,
-                    "Edibility": 65,
+                    "Edibility": 95,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -228,7 +228,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 556,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -258,10 +258,10 @@
                     "Description": "{{i18n:item.oatmeal_raisin_cookies.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1387,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 6,
-                    "Edibility": 65,
+                    "Edibility": 116,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -269,7 +269,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1012,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -299,10 +299,10 @@
                     "Description": "{{i18n:item.spicy_chocolate_bar.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 712,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 7,
-                    "Edibility": 65,
+                    "Edibility": 33,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -310,7 +310,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 500,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -340,10 +340,10 @@
                     "Description": "{{i18n:item.donut.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 5550,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 8,
-                    "Edibility": 65,
+                    "Edibility": 328,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -351,7 +351,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 2000,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -381,10 +381,10 @@
                     "Description": "{{i18n:item.cinnamon_latte.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 735,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 9,
-                    "Edibility": 65,
+                    "Edibility": 52,
                     "IsDrink": true,
                     "Buffs": [
                         {
@@ -392,7 +392,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 529,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -422,10 +422,10 @@
                     "Description": "{{i18n:item.cooked_egg.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 510,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 10,
-                    "Edibility": 65,
+                    "Edibility": 62,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -433,7 +433,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 387,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -463,10 +463,10 @@
                     "Description": "{{i18n:item.fried_egg.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 577,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 11,
-                    "Edibility": 65,
+                    "Edibility": 73,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -474,7 +474,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 440,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -504,10 +504,10 @@
                     "Description": "{{i18n:item.pierogies.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 961,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 12,
-                    "Edibility": 65,
+                    "Edibility": 141,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -515,7 +515,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 747,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -545,10 +545,10 @@
                     "Description": "{{i18n:item.omelette.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1815,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 13,
-                    "Edibility": 65,
+                    "Edibility": 176,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -556,7 +556,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1342,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -586,10 +586,10 @@
                     "Description": "{{i18n:item.green_salad.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1110,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 14,
-                    "Edibility": 65,
+                    "Edibility": 87,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -597,7 +597,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 805,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -627,10 +627,10 @@
                     "Description": "{{i18n:item.caprese_salad.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1582,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 15,
-                    "Edibility": 65,
+                    "Edibility": 110,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -638,7 +638,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1138,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -668,10 +668,10 @@
                     "Description": "{{i18n:item.sandwich.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1285,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 16,
-                    "Edibility": 65,
+                    "Edibility": 123,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -679,7 +679,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 949,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -709,10 +709,10 @@
                     "Description": "{{i18n:item.pita.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 502,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 17,
-                    "Edibility": 65,
+                    "Edibility": 110,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -720,7 +720,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 418,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -750,10 +750,10 @@
                     "Description": "{{i18n:item.crepes.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 2797,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 18,
-                    "Edibility": 65,
+                    "Edibility": 104,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -761,7 +761,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1942,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -791,10 +791,10 @@
                     "Description": "{{i18n:item.sushi_rice.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 400,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 19,
-                    "Edibility": 65,
+                    "Edibility": 42,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -832,10 +832,10 @@
                     "Description": "{{i18n:item.guacamole.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1245,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 20,
-                    "Edibility": 65,
+                    "Edibility": 92,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -843,7 +843,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 899,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -873,10 +873,10 @@
                     "Description": "{{i18n:item.tomato_soup.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 630,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 21,
-                    "Edibility": 65,
+                    "Edibility": 76,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -884,7 +884,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 477,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -914,10 +914,10 @@
                     "Description": "{{i18n:item.minestrone_soup.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 675,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 22,
-                    "Edibility": 65,
+                    "Edibility": 84,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -925,7 +925,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 513,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -955,10 +955,10 @@
                     "Description": "{{i18n:item.dumpling_soup.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 502,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 23,
-                    "Edibility": 65,
+                    "Edibility": 55,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -966,7 +966,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 376,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -996,10 +996,10 @@
                     "Description": "{{i18n:item.mushroom_stroganoff.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1215,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 24,
-                    "Edibility": 65,
+                    "Edibility": 85,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1007,7 +1007,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 874,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1037,10 +1037,10 @@
                     "Description": "{{i18n:item.miso_soup.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1162,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 25,
-                    "Edibility": 65,
+                    "Edibility": 62,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1048,7 +1048,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 822,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1078,10 +1078,10 @@
                     "Description": "{{i18n:item.adzuki_onigiri.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 705,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 26,
-                    "Edibility": 65,
+                    "Edibility": 85,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1089,7 +1089,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 534,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1119,10 +1119,10 @@
                     "Description": "{{i18n:item.fresh_maki.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1237,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 27,
-                    "Edibility": 65,
+                    "Edibility": 140,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1130,7 +1130,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 930,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1160,10 +1160,10 @@
                     "Description": "{{i18n:item.shrimp_nigiri.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1177,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 28,
-                    "Edibility": 65,
+                    "Edibility": 102,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1171,7 +1171,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 862,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1201,10 +1201,10 @@
                     "Description": "{{i18n:item.smoked_salmon_bagel.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 826,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 29,
-                    "Edibility": 65,
+                    "Edibility": 145,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1212,7 +1212,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 660,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1242,10 +1242,10 @@
                     "Description": "{{i18n:item.lobster_quinoa.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 720,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 30,
-                    "Edibility": 65,
+                    "Edibility": 87,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1253,7 +1253,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 545,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1283,10 +1283,10 @@
                     "Description": "{{i18n:item.charcuterie.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1305,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 31,
-                    "Edibility": 65,
+                    "Edibility": 100,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1294,7 +1294,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 957,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1324,10 +1324,10 @@
                     "Description": "{{i18n:item.shrimp_rice.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1462,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 32,
-                    "Edibility": 65,
+                    "Edibility": 110,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1335,7 +1335,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1058,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1365,10 +1365,10 @@
                     "Description": "{{i18n:item.fancy_ramen.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 742,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 33,
-                    "Edibility": 65,
+                    "Edibility": 72,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1376,7 +1376,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 549,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1406,10 +1406,10 @@
                     "Description": "{{i18n:item.veggies_dip.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 682,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 34,
-                    "Edibility": 65,
+                    "Edibility": 130,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1417,7 +1417,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 553,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1447,10 +1447,10 @@
                     "Description": "{{i18n:item.sweet_potato_fries.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 840,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 35,
-                    "Edibility": 65,
+                    "Edibility": 57,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1458,7 +1458,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 603,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1488,7 +1488,7 @@
                     "Description": "{{i18n:item.sauteed_vegetables.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1635,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 36,
                     "Edibility": 65,
@@ -1499,7 +1499,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1139,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1529,10 +1529,10 @@
                     "Description": "{{i18n:item.bamboo_shoots.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 930,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 37,
-                    "Edibility": 65,
+                    "Edibility": 32,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1540,7 +1540,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 644,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1570,10 +1570,10 @@
                     "Description": "{{i18n:item.mushroom_skewer.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1500,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 38,
-                    "Edibility": 65,
+                    "Edibility": 107,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1581,7 +1581,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1080,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1611,10 +1611,10 @@
                     "Description": "{{i18n:item.beer_braised_mushrooms.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1365,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 39,
-                    "Edibility": 65,
+                    "Edibility": 115,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1622,7 +1622,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 996,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1652,10 +1652,10 @@
                     "Description": "{{i18n:item.popcorn.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 735,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 40,
-                    "Edibility": 65,
+                    "Edibility": 59,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1663,7 +1663,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 534,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1693,10 +1693,10 @@
                     "Description": "{{i18n:item.burger.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 909,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 41,
-                    "Edibility": 65,
+                    "Edibility": 198,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1704,7 +1704,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 755,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1734,10 +1734,10 @@
                     "Description": "{{i18n:item.dipping_fries.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 978,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 42,
-                    "Edibility": 65,
+                    "Edibility": 70,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1745,7 +1745,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 705,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1775,10 +1775,10 @@
                     "Description": "{{i18n:item.margherita_pizza.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1207,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 43,
-                    "Edibility": 65,
+                    "Edibility": 133,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1786,7 +1786,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 905,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1816,10 +1816,10 @@
                     "Description": "{{i18n:item.savory_crepes.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1927,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 44,
-                    "Edibility": 65,
+                    "Edibility": 70,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1827,7 +1827,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1338,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1857,10 +1857,10 @@
                     "Description": "{{i18n:item.sweet_potato_mash.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1485,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 45,
-                    "Edibility": 65,
+                    "Edibility": 78,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1868,7 +1868,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1049,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1898,10 +1898,10 @@
                     "Description": "{{i18n:item.grilled_cheese.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1050,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 46,
-                    "Edibility": 65,
+                    "Edibility": 140,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1909,7 +1909,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 805,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1939,10 +1939,10 @@
                     "Description": "{{i18n:item.tropical_delight.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1072,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 47,
-                    "Edibility": 65,
+                    "Edibility": 121,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1950,7 +1950,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 806,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -1980,10 +1980,10 @@
                     "Description": "{{i18n:item.croquettes.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 810,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 48,
-                    "Edibility": 65,
+                    "Edibility": 93,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1991,7 +1991,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 610,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2021,10 +2021,10 @@
                     "Description": "{{i18n:item.pull_apart_bread.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 862,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 49,
-                    "Edibility": 65,
+                    "Edibility": 57,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2032,7 +2032,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 618,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2062,10 +2062,10 @@
                     "Description": "{{i18n:item.fried_sea_cucumber.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 787,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 50,
-                    "Edibility": 65,
+                    "Edibility": 80,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2073,7 +2073,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 585,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2103,10 +2103,10 @@
                     "Description": "{{i18n:item.enchiladas.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 532,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 51,
-                    "Edibility": 65,
+                    "Edibility": 86,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2114,7 +2114,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 420,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2144,10 +2144,10 @@
                     "Description": "{{i18n:item.fish_and_chips.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 495,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 52,
-                    "Edibility": 65,
+                    "Edibility": 64,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2155,7 +2155,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 378,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2185,10 +2185,10 @@
                     "Description": "{{i18n:item.broiled_tiger_trout.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 697,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 53,
-                    "Edibility": 65,
+                    "Edibility": 72,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2196,48 +2196,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": 0.0,
-                                "Attack": 0.0
-                            }
-                        }
-                    ],
-                    "ExcludeFromShippingCollection": false,
-                    "ExcludeFromRandomSale": false,
-                    "ContextTags": [
-                        "color_pink"
-                    ]
-                },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
-                "{{ModId}}_fugu": {
-                    "Name": "{{ModId}}_fugu",
-                    "DisplayName": "{{i18n:item.fugu.name}}",
-                    "Description": "{{i18n:item.fugu.description}}",
-                    "Type": "Cooking",
-                    "Category": -7,
-                    "Price": 370,
-                    "Texture": "Mods/{{ModId}}/Dishes",
-                    "SpriteIndex": 54,
-                    "Edibility": 65,
-                    "IsDrink": false,
-                    "Buffs": [
-                        {
-                            "Id": "Food",
-                            "BuffId": null,
-                            "IconTexture": null,
-                            "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 519,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2267,10 +2226,10 @@
                     "Description": "{{i18n:item.baked_void_salmon.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1215,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 55,
-                    "Edibility": 65,
+                    "Edibility": 85,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2278,7 +2237,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 874,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2308,10 +2267,10 @@
                     "Description": "{{i18n:item.catfish_dinner.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1102,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 56,
-                    "Edibility": 65,
+                    "Edibility": 133,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2319,7 +2278,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 835,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2349,10 +2308,10 @@
                     "Description": "{{i18n:item.salmon_filet.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 877,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 57,
-                    "Edibility": 65,
+                    "Edibility": 72,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2360,7 +2319,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 639,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2390,10 +2349,10 @@
                     "Description": "{{i18n:item.blackened_tofu.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 907,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 58,
-                    "Edibility": 65,
+                    "Edibility": 79,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2401,7 +2360,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 664,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2431,10 +2390,10 @@
                     "Description": "{{i18n:item.unknowable_dish.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 6450,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 59,
-                    "Edibility": 65,
+                    "Edibility": 320,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2442,7 +2401,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 4540,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2472,10 +2431,10 @@
                     "Description": "{{i18n:item.the_egg.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 1500,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 60,
-                    "Edibility": 65,
+                    "Edibility": 52,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2483,7 +2442,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 1039,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2513,10 +2472,10 @@
                     "Description": "{{i18n:item.hot_cocoa.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 370,
+                    "Price": 487,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 61,
-                    "Edibility": 65,
+                    "Edibility": 50,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2524,7 +2483,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 363,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -2546,9 +2505,176 @@
                     "ContextTags": [
                         "color_pink"
                     ]
+                },
+                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
+                "{{ModId}}_heavy_cream": {
+                    "Name": "{{ModId}}_heavy_cream",
+                    "DisplayName": "{{i18n:item.heavy_cream.name}}",
+                    "Description": "{{i18n:item.heavy_cream.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 450,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 62,
+                    "Edibility": 46,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 335,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 1.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_cream",
+                        "cream_item"
+                    ]
+                },
+                //Fugus
+                "{{ModId}}_neutral_fugu": {
+                    "Name": "{{ModId}}neutral_fugu",
+                    "DisplayName": "{{i18n:item.fugu.name}}",
+                    "Description": "{{i18n:item.fugu.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 1170,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 54,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 757,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                "{{ModId}}_unlucky_fugu": {
+                    "Name": "{{ModId}}unlucky_fugu",
+                    "DisplayName": "{{i18n:item.fugu.name}}",
+                    "Description": "{{i18n:item.fugu.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 1170,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 54,
+                    "Edibility": -100,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 757,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 4.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 1.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                "{{ModId}}_lucky_fugu": {
+                    "Name": "{{ModId}}lucky_fugu",
+                    "DisplayName": "{{i18n:item.fugu.name}}",
+                    "Description": "{{i18n:item.fugu.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 1170,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 54,
+                    "Edibility": 90,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 257,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 2.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 1.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
                 }
             }
         }
     ]
 
 }
+
+
+
+                
