@@ -54,7 +54,7 @@
 					"Ingredients": [
 						{
 							"Type": "ContextTag",
-							"Value": "gelatin_item",
+							"Value": "gelatin_item, id_o_wildflour.gourmetpantry_pectin, id_o_cornucopia_gellingpowder",
 							"Amount": 1,
 							"OverrideText": "{{i18n:ingredient.any_gelatin}}",
 							"OverrideTexturePath": "Maps/springobjects",

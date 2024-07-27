@@ -41,7 +41,7 @@
                 //Tortilla x1, Pine Nuts x1, Tomato x1, Spinach x1, Chickpea x2
                 "{{ModId}}_pita": "229 1 Cornucopia_PineNuts 1 256 1 Cornucopia_Spinach 1 Cornucopia_Chickpea 2/25 5/{{ModId}}_pita/none/",
                 //Mushroom x1, Onion x1, Egg x1, Truffle Mayo x1
-                "{{ModId}}_crepes": "Cornucopia_ChickenoftheWoods 1 Cornucopia_Onion 1 -5 1 Cornucopia_TruffleMayonnaise 1 246 1/25 5/{{ModId}}_crepes/Foraging 6/",
+                "{{ModId}}_mushroom_crepes": "Cornucopia_ChickenoftheWoods 1 Cornucopia_Onion 1 -5 1 Cornucopia_TruffleMayonnaise 1 246 1/25 5/{{ModId}}_crepes/Foraging 6/",
                 //Rice x1, Vinegar x1, Sugar x1, Salt x1
                 "{{ModId}}_sushi_rice": "423 1 419 1 245 1 Cornucopia_Salt 1/25 5/{{ModId}}_sushi_rice/default/",
                 //Avocado x1, Onion x1, Cilantro x1, Lime x1, Blue Agave x1
@@ -81,7 +81,7 @@
                 //Bamboo Shoots x1, Cassava x1, Coconut Oil x1, Soy Sauce x1
                 "{{ModId}}_bamboo_shoots": "Cornucopia_BambooSeeds 1 Cornucopia_Cassava 1 Cornucopia_CoconutOil 1 Cornucopia_SoySauce 1/25 5/{{ModId}}_bamboo_shoots/none/",
                 //Shiitake Mushroom x3, Cumin x1, Turmeric x1, Paprika x1, Garlic x1
-                "{{ModId}}_mushroom_skewer": "Cornucopia_Shiitake 3 Cornucopia_CuminSeeds 1 Cornucopia_Turmeric 1 Cornucopia_Paprika 1 248 1/25 5/{{ModId}}_mushroom_skewer/f Dwarf 4/",
+                "{{ModId}}_mushroom_skewer": "Cornucopia_Shiitake 3 Cornucopia_CuminSeeds 1 Cornucopia_Turmeric 1 Cornucopia_Paprika 1 248 1/25 5/{{ModId}}_mushroom_skewer/f Dwarf 6/",
                 //Shiitake Mushroom x2, Stout x1, Molasses x1, Red Bell Pepper x1
                 "{{ModId}}_beer_braised_mushrooms": "Cornucopia_Shiitake 2 Cornucopia_Stout 1 Cornucopia_Molasses 1 Cornucopia_BellPepper 1/25 5/{{ModId}}_beer_braised_mushrooms/none/",
                 //Corn x1, Oil x1, Butter x1, Salt x1

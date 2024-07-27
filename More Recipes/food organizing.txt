@@ -13,31 +13,25 @@ Sushi Rice - Default
 Adzuki Onigiri - Default
 
 Tier 1 (year 1):
-Shrimp Nigiri - Fishing Level 3.
 Salmon Filet - Catch a Salmon.
 Broiled Tiger Trout - Catch a Tiger Trout.
 Mint Hot Cocoa - Purchase at Winter Star Festival.
 Vanilla Bean Ice Cream - Purchase at Ice Cream Stand.
 Dragonfruit Gelatin - Purchase at Luau.
 Garden Salad - Purchase at Saloon.
-Cinnamon Latte - Purchase at Star Festival.
+Cinnamon Latte - Purchase at Star Festival. - ((should possibly make this t2))
 Soft Boiled Egg  - Purchase at Egg Festival.
-Cassava-Battered Bamboo Shoots - Purchase from Sandy.
 Dipping Fries - Purchase from Saloon.
-Curried Mushroom Skewers - Reach 4 Hearts with Dwarf.
 Dumpling Soup - Reach 4 Hearts with Harvey.
 Seasoned Fried Egg - Reach 4 Hearts with Alex.
-Tasty Tofu Sandwich - Reach 4 Hearts with Emily.
-Guacamole - Reach 4 Hearts with Maru.
 Tomato Soup - Reach 4 Hearts with Penny.
 Gooseberry Pie - Reach 4 Hearts with Leah.
-Charcuterie - Reach 4 Hearts with Abigail.
 Pull-Apart Bread - Reach 4 Hearts with Evelyn.
-Lobster Quinoa - Purchase at Moonlight Jellies Festival.
 Enchiladas
-Miso Soup
 Pita Sandwich
 Sweet Potato Fries
+Minestrone Soup
+Fancy Ramen Bowl - Reach 6 Hearts with Sebastian.
 
 Tier 2 (idk):
 Mushroom Stroganoff - Learn after reaching Mines level 80.
@@ -46,16 +40,22 @@ Fresh Salmon Maki - Reach 4 Hearts with Willy.
 Hot Grilled Cheese - Reach 4 Hearts with Shane.
 Apple Melon Pie - Reach 7 Hearts with Haley.
 Croquettes - Reach 6 Hearts with Gus.
-Fancy Ramen Bowl - Reach 6 Hearts with Sebastian.
 Wasabi Shrimp Rice Bowl - Reach 6 Hearts with Elliot.
 Margherita Pizza - Reach 6 Hearts with Sam.
 Pierogies - Reach 6 Hearts with Abigail.
-Omelette
+Tasty Tofu Sandwich - Reach 4 Hearts with Emily.
+Curried Mushroom Skewers - Reach 6 Hearts with Dwarf.
+Egg White Greek Omelette
 Caprese Salad
-Minestrone Soup
 Sauteed Vegetables
 Blackened Tofu
 Black Bean Burger
+Miso Soup
+Shrimp Nigiri - Fishing Level 3.
+Guacamole - Reach 4 Hearts with Maru.
+Charcuterie - Reach 4 Hearts with Abigail.
+Lobster Quinoa - Purchase at Moonlight Jellies Festival.
+Cassava-Battered Bamboo Shoots - Purchase from Sandy.
 
 
 Tier 3 (cc finished/year 2):

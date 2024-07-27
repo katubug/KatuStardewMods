@@ -141,7 +141,7 @@
                     "Description": "{{i18n:item.apple_melon_pie.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 8701087,
+                    "Price": 870,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 3,
                     "Edibility": 110,
@@ -161,7 +161,7 @@
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
-                                "MaxStamina": 20.0,
+                                "MaxStamina": 50.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 1.0,
@@ -248,8 +248,8 @@
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
                                 "FishingLevel": 0.0,
-                                "MiningLevel": 1.0,
-                                "LuckLevel": 1.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 10.0,
                                 "MagneticRadius": 0.0,
@@ -342,7 +342,7 @@
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 1.0,
+                                "Defense": 0.0,
                                 "Attack": 1.0
                             }
                         }
@@ -481,7 +481,9 @@
                     "ContextTags": [
                         "color_white",
                         "food_breakfast",
-                        "food_nonvegan"
+                        "food_nonvegan",
+                        "item_cooked_egg",
+                        "cooked_egg_item"
                     ]
                 },
                 "{{ModId}}_fried_egg": {
@@ -523,7 +525,9 @@
                     "ContextTags": [
                         "color_white",
                         "food_breakfast",
-                        "food_nonvegan"
+                        "food_nonvegan",
+                        "item_cooked_egg",
+                        "cooked_egg_item"
                     ]
                 },
                 "{{ModId}}_pierogies": {
@@ -547,11 +551,11 @@
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
-                                "FarmingLevel": 3.0,
+                                "FarmingLevel": 2.0,
                                 "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 0.0,
-                                "ForagingLevel": 2.0,
+                                "ForagingLevel": 1.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
@@ -606,7 +610,9 @@
                     "ContextTags": [
                         "color_white",
                         "food_breakfast",
-                        "food_nonvegan"
+                        "food_nonvegan",
+                        "item_cooked_egg",
+                        "cooked_egg_item"
                     ]
                 },
                 "{{ModId}}_green_salad": {
@@ -765,7 +771,7 @@
                                 "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
-                                "MagneticRadius": 3.0,
+                                "MagneticRadius": 2.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
                                 "Attack": 0.0
@@ -781,10 +787,10 @@
                         "sandwich_item"
                     ]
                 },
-                "{{ModId}}_crepes": {
-                    "Name": "{{ModId}}_crepes",
-                    "DisplayName": "{{i18n:item.crepes.name}}",
-                    "Description": "{{i18n:item.crepes.description}}",
+                "{{ModId}}_mushroom_crepes": {
+                    "Name": "{{ModId}}_mushroom_crepes",
+                    "DisplayName": "{{i18n:item.mushroom_crepes.name}}",
+                    "Description": "{{i18n:item.mushroom_crepes.description}}",
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 2238,
@@ -896,7 +902,7 @@
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 1.0,
                                 "Speed": 0.0,
-                                "Defense": 3.0,
+                                "Defense": 2.0,
                                 "Attack": 0.0
                             }
                         }
@@ -905,7 +911,7 @@
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
                         "color_green",
-                        "food_lunch",
+                        "food_party",
                         "item_guacamole",
                         "guacamole_item"
                     ]
@@ -934,12 +940,12 @@
                                 "FarmingLevel": 0.0,
                                 "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 3.0,
+                                "LuckLevel": 1.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 3.0,
+                                "Defense": 1.0,
                                 "Attack": 0.0
                             }
                         }
@@ -1025,7 +1031,7 @@
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 4.0,
+                                "Defense": 2.0,
                                 "Attack": 0.0
                             }
                         }
@@ -1062,14 +1068,14 @@
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
                                 "FishingLevel": 0.0,
-                                "MiningLevel": 2.0,
+                                "MiningLevel": 1.0,
                                 "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 2.0,
-                                "Attack": 2.0
+                                "Defense": 1.0,
+                                "Attack": 1.0
                             }
                         }
                     ],
@@ -1131,7 +1137,7 @@
                     "Description": "{{i18n:item.adzuki_onigiri.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 564,
+                    "Price": 470,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 26,
                     "Edibility": 59,
@@ -1149,7 +1155,7 @@
                                 "FarmingLevel": 0.0,
                                 "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 4.0,
+                                "LuckLevel": 1.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -1190,7 +1196,7 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 2.0,
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 1.0,
                                 "ForagingLevel": 0.0,
@@ -1236,7 +1242,7 @@
                                 "FarmingLevel": 0.0,
                                 "FishingLevel": 1.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 2.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -1278,11 +1284,11 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
+                                "FishingLevel": 2.0,
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 2.0,
                                 "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
+                                "MaxStamina": 20.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
@@ -1306,7 +1312,7 @@
                     "Description": "{{i18n:item.lobster_quinoa.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 576,
+                    "Price": 890,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 30,
                     "Edibility": 69,
@@ -1343,7 +1349,6 @@
                         "cooked_lobster_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_charcuterie": {
                     "Name": "{{ModId}}_charcuterie",
                     "DisplayName": "{{i18n:item.charcuterie.name}}",
@@ -1353,7 +1358,7 @@
                     "Price": 1044,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 31,
-                    "Edibility": 93,
+                    "Edibility": 81,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1366,9 +1371,9 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -1381,10 +1386,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_pink",
+                        "food_lunch",
+                        "item_charcuterie",
+                        "charcuterie_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_shrimp_rice": {
                     "Name": "{{ModId}}_shrimp_rice",
                     "DisplayName": "{{i18n:item.shrimp_rice.name}}",
@@ -1394,7 +1401,7 @@
                     "Price": 1170,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 32,
-                    "Edibility": 88,
+                    "Edibility": 77,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1407,11 +1414,11 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 2.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
+                                "MaxStamina": 20.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
@@ -1422,10 +1429,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_orange",
+                        "food_seafood",
+                        "item_cooked_shrimp",
+                        "cooked_shrimp_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_fancy_ramen": {
                     "Name": "{{ModId}}_fancy_ramen",
                     "DisplayName": "{{i18n:item.fancy_ramen.name}}",
@@ -1435,7 +1444,7 @@
                     "Price": 594,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 33,
-                    "Edibility": 57,
+                    "Edibility": 50,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1448,14 +1457,14 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 1.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 0.0,
+                                "Defense": 1.0,
                                 "Attack": 0.0
                             }
                         }
@@ -1463,20 +1472,22 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_yellow",
+                        "food_lunch",
+                        "item_ramen",
+                        "ramen_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_veggies_dip": {
                     "Name": "{{ModId}}_veggies_dip",
                     "DisplayName": "{{i18n:item.veggies_dip.name}}",
                     "Description": "{{i18n:item.veggies_dip.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 546,
+                    "Price": 455,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 34,
-                    "Edibility": 104,
+                    "Edibility": 91,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1488,10 +1499,10 @@
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FarmingLevel": 1.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -1504,10 +1515,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_green",
+                        "food_lunch",
+                        "item_veggies_and_dip",
+                        "veggies_and_dip_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_sweet_potato_fries": {
                     "Name": "{{ModId}}_sweet_potato_fries",
                     "DisplayName": "{{i18n:item.sweet_potato_fries.name}}",
@@ -1517,7 +1530,7 @@
                     "Price": 672,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 35,
-                    "Edibility": 46,
+                    "Edibility": 40,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1525,16 +1538,16 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 241,
+                            "Duration": 641,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
+                                "MaxStamina": 30.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
@@ -1545,10 +1558,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_orange",
+                        "food_lunch",
+                        "item_sweet_potato_fries",
+                        "sweet_potato_fries_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_sauteed_vegetables": {
                     "Name": "{{ModId}}_sauteed_vegetables",
                     "DisplayName": "{{i18n:item.sauteed_vegetables.name}}",
@@ -1566,15 +1581,15 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 455,
+                            "Duration": 655,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FarmingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
-                                "ForagingLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 2.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
@@ -1586,10 +1601,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_green",
+                        "food_lunch",
+                        "item_cooked_vegetables",
+                        "cooked_vegetables_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_bamboo_shoots": {
                     "Name": "{{ModId}}_bamboo_shoots",
                     "DisplayName": "{{i18n:item.bamboo_shoots.name}}",
@@ -1599,7 +1616,7 @@
                     "Price": 744,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 37,
-                    "Edibility": 25,
+                    "Edibility": 22,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1607,14 +1624,14 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 257,
+                            "Duration": 857,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 3.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -1627,10 +1644,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_lunch",
+                        "item_cooked_vegetables",
+                        "cooked_vegetables_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_mushroom_skewer": {
                     "Name": "{{ModId}}_mushroom_skewer",
                     "DisplayName": "{{i18n:item.mushroom_skewer.name}}",
@@ -1640,7 +1659,7 @@
                     "Price": 1200,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 38,
-                    "Edibility": 85,
+                    "Edibility": 74,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1653,14 +1672,14 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
-                                "ForagingLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 3.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 0.0,
+                                "Defense": 2.0,
                                 "Attack": 0.0
                             }
                         }
@@ -1668,10 +1687,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_lunch",
+                        "item_cooked_mushrooms",
+                        "cooked_mushrooms_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_beer_braised_mushrooms": {
                     "Name": "{{ModId}}_beer_braised_mushrooms",
                     "DisplayName": "{{i18n:item.beer_braised_mushrooms.name}}",
@@ -1681,7 +1702,7 @@
                     "Price": 1092,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 39,
-                    "Edibility": 92,
+                    "Edibility": 80,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1698,9 +1719,9 @@
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 1.0,
                                 "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
+                                "MaxStamina": 50.0,
                                 "MagneticRadius": 0.0,
-                                "Speed": 0.0,
+                                "Speed": -0.5,
                                 "Defense": 0.0,
                                 "Attack": 0.0
                             }
@@ -1709,20 +1730,22 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_lunch",
+                        "item_cooked_mushrooms",
+                        "cooked_mushrooms_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_popcorn": {
                     "Name": "{{ModId}}_popcorn",
                     "DisplayName": "{{i18n:item.popcorn.name}}",
                     "Description": "{{i18n:item.popcorn.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 588,
+                    "Price": 490,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 40,
-                    "Edibility": 46,
+                    "Edibility": 40,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1735,9 +1758,9 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -1750,10 +1773,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_yellow",
+                        "food_party",
+                        "item_popcorn",
+                        "popcorn_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_burger": {
                     "Name": "{{ModId}}_burger",
                     "DisplayName": "{{i18n:item.burger.name}}",
@@ -1763,7 +1788,7 @@
                     "Price": 727,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 41,
-                    "Edibility": 158,
+                    "Edibility": 139,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1771,16 +1796,16 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 302,
+                            "Duration": 702,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 2.0,
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 1.0,
                                 "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
+                                "MaxStamina": 40.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
@@ -1791,10 +1816,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_lunch",
+                        "item_burger",
+                        "burger_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_dipping_fries": {
                     "Name": "{{ModId}}_dipping_fries",
                     "DisplayName": "{{i18n:item.dipping_fries.name}}",
@@ -1804,7 +1831,7 @@
                     "Price": 782,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 42,
-                    "Edibility": 56,
+                    "Edibility": 49,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1812,30 +1839,32 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 282,
+                            "Duration": 266,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
-                                "Attack": 0.0
+                                "Attack": 1.0
                             }
                         }
                     ],
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_yellow",
+                        "food_party",
+                        "item_french_fries",
+                        "french_fries_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_margherita_pizza": {
                     "Name": "{{ModId}}_margherita_pizza",
                     "DisplayName": "{{i18n:item.margherita_pizza.name}}",
@@ -1845,7 +1874,7 @@
                     "Price": 966,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 43,
-                    "Edibility": 106,
+                    "Edibility": 93,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1858,12 +1887,12 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
-                                "ForagingLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 2.0,
                                 "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
+                                "MagneticRadius": 1.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
                                 "Attack": 0.0
@@ -1873,10 +1902,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_red",
+                        "food_party",
+                        "item_pizza",
+                        "pizza_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_savory_crepes": {
                     "Name": "{{ModId}}_savory_crepes",
                     "DisplayName": "{{i18n:item.savory_crepes.name}}",
@@ -1886,7 +1917,7 @@
                     "Price": 1542,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 44,
-                    "Edibility": 56,
+                    "Edibility": 49,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1898,11 +1929,11 @@
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FarmingLevel": 2.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
-                                "ForagingLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 2.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
@@ -1914,10 +1945,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_breakfast",
+                        "item_crepes",
+                        "crepes_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_sweet_potato_mash": {
                     "Name": "{{ModId}}_sweet_potato_mash",
                     "DisplayName": "{{i18n:item.sweet_potato_mash.name}}",
@@ -1927,7 +1960,7 @@
                     "Price": 1188,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 45,
-                    "Edibility": 62,
+                    "Edibility": 55,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1940,14 +1973,14 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
+                                "MaxStamina": 20.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 0.0,
+                                "Defense": 3.0,
                                 "Attack": 0.0
                             }
                         }
@@ -1955,10 +1988,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_orange",
+                        "food_lunch",
+                        "item_cooked_sweet_potatoes",
+                        "cooked_sweet_potatoes_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_grilled_cheese": {
                     "Name": "{{ModId}}_grilled_cheese",
                     "DisplayName": "{{i18n:item.grilled_cheese.name}}",
@@ -1968,7 +2003,7 @@
                     "Price": 840,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 46,
-                    "Edibility": 112,
+                    "Edibility": 98,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1981,25 +2016,28 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
-                                "Attack": 0.0
+                                "Attack": 2.0
                             }
                         }
                     ],
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_yellow",
+                        "food_lunch",
+                        "item_sandwich",
+                        "sandwich_item",
+                        "food_spicy"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_tropical_delight": {
                     "Name": "{{ModId}}_tropical_delight",
                     "DisplayName": "{{i18n:item.tropical_delight.name}}",
@@ -2009,7 +2047,7 @@
                     "Price": 858,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 47,
-                    "Edibility": 97,
+                    "Edibility": 84,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2022,9 +2060,9 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 3.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -2037,10 +2075,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_pink",
+                        "food_sweet",
+                        "item_dessert",
+                        "dessert_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_croquettes": {
                     "Name": "{{ModId}}_croquettes",
                     "DisplayName": "{{i18n:item.croquettes.name}}",
@@ -2050,7 +2090,7 @@
                     "Price": 648,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 48,
-                    "Edibility": 74,
+                    "Edibility": 65,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2063,12 +2103,12 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 2.0,
                                 "LuckLevel": 1.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
+                                "MagneticRadius": 1.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
                                 "Attack": 0.0
@@ -2078,10 +2118,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_lunch",
+                        "item_croquettes",
+                        "croquettes_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_pull_apart_bread": {
                     "Name": "{{ModId}}_pull_apart_bread",
                     "DisplayName": "{{i18n:item.pull_apart_bread.name}}",
@@ -2091,7 +2133,7 @@
                     "Price": 690,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 49,
-                    "Edibility": 45,
+                    "Edibility": 40,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2104,9 +2146,9 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 2.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -2119,10 +2161,11 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_sweet",
+                        "food_bakery"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_fried_sea_cucumber": {
                     "Name": "{{ModId}}_fried_sea_cucumber",
                     "DisplayName": "{{i18n:item.fried_sea_cucumber.name}}",
@@ -2132,7 +2175,7 @@
                     "Price": 630,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 50,
-                    "Edibility": 64,
+                    "Edibility": 56,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2145,14 +2188,14 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 0.0,
+                                "Defense": 3.0,
                                 "Attack": 0.0
                             }
                         }
@@ -2160,10 +2203,10 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_seafood"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_enchiladas": {
                     "Name": "{{ModId}}_enchiladas",
                     "DisplayName": "{{i18n:item.enchiladas.name}}",
@@ -2173,7 +2216,7 @@
                     "Price": 426,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 51,
-                    "Edibility": 69,
+                    "Edibility": 60,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2194,27 +2237,30 @@
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
-                                "Attack": 0.0
+                                "Attack": 2.0
                             }
                         }
                     ],
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_lunch",
+                        "item_enchiladas",
+                        "enchiladas_item",
+                        "food_spicy"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_fish_and_chips": {
                     "Name": "{{ModId}}_fish_and_chips",
                     "DisplayName": "{{i18n:item.fish_and_chips.name}}",
                     "Description": "{{i18n:item.fish_and_chips.description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 396,
+                    "Price": 330,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 52,
-                    "Edibility": 51,
+                    "Edibility": 44,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2227,9 +2273,9 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -2242,10 +2288,13 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_yellow",
+                        "food_lunch",
+                        "food_seafood",
+                        "item_cooked_fish",
+                        "cooked_fish_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_broiled_tiger_trout": {
                     "Name": "{{ModId}}_broiled_tiger_trout",
                     "DisplayName": "{{i18n:item.broiled_tiger_trout.name}}",
@@ -2255,7 +2304,7 @@
                     "Price": 558,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 53,
-                    "Edibility": 57,
+                    "Edibility": 50,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2268,11 +2317,11 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
+                                "MaxStamina": 20.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
@@ -2283,10 +2332,13 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_lunch",
+                        "food_seafood",
+                        "item_cooked_fish",
+                        "cooked_fish_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_baked_void_salmon": {
                     "Name": "{{ModId}}_baked_void_salmon",
                     "DisplayName": "{{i18n:item.baked_void_salmon.name}}",
@@ -2296,7 +2348,7 @@
                     "Price": 972,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 55,
-                    "Edibility": 68,
+                    "Edibility": 59,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2309,25 +2361,27 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
-                                "Speed": 0.0,
+                                "Speed": 0.5,
                                 "Defense": 0.0,
-                                "Attack": 0.0
+                                "Attack": 3.0
                             }
                         }
                     ],
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_black",
+                        "food_seafood",
+                        "item_cooked_fish",
+                        "cooked_fish_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_catfish_dinner": {
                     "Name": "{{ModId}}_catfish_dinner",
                     "DisplayName": "{{i18n:item.catfish_dinner.name}}",
@@ -2337,7 +2391,7 @@
                     "Price": 900,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 56,
-                    "Edibility": 106,
+                    "Edibility": 130,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2350,9 +2404,9 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -2365,10 +2419,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_seafood",
+                        "item_cooked_fish",
+                        "cooked_fish_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_salmon_filet": {
                     "Name": "{{ModId}}_salmon_filet",
                     "DisplayName": "{{i18n:item.salmon_filet.name}}",
@@ -2378,7 +2434,7 @@
                     "Price": 702,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 57,
-                    "Edibility": 57,
+                    "Edibility": 50,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2391,9 +2447,9 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 1.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -2406,10 +2462,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_pink",
+                        "food_seafood",
+                        "item_cooked_fish",
+                        "cooked_fish_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_blackened_tofu": {
                     "Name": "{{ModId}}_blackened_tofu",
                     "DisplayName": "{{i18n:item.blackened_tofu.name}}",
@@ -2419,7 +2477,7 @@
                     "Price": 726,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 58,
-                    "Edibility": 62,
+                    "Edibility": 55,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2432,25 +2490,28 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
                                 "Defense": 0.0,
-                                "Attack": 0.0
+                                "Attack": 3.0
                             }
                         }
                     ],
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_black",
+                        "food_vegan",
+                        "food_lunch",
+                        "item_cooked_tofu",
+                        "cooked_tofu_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_unknowable_dish": {
                     "Name": "{{ModId}}_unknowable_dish",
                     "DisplayName": "{{i18n:item.unknowable_dish.name}}",
@@ -2488,10 +2549,10 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_prismatic",
+                        "food_party"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_the_egg": {
                     "Name": "{{ModId}}_the_egg",
                     "DisplayName": "{{i18n:item.the_egg.name}}",
@@ -2514,13 +2575,13 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
-                                "Speed": 0.0,
+                                "Speed": 3.0,
                                 "Defense": 0.0,
                                 "Attack": 0.0
                             }
@@ -2529,10 +2590,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_yellow",
+                        "food_breakfast",
+                        "item_cooked_egg",
+                        "cooked_egg_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_hot_cocoa": {
                     "Name": "{{ModId}}_hot_cocoa",
                     "DisplayName": "{{i18n:item.hot_cocoa.name}}",
@@ -2542,7 +2605,7 @@
                     "Price": 390,
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 61,
-                    "Edibility": 40,
+                    "Edibility": 35,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -2555,14 +2618,14 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,
-                                "Defense": 0.0,
+                                "Defense": 1.0,
                                 "Attack": 0.0
                             }
                         }
@@ -2570,10 +2633,14 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_brown",
+                        "food_sweet",
+                        "item_hot_cocoa",
+                        "hot_cocoa_item",
+                        "item_hot_chocolate",
+                        "hot_chocolate_item"
                     ]
                 },
-                //TODO: Edit Price, Edibility, Buffs, Buff Duration, Context tags
                 "{{ModId}}_heavy_cream": {
                     "Name": "{{ModId}}_heavy_cream",
                     "DisplayName": "{{i18n:item.heavy_cream.name}}",
@@ -2596,9 +2663,9 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
+                                "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
+                                "LuckLevel": 0.0,
                                 "ForagingLevel": 0.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
@@ -2653,7 +2720,10 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_pink",
+                        "food_seafood",
+                        "item_cooked_fish",
+                        "cooked_fish_item"
                     ]
                 },
                 "{{ModId}}_unlucky_fugu": {
@@ -2693,7 +2763,10 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_pink"
+                        "color_pink",
+                        "food_seafood",
+                        "item_cooked_fish",
+                        "cooked_fish_item"
                     ]
                 },
                 "{{ModId}}_lucky_fugu": {
@@ -2733,7 +2806,10 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
-                        "color_pink"
+                        "color_pink",
+                        "food_seafood",
+                        "item_cooked_fish",
+                        "cooked_fish_item"
                     ]
                 },
                 "{{ModId}}_unknowable_recipe": {
