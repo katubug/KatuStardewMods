@@ -1,5 +1,6 @@
 add stam regen buff to req foods
 tweak buff durations?
+finish acquisition methods (including re-tweaking items which switched tiers)
 figure out who likes each dish as a gift
 figure out how player unlocks each recipe
 
