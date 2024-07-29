@@ -15,6 +15,14 @@
         {
             "UniqueID": "Cornucopia.MoreCrops",
             "IsRequired": true
-        }
+        },
+        {
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		},
+        {
+			"UniqueID": "mistyspring.ItemExtensions",
+			"IsRequired": false
+		}
     ]
 }

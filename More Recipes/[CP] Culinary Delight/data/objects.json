@@ -2823,14 +2823,33 @@
                     "SpriteIndex": 59,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true
+                },
+                "{{ModId}}_maki_recipe": {
+                    "Name": "{{ModId}}_maki_recipe",
+                    "DisplayName": "{{i18n:item.maki_recipe.name}}",
+                    "Description": "{{i18n:item.maki_recipe.description}}",
+                    "Type": "Crafting",
+                    "Category": -7,
+                    "Price": 1,
+                    "Texture": "Mods/{{ModId}}/Dishes",
+                    "SpriteIndex": 27,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true
                 }
             }
         },
         {
             "Action": "EditData",
+            "When": {
+                "HasMod |contains=spacechase0.SpaceCore": "true"
+            },
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": {
                 "{{ModId}}_unknowable_recipe":{
+                    "UseForTriggerAction": true,
+                    "ConsumeForTriggerAction": true
+                },
+                "{{ModId}}_maki_recipe":{
                     "UseForTriggerAction": true,
                     "ConsumeForTriggerAction": true
                 }

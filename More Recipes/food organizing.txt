@@ -19,7 +19,7 @@ Mint Hot Cocoa - Purchase at Winter Star Festival.
 Vanilla Bean Ice Cream - Purchase at Ice Cream Stand.
 Dragonfruit Gelatin - Purchase at Luau.
 Garden Salad - Purchase at Saloon.
-Cinnamon Latte - Purchase at Star Festival. - ((should possibly make this t2))
+Cinnamon Latte - Purchase at Star Festival.
 Soft Boiled Egg  - Purchase at Egg Festival.
 Dipping Fries - Purchase from Saloon.
 Dumpling Soup - Reach 4 Hearts with Harvey.
@@ -27,35 +27,37 @@ Seasoned Fried Egg - Reach 4 Hearts with Alex.
 Tomato Soup - Reach 4 Hearts with Penny.
 Gooseberry Pie - Reach 4 Hearts with Leah.
 Pull-Apart Bread - Reach 4 Hearts with Evelyn.
-Enchiladas
+Fancy Ramen Bowl - Reach 4 Hearts with Sebastian.
+Sweet Potato Fries - Reach 4 Hearts with Caroline.
+Enchiladas - Purchase from Pierre in Summer or Winter.
 Pita Sandwich
-Sweet Potato Fries
 Minestrone Soup
-Fancy Ramen Bowl - Reach 6 Hearts with Sebastian.
+
 
 Tier 2 (idk):
 Mushroom Stroganoff - Learn after reaching Mines level 80.
 Fried Sea Cucumber - Reach 6 Hearts with Willy.
-Fresh Salmon Maki - Reach 4 Hearts with Willy.
-Hot Grilled Cheese - Reach 4 Hearts with Shane.
+Hot Grilled Cheese - Reach 5 Hearts with Shane.
 Apple Melon Pie - Reach 7 Hearts with Haley.
 Croquettes - Reach 6 Hearts with Gus.
 Wasabi Shrimp Rice Bowl - Reach 6 Hearts with Elliot.
 Margherita Pizza - Reach 6 Hearts with Sam.
 Pierogies - Reach 6 Hearts with Abigail.
-Tasty Tofu Sandwich - Reach 4 Hearts with Emily.
+Tasty Tofu Sandwich - Reach 6 Hearts with Emily.
 Curried Mushroom Skewers - Reach 6 Hearts with Dwarf.
-Egg White Greek Omelette
+Lobster Quinoa - Purchase at Moonlight Jellies Festival in Year 2+.
+Egg White Greek Omelette - Reach 6 Hearts with Marnie.
+Guacamole - Reach 6 Hearts with Maru.
+Charcuterie - Reach 4 Hearts with Abigail.
+Cassava-Battered Bamboo Shoots - Purchase from Sandy.
+Shrimp Nigiri - Fishing Level 6.
 Caprese Salad
 Sauteed Vegetables
 Blackened Tofu
 Black Bean Burger
 Miso Soup
-Shrimp Nigiri - Fishing Level 3.
-Guacamole - Reach 4 Hearts with Maru.
-Charcuterie - Reach 4 Hearts with Abigail.
-Lobster Quinoa - Purchase at Moonlight Jellies Festival.
-Cassava-Battered Bamboo Shoots - Purchase from Sandy.
+Fresh Salmon Maki
+
 
 
 Tier 3 (cc finished/year 2):
@@ -63,11 +65,11 @@ Baked Void Salmon - Reach 8 Hearts with Krobus.
 Fugu - Fishing Level 9.
 Catfish Dinner - Catch a Catfish and Fishing Level 6.
 Mushroom Crepes - Foraging Level 6.
-Savory Saffron Crepes - Purchased from Traveling Merchant.
-Tropical Delight - Purchased at Luau.
+Savory Saffron Crepes - Purchased from Traveling Merchant in Y2+.
+Tropical Delight - Purchased at Luau in Y2+.
+Smoked Salmon Bagel - Reach 3 Hearts with Kent.
+Beer-Braised Mushrooms - Purchase from Saloon in Y2+.
 Oatmeal Raisin Cookies
-Beer-Braised Mushrooms
-Smoked Salmon Bagel
 Sweet Potato Mash
 
 Tier 4 (endgame):

@@ -6,10 +6,11 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
             "Entries": {
-                "{{ModId}}_vanilla_ice_cream": {
-                    "ItemId": "{{ModId}}_vanilla_ice_cream",
+                "{{ModId}}_enchiladas": {
+                    "ItemId": "{{ModId}}_enchiladas",
                     "IsRecipe": true,
-                    "Price": 2000
+                    "Price": 2000,
+                    "Condition": "SEASON summer winter"
                 }
             }
         },
@@ -28,6 +29,12 @@
                     "ItemId": "{{ModId}}_dipping_fries",
                     "IsRecipe": true,
                     "Price": 500
+                },
+                "{{ModId}}_beer_braised_mushrooms": {
+                    "ItemId": "{{ModId}}_beer_braised_mushrooms",
+                    "IsRecipe": true,
+                    "Price": 2000,
+                    "Condition": "YEAR 2"
                 }
             }
         },
@@ -40,7 +47,8 @@
                 "{{ModId}}_savory_crepes": {
                     "ItemId": "{{ModId}}_savory_crepes",
                     "IsRecipe": true,
-                    "Price": 10000
+                    "Price": 10000,
+                    "Condition": "YEAR 2"
                 }
             }
         },
@@ -53,7 +61,8 @@
                 "{{ModId}}_lobster_quinoa": {
                     "ItemId": "{{ModId}}_lobster_quinoa",
                     "IsRecipe": true,
-                    "Price": 2000
+                    "Price": 2000,
+                    "Condition": "YEAR 2"
                 }
             }
         },
@@ -102,7 +111,8 @@
                 "{{ModId}}_tropical_delight": {
                     "ItemId": "{{ModId}}_tropical_delight",
                     "IsRecipe": true,
-                    "Price": 3000
+                    "Price": 3000,
+                    "Condition": "YEAR 2"
                 }
             }
         },

@@ -1,6 +1,8 @@
 add stam regen buff to req foods
 tweak buff durations?
 finish acquisition methods (including re-tweaking items which switched tiers)
+make maki recipe obtainable alternatively without item extensions
+either make unknowable recipe unlockable without spacecore, or carry on as you were
 figure out who likes each dish as a gift
 figure out how player unlocks each recipe
 
@@ -8,3 +10,32 @@ animal husbandry compatibility for meat dishes?
 
 
 debug action MarkCookingRecipeKnown Current HeyKatu.CulinaryDelight_unknowable_dish false
+
+Villagers Giving Recipes:
+Alex 		x
+Elliot		x
+Harvey		x
+Sam		x
+Sebastian	x
+Shane		x
+Abigail		x
+Emily		x
+Haley		x
+Leah 		x
+Maru		x
+Penny 		x
+Caroline	x
+Dwarf		x
+Evelyn 		x
+George		-
+Gus		x
+Jodi		-
+Kent		x
+Krobus		x
+Lewis
+Linus
+Marnie		x
+Pam
+Robin
+Willy		x
+Wizard		- (alternate unknowable?)
