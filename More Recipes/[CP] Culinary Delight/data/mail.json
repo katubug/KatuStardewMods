@@ -5,7 +5,7 @@
             "Target": "Data/mail",
             "Entries": {
                 "dumpling_soup_harvey": "{{i18n: mail.dumpling_soup_harvey}}%item cookingRecipe {{ModId}}_dumpling_soup%%[#]{{i18n:mail.title.dumpling_soup_harvey}}",
-                "fried_egg_alex": "{{i18n: mail.fried_egg_alex}}%item cookingRecipe {{ModId}}_fried_egg%%{{i18n: mail.title.fried_egg_alex}}",
+                "fried_egg_alex": "{{i18n: mail.fried_egg_alex}}%item cookingRecipe {{ModId}}_fried_egg%%[#]{{i18n: mail.title.fried_egg_alex}}",
                 "tomato_soup_penny": "{{i18n: mail.tomato_soup_penny}}%item cookingRecipe {{ModId}}_tomato_soup%%[#]{{i18n: mail.title.tomato_soup_penny}}",
                 "gooseberry_pie_leah": "{{i18n: mail.gooseberry_pie_leah}}%item cookingRecipe {{ModId}}_gooseberry_pie%%[#]{{i18n: mail.title.gooseberry_pie_leah}}",
                 "pull_apart_bread_evelyn": "{{i18n: mail.pull_apart_bread_evelyn}}%item cookingRecipe {{ModId}}_pull_apart_bread%%[#]{{i18n: mail.title.pull_apart_bread_evelyn}}",
@@ -24,7 +24,23 @@
                 "croquettes_gus": "{{i18n: mail.croquettes_gus}}%item cookingRecipe {{ModId}}_croquettes%%[#]{{i18n: mail.title.croquettes_gus}}",
                 "apple_melon_pie_haley": "{{i18n: mail.apple_melon_pie_haley}}%item cookingRecipe {{ModId}}_apple_melon_pie%%[#]{{i18n: mail.title.apple_melon_pie_haley}}",
                 "grilled_cheese_shane": "{{i18n: mail.grilled_cheese_shane}}%item cookingRecipe {{ModId}}_grilled_cheese%%[#]{{i18n: mail.title.grilled_cheese_shane}}",
-                "smoked_salmon_bagel_kent": "{{i18n: mail.smoked_salmon_bagel_kent}}%item cookingRecipe {{ModId}}_smoked_salmon_bagel%%[#]{{i18n: mail.title.smoked_salmon_bagel_kent}}"
+                "smoked_salmon_bagel_kent": "{{i18n: mail.smoked_salmon_bagel_kent}}%item cookingRecipe {{ModId}}_smoked_salmon_bagel%%[#]{{i18n: mail.title.smoked_salmon_bagel_kent}}",
+                "sweet_potato_mash_george": "{{i18n: mail.sweet_potato_mash_george}}%item cookingRecipe {{ModId}}_sweet_potato_mash%%[#]{{i18n: mail.title.sweet_potato_mash_george}}",
+                "pita_sandwich_jodi": "{{i18n: mail.pita_sandwich_jodi}}%item cookingRecipe {{ModId}}_pita%%[#]{{i18n: mail.title.pita_sandwich_jodi}}",
+                "minestrone_soup_lewis": "{{i18n: mail.minestrone_soup_lewis}}%item cookingRecipe {{ModId}}_minestrone_soup%%[#]{{i18n: mail.title.minestrone_soup_lewis}}",
+                "burger_qos": "{{i18n: mail.burger_qos}}%item cookingRecipe {{ModId}}_burger%%[#]{{i18n: mail.title.burger_qos}}",
+                "blackened_tofu_qos": "{{i18n: mail.blackened_tofu_qos}}%item cookingRecipe {{ModId}}_blackened_tofu%%[#]{{i18n: mail.title.blackened_tofu_qos}}",
+                "miso_soup_qos": "{{i18n: mail.miso_soup_qos}}%item cookingRecipe {{ModId}}_miso_soup%%[#]{{i18n: mail.title.miso_soup_qos}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "When": {
+                "alternate_unlock_unknowable": "On"
+            },
+            "Entries": {
+                "unknowable_dish_wizard": "{{i18n: mail.unknowable_dish_wizard}}%item cookingRecipe {{ModId}}_unknowable_dish%%[#]{{i18n:mail.title.unknowable_dish_wizard}}"
             }
         }
     ]

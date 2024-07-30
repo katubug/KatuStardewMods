@@ -3,6 +3,10 @@
         {
             "Action": "EditData",
             "Target": "Data/GarbageCans",
+            "When": {
+                "HasMod |contains=spacechase0.SpaceCore": true,
+                "alternate_unlock_unknowable": "Off"
+            },
             "TargetField": ["BeforeAll"],
             "Entries": {
                 "{{ModId}}_garbage_recipe":{
@@ -22,7 +26,6 @@
                     "ObjectInternalName": null,
                     "ObjectDisplayName": null,
                     "ToolUpgradeLevel": -1,
-                    "IsRecipe": true,
                     "StackModifiers": null,
                     "StackModifierMode": "Stack",
                     "QualityModifiers": null,

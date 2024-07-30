@@ -27,15 +27,15 @@ Penny 		x
 Caroline	x
 Dwarf		x
 Evelyn 		x
-George		-
+George		x
 Gus		x
-Jodi		-
+Jodi		x
 Kent		x
 Krobus		x
-Lewis
+Lewis		x
 Linus
 Marnie		x
 Pam
 Robin
 Willy		x
-Wizard		- (alternate unknowable?)
+Wizard		x

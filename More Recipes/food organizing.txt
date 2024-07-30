@@ -30,8 +30,8 @@ Pull-Apart Bread - Reach 4 Hearts with Evelyn.
 Fancy Ramen Bowl - Reach 4 Hearts with Sebastian.
 Sweet Potato Fries - Reach 4 Hearts with Caroline.
 Enchiladas - Purchase from Pierre in Summer or Winter.
-Pita Sandwich
-Minestrone Soup
+Pita Sandwich - Reach 4 Hearts with Jodi.
+Minestrone Soup - Reach 4 Hearts with Lewis.
 
 
 Tier 2 (idk):
@@ -51,12 +51,12 @@ Guacamole - Reach 6 Hearts with Maru.
 Charcuterie - Reach 4 Hearts with Abigail.
 Cassava-Battered Bamboo Shoots - Purchase from Sandy.
 Shrimp Nigiri - Fishing Level 6.
-Caprese Salad
-Sauteed Vegetables
-Blackened Tofu
-Black Bean Burger
-Miso Soup
-Fresh Salmon Maki
+Fresh Salmon Maki - 5% chance to find in Fishing Treasure. Alternate method: Have caught a Salmon and reached lvl 6 Fishing.
+Caprese Salad - Purchase at Oasis/Sandy.
+Sauteed Vegetables - Purchase at Night Market.
+Black Bean Burger - Unlocked after cooking 25 items.
+Blackened Tofu - Unlocked after cooking 50 items.
+Miso Soup - Unlocked after cooking 75 items.
 
 
 
@@ -68,11 +68,11 @@ Mushroom Crepes - Foraging Level 6.
 Savory Saffron Crepes - Purchased from Traveling Merchant in Y2+.
 Tropical Delight - Purchased at Luau in Y2+.
 Smoked Salmon Bagel - Reach 3 Hearts with Kent.
-Beer-Braised Mushrooms - Purchase from Saloon in Y2+.
-Oatmeal Raisin Cookies
-Sweet Potato Mash
+Beer-Braised Mushrooms - Purchase at Resort Bar.
+Sweet Potato Mash - Reach 8 Hearts with George.
+Oatmeal Raisin Cookies - Purchase at Saloon in Y2+.
 
 Tier 4 (endgame):
-Unknowable Dish - This recipe can be found very rarely in the trash.
+Unknowable Dish - This recipe can be found very rarely in the trash. Alternate Method: Reach 8 Hearts with Wizard.
 "The Egg" - Purchase at Egg Festival.
 Rainbow Donut - Unlocked by completing the "Popular" achievement.

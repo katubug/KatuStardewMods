@@ -30,11 +30,24 @@
                     "IsRecipe": true,
                     "Price": 500
                 },
+                "{{ModId}}_oatmeal_raisin_cookies": {
+                    "ItemId": "{{ModId}}_oatmeal_raisin_cookies",
+                    "IsRecipe": true,
+                    "Condition": "YEAR 2",
+                    "Price": 5000
+                }
+            }
+        },
+        //Resort
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ResortBar", "Items" ],
+            "Entries": {
                 "{{ModId}}_beer_braised_mushrooms": {
                     "ItemId": "{{ModId}}_beer_braised_mushrooms",
                     "IsRecipe": true,
-                    "Price": 2000,
-                    "Condition": "YEAR 2"
+                    "Price": 2000
                 }
             }
         },
@@ -152,6 +165,24 @@
                     "ItemId": "{{ModId}}_bamboo_shoots",
                     "IsRecipe": true,
                     "Price": 1000
+                },
+                "{{ModId}}_caprese_salad": {
+                    "ItemId": "{{ModId}}_caprese_salad",
+                    "IsRecipe": true,
+                    "Price": 1200
+                }
+            }
+        },
+        //Night Market
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Festival_NightMarket_MagicBoat_Day1", "Items" ],
+            "Entries": {
+                "{{ModId}}_sauteed_vegetables": {
+                    "ItemId": "{{ModId}}_sauteed_vegetables",
+                    "IsRecipe": true,
+                    "Price": 1500
                 }
             }
         }

@@ -40,15 +40,6 @@
                         "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.mushroom_stroganoff.name}}\""
                     ]
                 },
-                "{{ModId}}_garbage_unlock": {
-                    "Id": "{{ModId}}_garbage_unlock",
-                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
-                    "Condition": "ITEM_ID Input {{ModId}}_unknowable_recipe",
-                    "Actions": [
-                        "MarkCookingRecipeKnown Current {{ModId}}_unknowable_dish",
-                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.unknowable_dish.name}}\""
-                    ]
-                },
                 "{{ModId}}_donut_unlock": {
                     "Id": "{{ModId}}_donut_unlock",
                     "Trigger": "DayStarted",
@@ -220,6 +211,30 @@
                         "AddMail Current grilled_cheese_shane now"
                     ]
                 },
+                "{{ModId}}_sweet_potato_mash_unlock": {
+                    "Id": "{{ModId}}_sweet_potato_mash_unlock",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current George 8",
+                    "Actions": [
+                        "AddMail Current sweet_potato_mash_george now"
+                    ]
+                },
+                "{{ModId}}_pita_unlock": {
+                    "Id": "{{ModId}}_pita_unlock",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Jodi 4",
+                    "Actions": [
+                        "AddMail Current pita_sandwich_jodi now"
+                    ]
+                },
+                "{{ModId}}_minestrone_soup_unlock": {
+                    "Id": "{{ModId}}_minestrone_soup_unlock",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Lewis 4",
+                    "Actions": [
+                        "AddMail Current minestrone_soup_lewis now"
+                    ]
+                },
                 "{{ModId}}_smoked_salmon_bagel_unlock": {
                     "Id": "{{ModId}}_smoked_salmon_bagel_unlock",
                     "Trigger": "DayStarted",
@@ -227,8 +242,112 @@
                     "Actions": [
                         "AddMail Current smoked_salmon_bagel_kent now"
                     ]
+                },
+                "{{ModId}}_burger_unlock": {
+                    "Id": "{{ModId}}_burger_unlock",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_STAT Current itemsCooked 25",
+                    "Actions": [
+                        "AddMail Current burger_qos now"
+                    ]
+                },
+                "{{ModId}}_blackened_tofu_unlock": {
+                    "Id": "{{ModId}}_blackened_tofu_unlock",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_STAT Current itemsCooked 50",
+                    "Actions": [
+                        "AddMail Current blackened_tofu_qos now"
+                    ]
+                },
+                "{{ModId}}_miso_soup_unlock": {
+                    "Id": "{{ModId}}_miso_soup_unlock",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_STAT Current itemsCooked 75",
+                    "Actions": [
+                        "AddMail Current miso_soup_qos now"
+                    ]
+                }
+            }
+        },
+        //Unlock Unknowable Dish via Wizard friendship
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "alternate_unlock_unknowable": "On"
+            },
+            "Entries": {
+                "{{ModId}}_unknowable_dish_alt_unlock": {
+                    "Id": "{{ModId}}_unknowable_dish_alt_unlock",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Wizard 8",
+                    "Actions": [
+                        "AddMail Current unknowable_dish_wizard now"
+                    ]
+                }
+            }
+        },
+        //Unlock Fresh Maki Recipe by Catching a Salmon while having lvl 6 Fishing
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "alternate_unlock_maki": "On"
+            },
+            "Entries": {
+                "{{ModId}}_fresh_maki_alt_unlock": {
+                    "Id": "{{ModId}}_fresh_maki_alt_unlock",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_CAUGHT_FISH Current (O)139, PLAYER_FISHING_LEVEL Current 6",
+                    "Actions": [
+                        "MarkCookingRecipeKnown Current {{ModId}}_fresh_maki",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.fresh_maki.name}}\""
+                    ]
+                }
+            }
+        },
+        //Unlock Unknowable Dish via the trash
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasMod |contains=spacechase0.SpaceCore": true,
+                "alternate_unlock_unknowable": "Off"
+            },
+            "Entries": {
+                "{{ModId}}_garbage_unlock": {
+                    "Id": "{{ModId}}_garbage_unlock",
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Condition": "ITEM_ID Input {{ModId}}_unknowable_recipe",
+                    "Actions": [
+                        "MarkCookingRecipeKnown Current {{ModId}}_unknowable_dish",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.unknowable_dish.name}}\""
+                    ]
+                }
+            }
+        },
+        //Unlock Fresh Maki via Fishing Treasure
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasMod |contains=spacechase0.SpaceCore": true,
+                "HasMod |contains=mistyspring.ItemExtensions": true,
+                "alternate_unlock_maki": "Off"
+            },
+            "Entries": {
+                "{{ModId}}_fishing_treasure_unlock": {
+                    "Id": "{{ModId}}_fishing_treasure_unlock",
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Condition": "ITEM_ID Input {{ModId}}_maki_recipe",
+                    "Actions": [
+                        "MarkCookingRecipeKnown Current {{ModId}}_fresh_maki",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.fresh_maki.name}}\""
+                    ]
                 }
             }
         }
     ]
 }
+
+

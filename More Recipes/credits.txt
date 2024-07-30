@@ -2,6 +2,9 @@ Food Sprites:
 https://henrysoftware.itch.io/pixel-food
 https://cyangmou.itch.io/pixel-food-cooking-icons-16x16
 
+Recipe Sprite:
+https://opengameart.org/content/kyrises-free-16x16-rpg-icon-pack
+
 Button, Lumisteria, KittyCatCasey for helping me figure out how to make recipes obtainable in weird ways!
 
 

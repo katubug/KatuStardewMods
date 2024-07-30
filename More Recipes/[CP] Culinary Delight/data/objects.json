@@ -2820,7 +2820,7 @@
                     "Category": -7,
                     "Price": 1,
                     "Texture": "Mods/{{ModId}}/Dishes",
-                    "SpriteIndex": 59,
+                    "SpriteIndex": 63,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true
                 },
@@ -2832,7 +2832,7 @@
                     "Category": -7,
                     "Price": 1,
                     "Texture": "Mods/{{ModId}}/Dishes",
-                    "SpriteIndex": 27,
+                    "SpriteIndex": 63,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true
                 }

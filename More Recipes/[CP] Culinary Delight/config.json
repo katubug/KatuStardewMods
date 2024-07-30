@@ -1,3 +1,5 @@
 {
-  "flexible_recipes": "On"
+  "flexible_recipes": "On",
+  "alternate_unlock_maki": "Off",
+  "alternate_unlock_unknowable": "Off"
 }

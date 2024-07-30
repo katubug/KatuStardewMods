@@ -6,6 +6,16 @@
 			"AllowValues": "On, Off",
 			"Default": "On",
 			"Description": "Whether recipes can accept inputs from multiple installed mods."
+		},
+        "alternate_unlock_maki": { 
+			"AllowValues": "On, Off",
+			"Default": "Off",
+			"Description": "Turn this on if you don't have ItemExtensions or if you want the alternate recipe unlock method for Fresh Salmon Maki."
+		},
+        "alternate_unlock_unknowable": { 
+			"AllowValues": "On, Off",
+			"Default": "Off",
+			"Description": "Turn this on if you don't have SpaceCore or if you want the alternate recipe unlock method for the Unknowable Dish."
 		}
     },
     "Changes": [
