@@ -41,6 +41,11 @@
 			"AllowValues": "On, Off",
 			"Default": "On",
 			"Description": "Enables or disables the duck pond in the center of the map."
+		},
+		"giant_tree":{
+			"AllowValues": "On, Off",
+			"Default": "On",
+			"Description": "Enables or disables the giant tree in the center of the map."
 		}
 	},
 	"Changes":[
@@ -217,6 +222,14 @@
 			"Target": "Maps/Katu_HoneyCreekFarm",
 			"When": {"big_foliage": "On"},
 			"FromFile": "assets/HoneyCreek_BigFoliage.tmx",
+			"PatchMode": "Overlay"
+		},
+		//Giant Tree
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Katu_HoneyCreekFarm",
+			"When": {"giant_tree": "On"},
+			"FromFile": "assets/HoneyCreek_GiantTree.tmx",
 			"PatchMode": "Overlay"
 		},
 		//Duck Pond

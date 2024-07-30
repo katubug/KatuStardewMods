@@ -6,5 +6,6 @@
   "gazebo": "Off",
   "extra_foliage": "On",
   "big_foliage": "On",
-  "duck_pond": "On"
+  "duck_pond": "On",
+  "giant_tree": "On"
 }
