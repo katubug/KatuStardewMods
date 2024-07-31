@@ -55,5 +55,9 @@
     "ui.place.Tower": "Tower",
     "ui.place.Cave": "Cave",
     "ui.map.signpost": "South to the Forest",
-    "ui.blessing.text": "\"You have been blessed!\""
+    "ui.blessing.text": "\"You have been blessed!\"",
+    "ui.map.grave1": "Here lies John Stardew^He loved his apes,^but should have been concerned.",
+    "ui.map.grave2": "Here lies andy^peperony and cheese",
+    "ui.map.grave3": "Unknown Man^Died Eating Library Paste^July 14 1908",
+    "ui.map.grave4": "Here Lies {{PlayerName}}^Just kidding. You're not dead.^ Yet."
 }

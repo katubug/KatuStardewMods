@@ -1,6 +1,6 @@
 {
     "Changes": [
-        //TODO Pierre Shop
+        //Pierre Shop
         {
             "Action": "EditData",
             "Target": "Data/Shops",

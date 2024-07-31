@@ -95,15 +95,18 @@
             "Action":"EditData",
             "Target":"Strings/UI",
             "Entries":{
-                "Katu_HoneyCreekFarm":"{{i18n:ui.farm.name}}_{{i18n:ui.farm.desc}}",
-				"Katu_HoneyCreekSignpost": "{{i18n:ui.map.signpost}}"
+                "Katu_HoneyCreekFarm":"{{i18n:ui.farm.name}}_{{i18n:ui.farm.desc}}"
             }
         },
 		{
             "Action":"EditData",
             "Target":"Strings/StringsFromMaps",
             "Entries":{
-				"honeycreekfarm.signpost": "{{i18n:ui.map.signpost}}"
+				"honeycreekfarm.signpost": "{{i18n:ui.map.signpost}}",
+				"honeycreekfarm.grave1": "{{i18n:ui.map.grave1}}",
+				"honeycreekfarm.grave2": "{{i18n:ui.map.grave2}}",
+				"honeycreekfarm.grave3": "{{i18n:ui.map.grave3}}",
+				"honeycreekfarm.grave4": "{{i18n: ui.map.grave4 |PlayerName={{PlayerName}}}}"
             }
         },
 		//Load Farm icon
