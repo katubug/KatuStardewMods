@@ -144,7 +144,8 @@
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_HEARTS Current Marnie 6",
                     "Actions": [
-                        "AddMail Current omelette_marnie now"
+                        "AddMail Current omelette_marnie now",
+                        "AddMail Current omelette_marnie_2 tomorrow"
                     ]
                 },
                 "{{ModId}}_mushroom_skewer_unlock": {
