@@ -1,0 +1,44 @@
+{
+    "Changes": [
+        //Random Buff At Statue
+		{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+			"When": {
+        	"HasMod |contains=spacechase0.SpaceCore": "true",
+			"daily_blessings": "On"
+      		},
+            "Entries": {
+                "HKHC_StatueBuff": {
+                    "Id": "HKHC_StatueBuff",
+					"Trigger": "Manual",
+                    "Actions": [
+						//O: Speed, 1: Luck, 2: Energy (op), 3: Waters, 4: Friendship, 5: Fangs, 6: Butterfly (op)
+                        "AddBuff {{Random: statue_of_blessings_0, statue_of_blessings_1, statue_of_blessings_1, statue_of_blessings_3}}",
+						"spacechase0.SpaceCore_ShowHudMessage {{i18n:ui.blessing.text}}"
+                    ],
+					"MarkActionApplied": true
+                },
+				"HKHC_StatueBuffReset": {
+                    "Id": "HKHC_StatueBuffReset",
+					"Trigger": "DayEnding",
+                    "Actions": [
+						"MarkActionApplied All HKHC_StatueBuff false"
+                    ]
+                }
+            }
+        },
+        //Gravestones
+		{
+            "Action":"EditData",
+            "Target":"Strings/StringsFromMaps",
+            "Entries":{
+				"honeycreekfarm.signpost": "{{i18n:ui.map.signpost}}",
+				"honeycreekfarm.grave1": "{{i18n:ui.map.grave1}}",
+				"honeycreekfarm.grave2": "{{i18n:ui.map.grave2}}",
+				"honeycreekfarm.grave3": "{{i18n:ui.map.grave3}}",
+				"honeycreekfarm.grave4": "{{i18n: ui.map.grave4 |PlayerName={{PlayerName}}}}"
+            }
+        }
+    ]
+}
