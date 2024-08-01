@@ -51,7 +51,7 @@ Guacamole - Reach 6 Hearts with Maru.
 Charcuterie - Reach 4 Hearts with Abigail.
 Cassava-Battered Bamboo Shoots - Purchase from Sandy.
 Shrimp Nigiri - Fishing Level 6.
-Fresh Salmon Maki - 5% chance to find in Fishing Treasure. Alternate method: Have caught a Salmon and reached lvl 6 Fishing.
+Fresh Salmon Maki - 5% chance to find in Fishing Treasure. Alternate method: Have caught a Salmon and reached level 6 Fishing.
 Caprese Salad - Purchase at Oasis/Sandy.
 Sauteed Vegetables - Purchase at Night Market.
 Black Bean Burger - Unlocked after cooking 25 items.

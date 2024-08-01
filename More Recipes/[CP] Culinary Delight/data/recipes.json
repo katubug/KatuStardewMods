@@ -41,7 +41,7 @@
                 //Tortilla x1, Pine Nuts x1, Tomato x1, Spinach x1, Chickpea x2
                 "{{ModId}}_pita": "229 1 Cornucopia_PineNuts 1 256 1 Cornucopia_Spinach 1 Cornucopia_Chickpea 2/25 5/{{ModId}}_pita/none/",
                 //Mushroom x1, Onion x1, Egg x1, Truffle Mayo x1
-                "{{ModId}}_mushroom_crepes": "Cornucopia_ChickenoftheWoods 1 Cornucopia_Onion 1 -5 1 Cornucopia_TruffleMayonnaise 1 246 1/25 5/{{ModId}}_crepes/Foraging 6/",
+                "{{ModId}}_mushroom_crepes": "Cornucopia_ChickenoftheWoods 1 Cornucopia_Onion 1 -5 1 Cornucopia_TruffleMayonnaise 1 246 1/25 5/{{ModId}}_mushroom_crepes/Foraging 6/",
                 //Rice x1, Vinegar x1, Sugar x1, Salt x1
                 "{{ModId}}_sushi_rice": "423 1 419 1 245 1 Cornucopia_Salt 1/25 5/{{ModId}}_sushi_rice/default/",
                 //Avocado x1, Onion x1, Cilantro x1, Lime x1, Blue Agave x1
@@ -150,7 +150,7 @@
             },
             "Entries": {
                 //Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
-                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}neutral_fugu/Fishing 6/"
+                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_neutral_fugu/Fishing 9/"
             }
         },
         {
@@ -161,7 +161,7 @@
             },
             "Entries": {
                 //Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
-                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}lucky_fugu/Fishing 6/"
+                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_lucky_fugu/Fishing 9/"
             }
         }
     ]

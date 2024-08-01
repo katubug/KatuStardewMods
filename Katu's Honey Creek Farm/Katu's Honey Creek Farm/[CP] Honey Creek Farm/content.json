@@ -46,6 +46,11 @@
 			"AllowValues": "On, Off",
 			"Default": "On",
 			"Description": "Enables or disables the giant tree in the center of the map."
+		},
+		"warp_pads":{
+			"AllowValues": "On, Off",
+			"Default": "On",
+			"Description": "Enables or disables the warps across the farm."
 		}
 	},
 	"Changes":[
@@ -214,6 +219,14 @@
 			  "Width": 16,
 			  "Height": 15
 			}
+		},
+		//Warp Pads
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Katu_HoneyCreekFarm",
+			"When": {"warp_pads": "On"},
+			"FromFile": "assets/HoneyCreek_Warps.tmx",
+			"PatchMode": "Overlay"
 		},
 		//Add SVE Support
 		{		

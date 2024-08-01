@@ -16,7 +16,7 @@
                 "charcuterie_abigail": "{{i18n: mail.charcuterie_abigail}}%item cookingRecipe {{ModId}}_charcuterie%%[#]{{i18n: mail.title.charcuterie_abigail}}",
                 "guacamole_maru": "{{i18n: mail.guacamole_maru}}%item cookingRecipe {{ModId}}_guacamole%%[#]{{i18n: mail.title.guacamole_maru}}",
                 "omelette_marnie": "{{i18n: mail.omelette_marnie}}%item cookingRecipe {{ModId}}_omelette%%[#]{{i18n: mail.title.omelette_marnie}}",
-                "omelette_marnie_2": "{{i18n: mail.omelette_marnie_2}}%item cookingRecipe {{ModId}}_omelette%%[#]{{i18n: mail.title.omelette_marnie_2}}",
+                "omelette_marnie_2": "{{i18n: mail.omelette_marnie_2}}[#]{{i18n: mail.title.omelette_marnie_2}}",
                 "mushroom_skewer_dwarf": "{{i18n: mail.mushroom_skewer_dwarf}}%item cookingRecipe {{ModId}}_mushroom_skewer%%[#]{{i18n: mail.title.mushroom_skewer_dwarf}}",
                 "tofu_sandwich_emily": "{{i18n: mail.tofu_sandwich_emily}}%item cookingRecipe {{ModId}}_sandwich%%[#]{{i18n: mail.title.tofu_sandwich_emily}}",
                 "pierogies_abigail": "{{i18n: mail.pierogies_abigail}}%item cookingRecipe {{ModId}}_pierogies%%[#]{{i18n: mail.title.pierogies_abigail}}",

@@ -47,7 +47,7 @@
                     "Condition": "PLAYER_HAS_ACHIEVEMENT Current 13",
                     "Actions": [
                         "MarkCookingRecipeKnown Current {{ModId}}_donut",
-                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.unknowable_dish.name}}\""
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:ui.recipe_unlocked.text}}: {{i18n:item.donut.name}}\""
                     ]
                 },
                 //Send Mailses
