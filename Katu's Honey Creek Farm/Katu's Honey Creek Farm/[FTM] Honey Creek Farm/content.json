@@ -1466,7 +1466,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": null
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
@@ -1557,7 +1557,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
@@ -1684,7 +1684,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [],
@@ -1730,7 +1730,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
@@ -1785,7 +1785,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
@@ -1851,7 +1851,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
@@ -1914,7 +1914,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 3
       }
     ],
     "PercentExtraSpawnsPerForagingLevel": 5,
