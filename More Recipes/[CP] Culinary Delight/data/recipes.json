@@ -139,7 +139,7 @@
             },
             "Entries": {
                 //Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
-                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_unlucky_fugu/Fishing 9/"
+                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_unlucky_fugu/Fishing 6/"
             }
         },
         {
@@ -150,7 +150,7 @@
             },
             "Entries": {
                 //Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
-                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_neutral_fugu/Fishing 9/"
+                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_neutral_fugu/Fishing 6/"
             }
         },
         {
@@ -161,7 +161,7 @@
             },
             "Entries": {
                 //Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
-                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_lucky_fugu/Fishing 9/"
+                "{{ModId}}_fugu": "128 1 Cornucopia_Lemon 1 Carrot 1 Cornucopia_Zoodles 1 Cornucopia_Butter 1/25 5/{{ModId}}_lucky_fugu/Fishing 6/"
             }
         }
     ]

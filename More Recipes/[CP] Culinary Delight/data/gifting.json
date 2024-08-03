@@ -1,0 +1,121 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                // Universal Love
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Universal_Love"],
+                    "Value": "{{ModId}}_donut {{ModId}}_unknowable_dish",
+                    "Delimiter": " "
+                },
+                // Universal Neutral
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Universal_Neutral"],
+                    "Value": "{{ModId}}_neutral_fugu {{ModId}}_fried_egg",
+                    "Delimiter": " "
+                },
+                // Universal Dislike
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Universal_Dislike"],
+                    "Value": "{{ModId}}_unlucky_fugu {{ModId}}_baked_void_salmon",
+                    "Delimiter": " "
+                },
+                // Personal Tastes
+                //Harvey Love
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Harvey", 1 ],
+                    "Value": "{{ModId}}_dumpling_soup {{ModId}}_cinnamon_latte {{ModId}}_burger {{ModId}}_mushroom_crepes",
+                    "Delimiter": " "
+                },
+                //Harvey Neutral
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Harvey", 9 ],
+                    "Value": "{{ModId}}_heavy_cream",
+                    "Delimiter": " "
+                },
+                //Harvey Dislike
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Harvey", 5 ],
+                    "Value": "{{ModId}}_oatmeal_raisin_cookies {{ModId}}_chocolate_cupcake {{ModId}}_omelette {{ModId}}_vanilla_ice_cream {{ModId}}_croquettes",
+                    "Delimiter": " "
+                },
+                //Alex Love
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Alex", 1 ],
+                    "Value": "{{ModId}}_fried_egg {{ModId}}_cooked_egg {{ModId}}_the_egg {{ModId}}_smoked_salmon_bagel {{ModId}}_salmon_filet",
+                    "Delimiter": " "
+                },
+                //Alex Neutral
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Alex", 9 ],
+                    "Value": "{{ModId}}_mushroom_stroganoff {{ModId}}_mushroom_skewer {{ModId}}_beer_braised_mushrooms {{ModId}}_mushroom_crepes",
+                    "Delimiter": " "
+                },
+                //Alex Dislike
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Alex", 5 ],
+                    "Value": "{{ModId}}_gooseberry_pie {{ModId}}_shrimp_rice",
+                    "Delimiter": " "
+                },
+
+
+
+                //Templates:
+                // Love
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shane", 1 ],
+                    "Value": "{{ModId}}_grilled_cheese",
+                    "Delimiter": " "
+                },
+                // Like
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Willy", 3 ],
+                    "Value": "minothilos.FreshandBit_moulesalacreme",
+                    "Delimiter": " "
+                },
+                // Dislike
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jodi", 5 ],
+                    "Value": "minothilos.FreshandBit_triplethreatchilli",
+                    "Delimiter": " "
+                },
+                // Hate
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Emily", 7 ],
+                    "Value": "minothilos.FreshandBit_onigiri",
+                    "Delimiter": " "
+                },
+                // Neutral
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Willy", 9 ],
+                    "Value": "minothilos.FreshandBit_onigiri",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        //New Dialogue
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                "AcceptGift_(O){{ModId}}_apple_melon_pie": "{{i18n: dialogue.apple_melon_pie.haley}}"
+            }
+        }
+    ]
+}

@@ -62,7 +62,7 @@ Miso Soup - Unlocked after cooking 75 items.
 
 Tier 3 (cc finished/year 2):
 Baked Void Salmon - Reach 8 Hearts with Krobus.
-Fugu - Fishing Level 9.
+Fugu - Fishing Level 6.
 Catfish Dinner - Catch a Catfish and Fishing Level 6.
 Mushroom Crepes - Foraging Level 6.
 Savory Saffron Crepes - Purchased from Traveling Merchant in Y2+.
