@@ -4,9 +4,10 @@
   "gift_level": "Regular",
   "misc_deco": "Off",
   "gazebo": "Off",
-  "extra_foliage": "Off",
-  "big_foliage": "Off",
+  "extra_foliage": "On",
+  "big_foliage": "On",
   "duck_pond": "On",
-  "giant_tree": "Off",
-  "warp_pads": "Off"
+  "giant_tree": "On",
+  "warp_pads": "On",
+  "stumps": "Off"
 }

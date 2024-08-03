@@ -5,3 +5,13 @@ Rakugin, for helping me figure out the warp network, and also helping to teach m
 Abagaianye, for teaching me some good practices and helping me troubleshoot.
 
 NoraCharles, for helping me learn to deconstruct maps and reverse engineer their workings.
+
+
+[
+    {
+        "name": "Stumps",
+        "propertytype": "",
+        "type": "string",
+        "value": "4 17 x 2 23 x 4 26 x 3 35 x 13 58 x 26 30 x 33 25 x 20 54 x 13 58 x 5 64 x 6 69 x 21 99 x 10 113 x 28 88 x 31 91 x 59 114 x 136 110 x 140 96 x 136 92 x 135 82 x 134 71 x 143 64 x 131 53 x "
+    }
+]
