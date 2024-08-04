@@ -1,38 +1,284 @@
 {
     "Changes": [
-        //Alex
+        //Abigail
         {
         "Action": "EditData",
-        "Target": "Characters/Dialogue/Alex",
+        "Target": "Characters/Dialogue/Abigail",
         "Entries": {
             //Love
-            "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Alex}}",
+            "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Abigail}}",
             //Dislike
-            "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Alex}}"
+            "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Abigail}}"
             }  
         },
+        //Alex
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Alex}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Alex}}"
+                }  
+            },
+        //Caroline
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Caroline}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Caroline}}"
+                }  
+            },
+        //Dwarf
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Dwarf",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Dwarf}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Dwarf}}"
+                }  
+            },
+        //Elliot
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliot",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Elliot}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Elliot}}"
+                }  
+            },
+        //Emily
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Emily}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Emily}}"
+                }  
+            },
+        //Evelyn
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Evelyn}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Evelyn}}"
+                }  
+            },
+        //George
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/George",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.George}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.George}}"
+                }  
+            },
+        //Gus
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Gus}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Gus}}"
+                }  
+            },
+        //Haley
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Haley}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_donut": "{{i18n: dialogue.donut.Haley}}",
+                "AcceptGift_(O){{ModId}}_unknowable_dish": "{{i18n: dialogue.unknowable_dish.Haley}}",
+                "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom.Haley}}",
+                "AcceptGift_(O){{ModId}}_mushroom_stroganoff": "{{i18n: dialogue.mushroom.Haley}}",
+                "AcceptGift_(O){{ModId}}_mushroom_skewer": "{{i18n: dialogue.mushroom.Haley}}",
+                "AcceptGift_(O){{ModId}}_beer_braised_mushrooms": "{{i18n: dialogue.mushroom.Haley}}"
+                }  
+            },
         //Harvey
         {
         "Action": "EditData",
         "Target": "Characters/Dialogue/Harvey",
         "Entries": {
             //Love
-            "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Harvey}}",
-            //Dislike
-            "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Harvey}}"
+            "AcceptGift_(O){{ModId}}_dumpling_soup": "{{i18n: dialogue.dumpling_soup.Harvey}}",
+            "AcceptGift_(O){{ModId}}_cinnamon_latte": "{{i18n: dialogue.cinnamon_latte.Harvey}}",
+            "AcceptGift_(O){{ModId}}_burger": "{{i18n: dialogue.burger.Harvey}}",
+            "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom_crepes.Harvey}}"
             }  
         },
-
-        //Haley
+        //Jodi
         {
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/Haley",
-        "Entries": {
-            //Love
-            "AcceptGift_(O){{ModId}}_apple_melon_pie": "{{i18n: dialogue.apple_melon_pie.Haley}}",
-            //Dislike
-            "AcceptGift_(O){{ModId}}_placeholder3": "{{i18n: dialogue.placeholder3.Haley}}"
-            }  
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_pita": "{{i18n: dialogue.pita.Jodi}}",
+                "AcceptGift_(O){{ModId}}_chocolate_cupcake": "{{i18n: dialogue.chocolate_cupcake.Jodi}}",
+                "AcceptGift_(O){{ModId}}_fried_sea_cucumber": "{{i18n: dialogue.fried_sea_cucumber.Jodi}}",
+                "AcceptGift_(O){{ModId}}_gooseberry_pie": "{{i18n: dialogue.gooseberry_pie.Jodi}}",
+                "AcceptGift_(O){{ModId}}_pierogies": "{{i18n: dialogue.pierogies.Jodi}}",
+                "AcceptGift_(O){{ModId}}_catfish_dinner": "{{i18n: dialogue.catfish_dinner.Jodi}}",
+                "AcceptGift_(O){{ModId}}_salmon_filet": "{{i18n: dialogue.salmon_filet.Jodi}}",
+                "AcceptGift_(O){{ModId}}_broiled_tiger_trout": "{{i18n: dialogue.broiled_tiger_trout.Jodi}}",
+                "AcceptGift_(O){{ModId}}_fish_and_chips": "{{i18n: dialogue.fish_and_chips.Jodi}}"
+               }  
+            },
+        //Kent
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_smoked_salmon_bagel": "{{i18n: dialogue.smoked_salmon_bagel.Kent}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_lobster_quinoa": "{{i18n: dialogue.lobster_quinoa.Kent}}"
+                }  
+            },
+        //Krobus
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_baked_void_salmon": "{{i18n: dialogue.baked_void_salmon.Krobus}}",
+                "AcceptGift_(O){{ModId}}_cinnamon_latte": "{{i18n: dialogue.cinnamon_latte.Krobus}}",
+                "AcceptGift_(O){{ModId}}_hot_cocoa": "{{i18n: dialogue.hot_cocoa.Krobus}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom.Krobus}}",
+                "AcceptGift_(O){{ModId}}_mushroom_stroganoff": "{{i18n: dialogue.mushroom.Krobus}}",
+                "AcceptGift_(O){{ModId}}_mushroom_skewer": "{{i18n: dialogue.mushroom.Krobus}}",
+                "AcceptGift_(O){{ModId}}_beer_braised_mushrooms": "{{i18n: dialogue.mushroom.Krobus}}"
+                }  
+            },
+        //Leah
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_gooseberry_pie": "{{i18n: dialogue.gooseberry_pie.Leah}}",
+                "AcceptGift_(O){{ModId}}_omelette": "{{i18n: dialogue.omelette.Leah}}",
+                "AcceptGift_(O){{ModId}}_green_salad": "{{i18n: dialogue.green_salad.Leah}}",
+                "AcceptGift_(O){{ModId}}_garden_salad": "{{i18n: dialogue.garden_salad.Leah}}",
+                "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom_crepes.Leah}}"
+                }  
+            },
+        //Lewis
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_minestrone_soup": "{{i18n: dialogue.minestrone_soup.Lewis}}",
+                "AcceptGift_(O){{ModId}}_sweet_potato_mash": "{{i18n: dialogue.sweet_potato_mash.Lewis}}",
+                "AcceptGift_(O){{ModId}}_sweet_potato_fries": "{{i18n: dialogue.sweet_potato_fries.Lewis}}",
+                "AcceptGift_(O){{ModId}}_pierogies": "{{i18n: dialogue.pierogies.Lewis}}",
+                "AcceptGift_(O){{ModId}}_spicy_chocolate_bar": "{{i18n: dialogue.spicy_chocolate_bar.Lewis}}"
+                }  
+            },
+        //Marnie
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_omelette": "{{i18n: dialogue.omelette.Marnie}}",
+                "AcceptGift_(O){{ModId}}_pecan_pie": "{{i18n: dialogue.pecan_pie.Marnie}}",
+                "AcceptGift_(O){{ModId}}_cooked_egg": "{{i18n: dialogue.cooked_egg.Marnie}}",
+                "AcceptGift_(O){{ModId}}_fried_egg": "{{i18n: dialogue.fried_egg.Marnie}}",
+                "AcceptGift_(O){{ModId}}_the_egg": "{{i18n: dialogue.the_egg.Marnie}}"
+                }  
+            },
+        //Maru
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_guacamole": "{{i18n: dialogue.guacamole.Maru}}",
+                "AcceptGift_(O){{ModId}}_pecan_pie": "{{i18n: dialogue.pecan_pie.Maru}}",
+                "AcceptGift_(O){{ModId}}_grilled_cheese": "{{i18n: dialogue.grilled_cheese.Maru}}",
+                "AcceptGift_(O){{ModId}}_spicy_chocolate_bar": "{{i18n: dialogue.spicy_chocolate_bar.Maru}}",
+                "AcceptGift_(O){{ModId}}_enchiladas": "{{i18n: dialogue.enchiladas.Maru}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_burger": "{{i18n: dialogue.burger.Maru}}"
+                }  
+            },
+        //Penny
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_tomato_soup": "{{i18n: dialogue.tomato_soup.Penny}}",
+                "AcceptGift_(O){{ModId}}_apple_melon_pie": "{{i18n: dialogue.apple_melon_pie.Penny}}",
+                "AcceptGift_(O){{ModId}}_miso_soup": "{{i18n: dialogue.miso_soup.Penny}}",
+                //Dislike
+                "AcceptGift_(O){{ModId}}_fried_sea_cucumber": "{{i18n: dialogue.fried_sea_cucumber.Penny}}"
+                }  
+            },
+        //Sebastian
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_fancy_ramen": "{{i18n: dialogue.fancy_ramen.Sebastian}}",
+                "AcceptGift_(O){{ModId}}_shrimp_nigiri": "{{i18n: dialogue.shrimp_nigiri.Sebastian}}",
+                "AcceptGift_(O){{ModId}}_fresh_maki": "{{i18n: dialogue.fresh_maki.Sebastian}}",
+                "AcceptGift_(O){{ModId}}_baked_void_salmon": "{{i18n: dialogue.baked_void_salmon.Sebastian}}"
+                }
+            },
+        //Shane
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_grilled_cheese": "{{i18n: dialogue.grilled_cheese.Shane}}",
+                "AcceptGift_(O){{ModId}}_spicy_chocolate_bar": "{{i18n: dialogue.spicy_chocolate_bar.Shane}}"
+                }  
+            },
+        //Willy
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_fried_sea_cucumber": "{{i18n: dialogue.fried_sea_cucumber.Willy}}",
+                "AcceptGift_(O){{ModId}}_catfish_dinner": "{{i18n: dialogue.catfish_dinner.Willy}}"
+                }  
+            },
+        //Wizard
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_unknowable_dish": "{{i18n: dialogue.unknowable_dish.Wizard}}"  
+            }
         }
+        
     ]   
 }

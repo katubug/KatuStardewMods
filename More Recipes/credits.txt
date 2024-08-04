@@ -8,4 +8,45 @@ https://opengameart.org/content/kyrises-free-16x16-rpg-icon-pack
 Button, Lumisteria, KittyCatCasey for helping me figure out how to make recipes obtainable in weird ways!
 
 
+Aviroen, for making their NPC, [Edelweiss](https://www.nexusmods.com/stardewvalley/mods/26053), have some unique reactions to my recipes!
+
+tiakall, for making Jeans and Jort have some custom dialogue when gifted cat-friendly food from the mod!
+
+
+
+
+-------------
+
+
+my uniqueid if you wanted it: Aviroen.Edelweiss
+loved:
+"The Egg": "This isn't one of Rasmodius' strange raw lizard eggs is it?$7#$b# Oh just a normal Ostritch egg?$4#$b# Thank Yoba!$10"
+/ tbh all fish dishes if you want me to do specific dialogues for each then ok i'll do that later
+
+//i don't know lore around this one
+"Unknowable Dish": "This is definitely one of Rasmodius' strange concoctions isn't it?$5"
+
+
+tiakall — Today at 4:41 PM
+Baked Void Salmon: like for Jorts ("Wow, this is a scrungy fish!), neutral for Jean ("Um... @, where did you get this fish...?$4")
+Heavy Cream: love for both
+Salmon Fillet: love for both
+Smoked Salmon Bagel: like for both (Jorts: "This is tasty!  The plate is kind of weird, though.$3" / Jean: "This salmon paste is quite nice. You can keep the bagel, though.$6"
+
+Sadly lemon and most of the other ingredients are toxic 😦
+(Their internal names are JortsCat and JeanCat, you'll need to use that for their gift tastes)
+
+I think I mention it in my NPC tutorial, give me a sec
+Wren (internal name WrenSong) loves mushrooms so you can add these to her loves:
+
+Beer Braised Mushrooms
+Curried Mushroom Skewers
+Mushroom Crepes
+Mushroom Stroganoff
+
+She dislikes anything that's excessively greasy or salty (she has to watch her weight since she's older)
+aha  In regards to gifting, 1.6 adds a new feature: rejecting gifts. Simply add a dialogue key for the item using reject_(O)ItemNameOrNumber (e.g., reject_(O)196 or reject_(O)tiakall.bass.seabass). This bypasses the gift tastes completely, so there's no friendship gain/loss. 
+for gift rejections, you could have Jorts say "Sorry, Jean says I can't have this. It smells nice though!" and Jean can say "@, I can't eat this. Perhaps you could give it to a human instead?"
+Oh, Wren also dislikes salads :SDVpuffersquee:
+
 

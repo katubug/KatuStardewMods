@@ -219,7 +219,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Fields", "Haley", 5 ],
-                    "Value": "{{ModId}}_donut {{ModId}}_heavy_cream {{ModId}}_mushroom_crepes {{ModId}}_mushroom_stroganoff {{ModId}}_mushroom_skewer {{ModId}}_beer_braised_mushrooms",
+                    "Value": "{{ModId}}_donut {{ModId}}_unknowable_dish {{ModId}}_heavy_cream {{ModId}}_mushroom_crepes {{ModId}}_mushroom_stroganoff {{ModId}}_mushroom_skewer {{ModId}}_beer_braised_mushrooms",
                     "Delimiter": " "
                 },
                 //Harvey Love
@@ -338,7 +338,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Fields", "Marnie", 1 ],
-                    "Value": "{{ModId}}_omelette {{ModId}}_pecan_pie {{ModId}}_cooked_egg {{ModId}}_fried_egg {{ModId}}_omelette {{ModId}}_the_egg",
+                    "Value": "{{ModId}}_omelette {{ModId}}_pecan_pie {{ModId}}_cooked_egg {{ModId}}_fried_egg {{ModId}}_the_egg",
                     "Delimiter": " "
                 },
                 //Marnie Neutral
