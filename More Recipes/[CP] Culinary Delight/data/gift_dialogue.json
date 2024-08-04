@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        //Alex
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Alex",
+        "Entries": {
+            //Love
+            "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Alex}}",
+            //Dislike
+            "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Alex}}"
+            }  
+        },
+        //Harvey
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Harvey",
+        "Entries": {
+            //Love
+            "AcceptGift_(O){{ModId}}_placeholder": "{{i18n: dialogue.placeholder.Harvey}}",
+            //Dislike
+            "AcceptGift_(O){{ModId}}_placeholder2": "{{i18n: dialogue.placeholder2.Harvey}}"
+            }  
+        },
+
+        //Haley
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Haley",
+        "Entries": {
+            //Love
+            "AcceptGift_(O){{ModId}}_apple_melon_pie": "{{i18n: dialogue.apple_melon_pie.Haley}}",
+            //Dislike
+            "AcceptGift_(O){{ModId}}_placeholder3": "{{i18n: dialogue.placeholder3.Haley}}"
+            }  
+        }
+    ]   
+}

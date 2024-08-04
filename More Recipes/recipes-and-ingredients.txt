@@ -1,0 +1,63 @@
+//"The Egg": Ostrich Egg x1, Salt x1, Pepper x1
+//Adzuki Onigiri: Sushi Rice x1, Seaweed x1, Adzuki Bean x1
+//Apple Melon Pie: Apple x2, Sugar x1, Flour x1, Melon x1, Butter x1
+//Baked Void Salmon: Void Salmon x1, Void Mayo x1, Sage x1, Tarragon x1, Butter x1
+//Beer Braised Mushrooms: Shiitake Mushroom x2, Stout x1, Molasses x1, Red Bell Pepper x1
+//Black Bean Burger: Bread x1, Tomato x1, Cheese x1, Pickles x1, Black Beans x3, Lettuce x1
+//Blackened Tofu: Tofu x1, Basil x1, Oregano x1, Thyme x1, Pepper x1
+//Broiled Tiger Trout: Tiger Trout x1, Lemon x1, Butter x1, Parsley x1
+//Caprese Salad: Tomato x1, Cheese x1, Basil x1, Olive Oil x1
+//Cassava-Battered Bamboo Shoots: Bamboo Shoots x1, Cassava x1, Coconut Oil x1, Soy Sauce x1
+//Catfish Dinner: Catfish x1, River Jelly x1, Lemon x1, Butter x1, Salt x1
+//Charcuterie Board: Grapefruit x1, Walnut x2, Smoked Cheese x1
+//Chili Chocolate Bar: Cocoa x1, Chili Powder x1, Coconut Oil x1
+//Chocolate Cupcake: Cocoa x1, Sugar x1, Flour x1, Egg x1
+//Cinnamon Latte: Coffee x1, Sugar x1, Milk x1, Cinnamon x1
+//Croquettes: Potato x1, Parsley x1, Onion x1, Egg x1, Oil x1, Salt x1
+//Curried Mushroom Skewers: Shiitake Mushroom x3, Cumin x1, Turmeric x1, Paprika x1, Garlic x1
+//Dipping Fries: Potato x1, Tomato x1, Salt x1, Garlic Mayonnaise x1
+//Dragonfruit Gelatin: Gelling Powder x1, Sugar x1, Dragonfruit x1
+//Dumpling Soup: Flour x1, Garlic x1, Onion x1, Celery x1, Dill x1
+//Egg White Greek Omelette: Egg x2, Goat Cheese x1, Ground Cherries x1, Brined Olives x1, Olive Oil x1
+//Enchiladas: Tortilla x1, Kidney Beans x2, Chili Oil x1, Lime x1, Cilantro x1
+//Fancy Ramen Bowl: Rice Noodles x1, Fish Sauce x1, Egg x1, Chives x1
+//Fish and Chips: Fish x1, Flour x1, Potato x1, Lemon x1, Vinegar x1
+//Fresh Salmon Maki: Sushi Rice x1, Seaweed x1, Salmon x1, Asparagus x1, Avocado x1
+//Fried Sea Cucumber: Sea Cucumber x1, Flour x1, Lemon x1, Cabbage x1, Butter x1
+//Fugu: Pufferfish x1, Lemon x1, Carrot x1, Zoodles x1, Butter x1
+//Garden Salad: Lettuce x1, Ground Cherries x1, Olive Oil x1, Vinegar x1
+//Gooseberry Pie: Gooseberries x2, Sugar x1, Flour x1, Butter x1, Egg x1
+//Guacamole: Avocado x1, Onion x1, Cilantro x1, Lime x1, Blue Agave x1
+//Heavy Cream: Milk x2
+//Hot Grilled Cheese: Bread x1, Cheese x1, Spicy Mayonnaise x1, Jalapeno x1
+//Lobster Quinoa: Lobster x1, Quinoa x1, Lemon x1, Butter x1, Groundcherry x1
+//Margherita Pizza: Flour x1, Tomato x1, Goat Cheese x1, Basil x1, Roasted Garlic x1
+//Minestrone Soup: Tomato x1, Navy Bean x3, Noodles x1, Onion x1, Bay x1
+//Mint Hot Cocoa: Cocoa x1, Milk x1, Sugar x1, Mint x1
+//Miso Soup: Miso Paste x1, Tofu x1, Chives x1, Salt x1
+//Mushroom Crepes: Mushroom x1, Onion x1, Egg x1, Truffle Mayo x1
+//Mushroom Stroganoff: Shiitake Mushroom x1, Yogurt x1, Noodles x1, Thyme x1, Salt x1
+//Oatmeal Raisin Cookies: Oats x3, Raisins x1, Sugar x1, Butter x1
+//Pecan Pie: Pecans x2, Sugar x1, Flour x1, Butter x1, Egg x1
+//Pierogies with Vegetables: Potato x1, Cheese x1, Peas x1, Sweet Potato x1, Bell Pepper x1
+//Pita Sandwich: Tortilla x1, Pine Nuts x1, Tomato x1, Spinach x1, Chickpea x2
+//Popcorn: Corn x1, Oil x1, Butter x1, Salt x1
+//Pull-Apart Bread: Flour x1, Cinnamon x1, Maple Butter x1, Raspberry x1
+//Rainbow Donut: Flour x1, Sugar x1, Oil x1, Prismatic Essence x1
+//Salmon Filet: Salmon x1, Maple Butter x1, Salt x1, Parsley x1
+//Sauteed Vegetables: Butternut Squash x1, Olive Oil x1, Asparagus x1, Chicken of the Woods x1, Rice x1
+//Savory Saffron Crepes: Flour x1, Yogurt x1, Saffron x2, Lemon Zest x1, Rosemary x1, Groundcherries x1
+//Seasoned Fried Egg: Egg x1, Salt x1, Paprika x1, Parsley x1
+//Shrimp Nigiri: Sushi Rice x1, Shrimp x1, Chives x1, Soy Sauce x1
+//Smoked Salmon Bagel: Bread x1, Cheese x1, Smoked Salmon x1, Dill x1
+//Soft Boiled Egg: Egg x1, Salt x1, Pepper x1
+//Sushi Rice (Ingredient): Rice x1, Vinegar x1, Sugar x1, Salt x1
+//Sweet Potato Fries: Sweet Potato x1, Oil x1, Salt x1, Sugar x1, Nutmeg x1
+//Sweet Potato Mash: Sweet Potato x2, Orange Zest x1, Honey Butter x1, Cinnamon x1, Nutmeg x1
+//Tasty Tofu Sandwich: Bread x1, Lettuce x1, Tomato x1, Tofu x1, Garlic Mayo x1
+//Tomato Soup: Tomato x2, Fennel x1, Yogurt x1, Basil x1
+//Tropical Delight: Passionfruit x1, Persimmon x1, Pistachio x1, Cashew x1, Honey x1
+//Unknowable Dish: Prismatic Essence x1, Blue Agave x1, Saffron x1, Dragon Fruit x1, Kiwi x1
+//Vanilla Ice Cream: Milk x1, Vanilla x1, Sugar x2
+//Veggies and Dip Platter: Cucumber x1, Carrot x1, Yellow Bell Pepper x1, Yogurt x1, Dill x1
+//Wasabi Shrimp Rice Bowl: Sushi Rice x1, Shrimp x2, Wasabi x1, Soy Sauce x1

@@ -38,3 +38,64 @@ Pam
 Robin
 Willy		x
 Wizard		x
+
+
+
+
+                //Character Love
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Character", 1 ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+                //Character Neutral
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Character", 9 ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+                //Character Dislike
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Character", 5 ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+                //Templates:
+                // Love
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shane", 1 ],
+                    "Value": "{{ModId}}_grilled_cheese",
+                    "Delimiter": " "
+                },
+                // Like
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Willy", 3 ],
+                    "Value": "minothilos.FreshandBit_moulesalacreme",
+                    "Delimiter": " "
+                },
+                // Dislike
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jodi", 5 ],
+                    "Value": "minothilos.FreshandBit_triplethreatchilli",
+                    "Delimiter": " "
+                },
+                // Hate
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Emily", 7 ],
+                    "Value": "minothilos.FreshandBit_onigiri",
+                    "Delimiter": " "
+                },
+                // Neutral
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Willy", 9 ],
+                    "Value": "minothilos.FreshandBit_onigiri",
+                    "Delimiter": " "
+                }

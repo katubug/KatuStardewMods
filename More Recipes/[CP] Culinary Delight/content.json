@@ -22,7 +22,7 @@
 
         {
             "Action": "Include",
-            "FromFile": "data/objects.json, data/gifting.json, data/trash.json, data/treasure.json, data/recipes.json, data/recipereplacements.json, data/mail.json, data/shops.json, data/triggeractions.json, data/objectreplacements.json"
+            "FromFile": "data/objects.json, data/gift_tastes.json,  data/gift_dialogue.json, data/trash.json, data/treasure.json, data/recipes.json, data/recipe_replacements.json, data/mail.json, data/shops.json, data/trigger_actions.json, data/object_replacements.json"
         },
         {
             "Action": "Load",
