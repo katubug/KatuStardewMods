@@ -18,7 +18,7 @@
         },
         {
 			"UniqueID": "spacechase0.SpaceCore",
-			"IsRequired": false
+			"IsRequired": true
 		},
         {
 			"UniqueID": "mistyspring.ItemExtensions",

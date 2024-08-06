@@ -3,7 +3,7 @@
         {
             "Action": "EditData",
             "When": {
-                "HasMod |contains=mistyspring.ItemExtensions": "true",
+                "HasMod |contains=mistyspring.ItemExtensions": true,
                 "alternate_unlock_maki": "Off"
             },
             "Target": "Mods/mistyspring.ItemExtensions/Treasure",

@@ -8,7 +8,7 @@
     "config.alternate_unlock_maki.values.On": "On",
     "config.alternate_unlock_maki.values.Off": "Off",
     "config.alternate_unlock_unknowable.name": "Alt. Unlock Unknowable Dish",
-    "config.alternate_unlock_unknowable.description": "Turn this on if you don't have SpaceCore or if you want the alternate recipe unlock method for the Unknowable Dish.",
+    "config.alternate_unlock_unknowable.description": "Turn this on if you want the alternate recipe unlock method for the Unknowable Dish.",
     "config.alternate_unlock_unknowable.values.On": "On",
     "config.alternate_unlock_unknowable.values.Off": "Off",
     "item.vanilla_ice_cream.name": "Vanilla Bean Ice Cream",
@@ -236,5 +236,168 @@
     "mail.title.blackened_tofu_qos": "The Queen of Sauce Returns",
     "mail.miso_soup_qos": "My Esteemed @,^I had not thought it possible for you to impress me further, but impress me you have! As a reward for your exceptionally prolific cooking habits, I grant you my final favor: a recipe for Miso Soup. You may think it simple, but the complexity of flavors will convince you otherwise!^^Keep on cooking, @!^                           - The Queen of Sauce",
     "mail.title.miso_soup_qos": "The Queen of Sauce: Electric Boogaloo",
-    "dialogue.apple_melon_pie.haley": ""
+    "dialogue.baked_void_salmon.Jean": "Um... @, where did you get this fish...?$4",
+    "dialogue.baked_void_salmon.Jorts": "Wow, this is a scrungy fish!",
+    "dialogue.smoked_salmon_bagel.Jean": "This salmon paste is quite nice. You can keep the bagel, though.$6",
+    "dialogue.smoked_salmon_bagel.Jorts": "This is tasty!  The plate is kind of weird, though.",
+    "dialogue.rejected_gift.Jorts": "Sorry, Jean says I can't have this. It smells nice though!",
+    "dialogue.rejected_gift.Jean": "@, I can't eat this. Perhaps you could give it to a human instead?",
+    "dialogue.unknowable_dish.Edelweiss": "This is definitely one of Rasmodius' strange concoctions isn't it?$5",
+    "dialogue.the_egg.Edelweiss": "This isn't one of Rasmodius' strange raw lizard eggs is it?$7#$b# Oh just a normal Ostrich egg?$4#$b# Thank Yoba!$10",
+    //Love
+    "dialogue.pierogies.Abigail": "Wow, you actually made these, huh? Oh, they're for me?#$b#Aww, I was right, @, you ARE cheesy. Haha, thank you!$1",
+    "dialogue.charcuterie.Abigail": "Ooh, did I inspire you to make this? Sure, I'll have some!#$b# Thank you so much!$1",
+    "dialogue.lucky_fugu.Abigail": "Wow! Is this fugu?#$b#I've heard that stuff is really dangerous, but it looks like you prepared it perfectly.$1#$b#Thank you so much!$1",
+
+    //Love
+    "dialogue.fried_egg.Alex": "You made my fried egg recipe! Heck yeah, I'm glad you - #$b# - it's for me? Wow, thanks!$1#$b#*Munch munch munch*$10",
+    "dialogue.cooked_egg.Alex": "Aww yeah, free protein! Thanks, @!$1",
+    "dialogue.the_egg.Alex": "Holy moly!$7#$b#That's the biggest egg I've ever seen! It must have like, 800 grams of protein! Thanks!$1",
+    "dialogue.smoked_salmon_bagel.Alex": "",
+    "dialogue.salmon_filet.Alex": "",
+
+    //Love
+    "dialogue.sweet_potato_fries.Caroline": "",
+    "dialogue.mushroom_skewer.Caroline": "",
+    "dialogue.pita.Caroline": "",
+
+    //Love
+    "dialogue.mushroom_skewer.Dwarf": "",
+    "dialogue.mushroom.Dwarf": "",
+    //Neutral
+    "dialogue.fruit.Dwarf": "",
+    //Dislike/Hate
+    "dialogue.baked_void_salmon.Dwarf": "",
+
+    //Love
+    "dialogue.shrimp_rice.Elliott": "",
+    "dialogue.shrimp_nigiri.Elliott": "",
+    //Dislike
+    "dialogue.margherita_pizza.Elliott": "",
+    "dialogue.mushroom.Elliott": "",
+
+    //Love
+    "dialogue.sandwich.Emily": "",
+    "dialogue.burger.Emily": "",
+    "dialogue.blackened_tofu.Emily": "",
+    //Dislike
+    "dialogue.vanilla_ice_cream.Emily": "Oh, this feels cursed, what's wrong with it?",
+
+    //Love
+    "dialogue.pull_apart_bread.Evelyn": "",
+    "dialogue.oatmeal_raisin_cookies.Evelyn": "",
+    "dialogue.sweet_potato_mash.Evelyn": "",
+    "dialogue.chocolate_cupcake.Evelyn": "",
+    //Dislike
+    "dialogue.seafood.Evelyn": "",
+    "dialogue.margherita_pizza.Evelyn": "",
+
+    //Love
+    "dialogue.sweet_potato_mash.George": "",
+    "dialogue.pull_apart_bread.George": "",
+
+    //Love
+    "dialogue.croquettes.Gus": "",
+    "dialogue.mushroom_skewer.Gus": "",
+    "dialogue.pita.Gus": "",
+
+    //Love
+    "dialogue.apple_melon_pie.Haley": "",
+    //Dislike
+    "dialogue.unknowable_dish.Haley": "",
+    "dialogue.mushroom.Haley": "",
+    //Reject
+    "dialogue.donut.Haley": "",
+
+    //Love
+    "dialogue.dumpling_soup.Harvey": "",
+    "dialogue.cinnamon_latte.Harvey": "",
+    "dialogue.burger.Harvey": "",
+    "dialogue.mushroom_crepes.Harvey": "",
+
+    //Love
+    "dialogue.pita.Jodi": "",
+    "dialogue.chocolate_cupcake.Jodi": "",
+    "dialogue.fried_sea_cucumber.Jodi": "",
+    "dialogue.gooseberry_pie.Jodi": "",
+    "dialogue.pierogies.Jodi": "",
+    "dialogue.catfish_dinner.Jodi": "",
+    "dialogue.salmon_filet.Jodi": "",
+    "dialogue.broiled_tiger_trout.Jodi": "",
+    "dialogue.fish_and_chips.Jodi": "",
+
+    //Love
+    "dialogue.smoked_salmon_bagel.Kent": "",
+    //Dislike
+    "dialogue.lobster_quinoa.Kent": "",
+
+    //Love
+    "dialogue.baked_void_salmon.Krobus": "",
+    "dialogue.cinnamon_latte.Krobus": "",
+    "dialogue.hot_cocoa.Krobus": "",
+    //Dislike
+    "dialogue.mushroom.Krobus": "",
+
+    //Love
+    "dialogue.gooseberry_pie.Leah": "",
+    "dialogue.omelette.Leah": "",
+    "dialogue.green_salad.Leah": "",
+    "dialogue.garden_salad.Leah": "",
+    "dialogue.mushroom_crepes.Leah": "",
+
+    //Love
+    "dialogue.minestrone_soup.Lewis": "",
+    "dialogue.sweet_potato_mash.Lewis": "",
+    "dialogue.sweet_potato_fries.Lewis": "",
+    "dialogue.pierogies.Lewis": "",
+    "dialogue.spicy_chocolate_bar.Lewis": "",
+
+    //Love
+    "dialogue.omelette.Marnie": "",
+    "dialogue.pecan_pie.Marnie": "",
+    "dialogue.cooked_egg.Marnie": "",
+    "dialogue.fried_egg.Marnie": "",
+    "dialogue.the_egg.Marnie": "",
+
+    //Love
+    "dialogue.guacamole.Maru": "",
+    "dialogue.pecan_pie.Maru": "",
+    "dialogue.grilled_cheese.Maru": "",
+    "dialogue.spicy_chocolate_bar.Maru": "",
+    "dialogue.enchiladas.Maru": "",
+    //Dislike
+    "dialogue.burger.Maru": "",
+
+    //Love
+    "dialogue.tomato_soup.Penny": "",
+    "dialogue.apple_melon_pie.Penny": "",
+    "dialogue.miso_soup.Penny": "",
+    //Dislike
+    "dialogue.fried_sea_cucumber.Penny": "",
+
+    //Love
+    "dialogue.fancy_ramen.Sebastian": "",
+    "dialogue.shrimp_nigiri.Sebastian": "",
+    "dialogue.fresh_maki.Sebastian": "",
+    "dialogue.baked_void_salmon.Sebastian": "",
+
+    //Love
+    "dialogue.grilled_cheese.Shane": "",
+    "dialogue.shrimp_rice.Shane": "",
+    "dialogue.fried_egg.Shane": "",
+    "dialogue.enchiladas.Shane": "",
+    "dialogue.blackened_tofu.Shane": "",
+    "dialogue.margherita_pizza.Shane": "",
+    "dialogue.spicy_chocolate_bar.Shane": "",
+    //Dislike
+    "dialogue.mushroom.Shane": "",
+
+    //Love
+    "dialogue.fried_sea_cucumber.Willy": "",
+    "dialogue.catfish_dinner.Willy": "",
+
+    //Love
+    "dialogue.unknowable_dish.Wizard": ""
+
+
 }

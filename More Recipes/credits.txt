@@ -20,7 +20,7 @@ tiakall, for making Jeans and Jort have some custom dialogue when gifted cat-fri
 
 my uniqueid if you wanted it: Aviroen.Edelweiss
 loved:
-"The Egg": "This isn't one of Rasmodius' strange raw lizard eggs is it?$7#$b# Oh just a normal Ostritch egg?$4#$b# Thank Yoba!$10"
+"The Egg": "This isn't one of Rasmodius' strange raw lizard eggs is it?$7#$b# Oh just a normal Ostrich egg?$4#$b# Thank Yoba!$10"
 / tbh all fish dishes if you want me to do specific dialogues for each then ok i'll do that later
 
 //i don't know lore around this one

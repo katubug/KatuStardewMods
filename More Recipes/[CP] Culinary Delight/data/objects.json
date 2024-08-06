@@ -2822,7 +2822,8 @@
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 63,
                     "ExcludeFromShippingCollection": true,
-                    "ExcludeFromRandomSale": true
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": ["not_giftable"]
                 },
                 "{{ModId}}_maki_recipe": {
                     "Name": "{{ModId}}_maki_recipe",
@@ -2834,7 +2835,8 @@
                     "Texture": "Mods/{{ModId}}/Dishes",
                     "SpriteIndex": 63,
                     "ExcludeFromShippingCollection": true,
-                    "ExcludeFromRandomSale": true
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": ["not_giftable"]
                 }
             }
         },
