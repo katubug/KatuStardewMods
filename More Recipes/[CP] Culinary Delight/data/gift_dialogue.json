@@ -41,7 +41,7 @@
             "Target": "Characters/Dialogue/Dwarf",
             "Entries": {
                 //Love
-                "AcceptGift_(O){{ModId}}mushroom_skewer": "{{i18n: dialogue.mushroom_skewer.Dwarf}}",
+                "AcceptGift_(O){{ModId}}_mushroom_skewer": "{{i18n: dialogue.mushroom_skewer.Dwarf}}",
                 "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom.Dwarf}}",
                 "AcceptGift_(O){{ModId}}_mushroom_stroganoff": "{{i18n: dialogue.mushroom.Dwarf}}",
                 "AcceptGift_(O){{ModId}}_beer_braised_mushrooms": "{{i18n: dialogue.mushroom.Dwarf}}",
@@ -58,17 +58,17 @@
         //Elliot
         {
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Elliot",
+            "Target": "Characters/Dialogue/Elliott",
             "Entries": {
                 //Love
-                "AcceptGift_(O){{ModId}}_shrimp_rice": "{{i18n: dialogue.shrimp_rice.Elliot}}",
-                "AcceptGift_(O){{ModId}}_shrimp_nigiri": "{{i18n: dialogue.shrimp_nigiri.Elliot}}",
+                "AcceptGift_(O){{ModId}}_shrimp_rice": "{{i18n: dialogue.shrimp_rice.Elliott}}",
+                "AcceptGift_(O){{ModId}}_shrimp_nigiri": "{{i18n: dialogue.shrimp_nigiri.Elliott}}",
                 //Dislike
-                "AcceptGift_(O){{ModId}}_margherita_pizza": "{{i18n: dialogue.margherita_pizza.Elliot}}",
-                "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom.Elliot}}",
-                "AcceptGift_(O){{ModId}}_mushroom_stroganoff": "{{i18n: dialogue.mushroom.Elliot}}",
-                "AcceptGift_(O){{ModId}}_mushroom_skewer": "{{i18n: dialogue.mushroom.Elliot}}",
-                "AcceptGift_(O){{ModId}}_beer_braised_mushrooms": "{{i18n: dialogue.mushroom.Elliot}}"
+                "AcceptGift_(O){{ModId}}_margherita_pizza": "{{i18n: dialogue.margherita_pizza.Elliott}}",
+                "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom.Elliott}}",
+                "AcceptGift_(O){{ModId}}_mushroom_stroganoff": "{{i18n: dialogue.mushroom.Elliott}}",
+                "AcceptGift_(O){{ModId}}_mushroom_skewer": "{{i18n: dialogue.mushroom.Elliott}}",
+                "AcceptGift_(O){{ModId}}_beer_braised_mushrooms": "{{i18n: dialogue.mushroom.Elliott}}"
                 }  
             },
         //Emily

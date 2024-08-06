@@ -253,28 +253,28 @@
     "dialogue.fried_egg.Alex": "You made my fried egg recipe! Heck yeah, I'm glad you - #$b# - it's for me? Wow, thanks!$1#$b#*Munch munch munch*$10",
     "dialogue.cooked_egg.Alex": "Aww yeah, free protein! Thanks, @!$1",
     "dialogue.the_egg.Alex": "Holy moly!$7#$b#That's the biggest egg I've ever seen! It must have like, 800 grams of protein! Thanks!$1",
-    "dialogue.smoked_salmon_bagel.Alex": "",
-    "dialogue.salmon_filet.Alex": "",
+    "dialogue.smoked_salmon_bagel.Alex": "Wow, this looks delicious!#$b#It's Kent's recipe, you say? Huh, didn't figure him for a cook. Well that's cool.#$b#Thanks a bunch!$1",
+    "dialogue.salmon_filet.Alex": "Whoa, this is for me?#$b#That's awesome, I love salmon. They say it's brain food, but it's also body food, which is important, too.$1",
 
     //Love
-    "dialogue.sweet_potato_fries.Caroline": "",
-    "dialogue.mushroom_skewer.Caroline": "",
-    "dialogue.pita.Caroline": "",
+    "dialogue.sweet_potato_fries.Caroline": "Ooh, you made the recipe I sent?#$b#Wow, these are much better than when I tried making them! Nice job, and thank you!$1",
+    "dialogue.mushroom_skewer.Caroline": "Do I smell curry? This looks phenomenal, thank you so much! I love it!$1#$b#It's a Dwarven recipe, you say? How interesting!#$b#I guess Dwarves have good taste!$1",
+    "dialogue.pita.Caroline": "Oh hey, this is that recipe that Jodi has been raving about, isn't it? I guess let's see if it lives up to the hype!#$b#*Munch munch*#$b#Oh, yeah. That's good! Thank you!$1",
 
     //Love
-    "dialogue.mushroom_skewer.Dwarf": "",
-    "dialogue.mushroom.Dwarf": "",
+    "dialogue.mushroom_skewer.Dwarf": "I recognize this recipe! I'm glad you decided to make it. That makes me happy!#$b#Mmm, just like the matriarch used to make.",
+    "dialogue.mushroom.Dwarf": "Mushrooms? I love mushrooms! Thanks!",
     //Neutral
-    "dialogue.fruit.Dwarf": "",
+    "dialogue.fruit.Dwarf": "Oh, uh, I don't really do fruit. Thanks though.",
     //Dislike/Hate
-    "dialogue.baked_void_salmon.Dwarf": "",
+    "dialogue.baked_void_salmon.Dwarf": "Wait a second, isn't this a Shadow Person recipe? The mortal enemies of my people?#$b#Gross, and honestly I thought you'd know better.",
 
     //Love
-    "dialogue.shrimp_rice.Elliott": "",
-    "dialogue.shrimp_nigiri.Elliott": "",
+    "dialogue.shrimp_rice.Elliott": "Oh! My Writer's Inspiration Bowl! You actually made it!#$b#I am simply delighted. Thank you so much for this thoughtful gift!$1",
+    "dialogue.shrimp_nigiri.Elliott": "For me? Shrimp is one of my favorite foods, and I positively adore sushi, so thank you kindly for this!$1",
     //Dislike
-    "dialogue.margherita_pizza.Elliott": "",
-    "dialogue.mushroom.Elliott": "",
+    "dialogue.margherita_pizza.Elliott": "Oh, I'm afraid I'm not very fond of this. Too upsetting to my creative juices. And stomach.$2",
+    "dialogue.mushroom.Elliott": "Ugh, I loathe mushrooms. Would that they would return to the mycelial dungeon from which they spawned!$5",
 
     //Love
     "dialogue.sandwich.Emily": "",
