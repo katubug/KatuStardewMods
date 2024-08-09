@@ -1,3 +1,13 @@
+Other food mods you might like:
+Yet Another Cooking Skill: 
+Cooking Overhaul (may not be compatible with better crafting/yacs): https://www.nexusmods.com/stardewvalley/mods/24845
+Hidden Crop Recipes: nexusmods.com/stardewvalley/mods/23253
+Vanilla Cooking Recipes: 
+With a Side of Mayo: https://www.nexusmods.com/stardewvalley/mods/26755
+
+-----
+
+
 Food Sprites:
 https://henrysoftware.itch.io/pixel-food
 https://cyangmou.itch.io/pixel-food-cooking-icons-16x16
@@ -6,7 +16,6 @@ Recipe Sprite:
 https://opengameart.org/content/kyrises-free-16x16-rpg-icon-pack
 
 Button, Lumisteria, KittyCatCasey for helping me figure out how to make recipes obtainable in weird ways!
-
 
 Aviroen, for making their NPC, [Edelweiss](https://www.nexusmods.com/stardewvalley/mods/26053), have some unique reactions to my recipes!
 

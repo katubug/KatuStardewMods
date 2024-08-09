@@ -132,14 +132,15 @@
                 //Love
                 "AcceptGift_(O){{ModId}}_apple_melon_pie": "{{i18n: dialogue.apple_melon_pie.Haley}}",
                 //Dislike
-                "AcceptGift_(O){{ModId}}_unknowable_dish": "{{i18n: dialogue.unknowable_dish.Haley}}",
                 "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom.Haley}}",
                 "AcceptGift_(O){{ModId}}_mushroom_stroganoff": "{{i18n: dialogue.mushroom.Haley}}",
                 "AcceptGift_(O){{ModId}}_mushroom_skewer": "{{i18n: dialogue.mushroom.Haley}}",
                 "AcceptGift_(O){{ModId}}_beer_braised_mushrooms": "{{i18n: dialogue.mushroom.Haley}}",
                 //Reject
-                "RejectItem_(O){{ModId}}_donut": "{{i18n: dialogue.donut.Haley}}"
-                }  
+                "RejectItem_(O){{ModId}}_donut": "{{i18n: dialogue.donut.Haley}}",
+                "RejectItem_(O){{ModId}}_unknowable_dish": "{{i18n: dialogue.unknowable_dish.Haley}}"
+
+            }  
             },
         //Harvey
         {
@@ -162,12 +163,8 @@
                 "AcceptGift_(O){{ModId}}_pita": "{{i18n: dialogue.pita.Jodi}}",
                 "AcceptGift_(O){{ModId}}_chocolate_cupcake": "{{i18n: dialogue.chocolate_cupcake.Jodi}}",
                 "AcceptGift_(O){{ModId}}_fried_sea_cucumber": "{{i18n: dialogue.fried_sea_cucumber.Jodi}}",
-                "AcceptGift_(O){{ModId}}_gooseberry_pie": "{{i18n: dialogue.gooseberry_pie.Jodi}}",
-                "AcceptGift_(O){{ModId}}_pierogies": "{{i18n: dialogue.pierogies.Jodi}}",
                 "AcceptGift_(O){{ModId}}_catfish_dinner": "{{i18n: dialogue.catfish_dinner.Jodi}}",
-                "AcceptGift_(O){{ModId}}_salmon_filet": "{{i18n: dialogue.salmon_filet.Jodi}}",
-                "AcceptGift_(O){{ModId}}_broiled_tiger_trout": "{{i18n: dialogue.broiled_tiger_trout.Jodi}}",
-                "AcceptGift_(O){{ModId}}_fish_and_chips": "{{i18n: dialogue.fish_and_chips.Jodi}}"
+                "AcceptGift_(O){{ModId}}_salmon_filet": "{{i18n: dialogue.salmon_filet.Jodi}}"
                }  
             },
         //Kent
@@ -206,7 +203,7 @@
                 "AcceptGift_(O){{ModId}}_gooseberry_pie": "{{i18n: dialogue.gooseberry_pie.Leah}}",
                 "AcceptGift_(O){{ModId}}_omelette": "{{i18n: dialogue.omelette.Leah}}",
                 "AcceptGift_(O){{ModId}}_green_salad": "{{i18n: dialogue.green_salad.Leah}}",
-                "AcceptGift_(O){{ModId}}_garden_salad": "{{i18n: dialogue.garden_salad.Leah}}",
+                "AcceptGift_(O){{ModId}}_caprese_salad": "{{i18n: dialogue.caprese_salad.Leah}}",
                 "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom_crepes.Leah}}"
                 }  
             },
@@ -309,6 +306,21 @@
         //Wizard
         {
             "Action": "EditData",
+            "When":{
+                "alternate_unlock_unknowable": "On"
+        },
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                //Love
+                "AcceptGift_(O){{ModId}}_unknowable_dish": "{{i18n: dialogue.unknowable_dish_alternate.Wizard}}"  
+            }
+        },
+        //Wizard
+        {
+            "Action": "EditData",
+            "When":{
+                "alternate_unlock_unknowable": "Off"
+        },
             "Target": "Characters/Dialogue/Wizard",
             "Entries": {
                 //Love

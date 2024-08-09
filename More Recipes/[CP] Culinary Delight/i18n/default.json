@@ -277,87 +277,83 @@
     "dialogue.mushroom.Elliott": "Ugh, I loathe mushrooms. Would that they would return to the mycelial dungeon from which they spawned!$5",
 
     //Love
-    "dialogue.sandwich.Emily": "",
-    "dialogue.burger.Emily": "",
-    "dialogue.blackened_tofu.Emily": "",
+    "dialogue.sandwich.Emily": "My sandwich recipe! You made one for me?#$b#That's incredibly thoughtful, which makes sense since you're a Water sign.$1#$b#You're a water sign, right? Oh well, doesn't matter. Thank you!",
+    "dialogue.burger.Emily": "You made me a burger?$3#$b#Oh, it's vegetarian! In that case, thank you very much!$1",
+    "dialogue.blackened_tofu.Emily": "Ooh wow, this looks delicious! How'd you know I love tofu?#$b#Oh my goddess, are you psychic?$6#$b#Oh, give yourself more credit. Your intuitive powers are impressive, @! Thank you!$1",
     //Dislike
     "dialogue.vanilla_ice_cream.Emily": "Oh, this feels cursed, what's wrong with it?",
 
     //Love
-    "dialogue.pull_apart_bread.Evelyn": "",
-    "dialogue.oatmeal_raisin_cookies.Evelyn": "",
-    "dialogue.sweet_potato_mash.Evelyn": "",
-    "dialogue.chocolate_cupcake.Evelyn": "",
+    "dialogue.pull_apart_bread.Evelyn": "Pull-apart bread? Why, I used to make this all the time!#$b#Oh, I gave you the recipe? Dearie me, my memory isn't what it used to be.$3#$b#In any case, thank you so much for the considerate gift!$1",
+    "dialogue.oatmeal_raisin_cookies.Evelyn": "Goodness gracious, these oatmeal raisin cookies look delicious! Just how I like - extra raisins. Thank you so much!$1",
+    "dialogue.sweet_potato_mash.Evelyn": "Ooh my, that smells incredible! It rather reminds me of my own recipe...#$b#It IS my recipe? Oh, George gave it to you? What a little sneak, giving away my secrets, heehee.$1#$b#Thank you, dearie.$1",
+    "dialogue.chocolate_cupcake.Evelyn": "Oh heavens! What a marvellous looking cupcake! Thank you, dearie!$1",
     //Dislike
-    "dialogue.seafood.Evelyn": "",
-    "dialogue.margherita_pizza.Evelyn": "",
+    "dialogue.seafood.Evelyn": "Oh, I'm afraid I don't touch seafood. It doesn't agree with me.$2",
+    "dialogue.margherita_pizza.Evelyn": "A pizza? Surely you meant to give this to Alex, right?$2",
 
     //Love
-    "dialogue.sweet_potato_mash.George": "",
-    "dialogue.pull_apart_bread.George": "",
+    "dialogue.sweet_potato_mash.George": "Oh, did Evelyn ask you to bring this to me?#$b#What? You made it, @?#$b#Gosh, that's wonderful. I'm glad you liked the recipe. Guess I did alright sharing it with you!$1",
+    "dialogue.pull_apart_bread.George": "Is that Pull-Apart Bread? For me? Hah!#$b#Evelyn usually never lets me have any, because she's always saving it for her stich-a-long parties.#$b#This is great, thanks, @!$1",
 
     //Love
-    "dialogue.croquettes.Gus": "",
-    "dialogue.mushroom_skewer.Gus": "",
-    "dialogue.pita.Gus": "",
+    "dialogue.croquettes.Gus": "My secret recipe! Ooh, they look great. I knew I made the right decision sharing this with you.#$b#*Munch munch* Ahh, they're just as good as I remember. Thanks, @.$1",
+    "dialogue.mushroom_skewer.Gus": "Wow, these skewers look amazing! What are those spices?#$b#A Dwarven recipe, you say? Fascinating! Thank you for these!$1",
+    "dialogue.pita.Gus": "This is for me? Wow, you really know my tastes.$1#$b#Jodi gave you the recipe, huh? I'll have to get it from her!",
 
     //Love
-    "dialogue.apple_melon_pie.Haley": "",
+    "dialogue.apple_melon_pie.Haley": "Ooh is that Apple Melon Pie?#$b#You made this just for me? Awww! Thank you so much!$1",
     //Dislike
-    "dialogue.unknowable_dish.Haley": "",
-    "dialogue.mushroom.Haley": "",
+    "dialogue.mushroom.Haley": "Mushrooms? Oh, ew!$12",
     //Reject
-    "dialogue.donut.Haley": "",
+    "dialogue.donut.Haley": "Nuh-uh. Just because I'm blonde, I have to like rainbows? I can't accept this.$3",
+    "dialogue.unknowable_dish.Haley": "What is this? I'm not taking that, that's too weird!$12",
 
     //Love
-    "dialogue.dumpling_soup.Harvey": "",
-    "dialogue.cinnamon_latte.Harvey": "",
-    "dialogue.burger.Harvey": "",
-    "dialogue.mushroom_crepes.Harvey": "",
+    "dialogue.dumpling_soup.Harvey": "Soup? For me?#$b#Oh, it's my recipe! You cooked it? That makes my day!$1#$b#Thanks, @!$1",
+    "dialogue.cinnamon_latte.Harvey": "Oh, you brought me a latte!#$b#You must have sensed how little I slept last night. Thanks, @, this is wonderful.$1",
+    "dialogue.burger.Harvey": "A Black Bean Burger?#$b#You're spoiling me, @. Thank you!$1",
+    "dialogue.mushroom_crepes.Harvey": "Oh wow, these crepes look and smell delicious!#$b#I love this, thank you!$1",
 
     //Love
-    "dialogue.pita.Jodi": "",
-    "dialogue.chocolate_cupcake.Jodi": "",
-    "dialogue.fried_sea_cucumber.Jodi": "",
-    "dialogue.gooseberry_pie.Jodi": "",
-    "dialogue.pierogies.Jodi": "",
-    "dialogue.catfish_dinner.Jodi": "",
-    "dialogue.salmon_filet.Jodi": "",
-    "dialogue.broiled_tiger_trout.Jodi": "",
-    "dialogue.fish_and_chips.Jodi": "",
+    "dialogue.pita.Jodi": "*Gasp!* My sandwich!#$b#Well, not my sandwich. You know what I mean. You made this for me? I'm so happy!$1#$b#Thank you!$1",
+    "dialogue.chocolate_cupcake.Jodi": "A cupcake, for me? This looks amazing! Thanks, @!$1",
+    "dialogue.fried_sea_cucumber.Jodi": "You made me some Fried Sea Cucumber?#$b#I love this! Most people don't even know you can cook these, but I think it's delicious!$1",
+    "dialogue.catfish_dinner.Jodi": "Wow, you made this?#$b#I don't normally like Catfish, but I love this dish, thanks so much, @!$1",
+    "dialogue.salmon_filet.Jodi": "Ooh, this maple glaze looks so tasty! Thank you!$1",
 
     //Love
-    "dialogue.smoked_salmon_bagel.Kent": "",
+    "dialogue.smoked_salmon_bagel.Kent": "Hey, this seems familiar, haha!$1#$b#This is for me? Thanks!$1",
     //Dislike
-    "dialogue.lobster_quinoa.Kent": "",
+    "dialogue.lobster_quinoa.Kent": "Oh, I can't eat this. Too much of this stuff back where I was stationed - sorry.$2",
 
     //Love
-    "dialogue.baked_void_salmon.Krobus": "",
-    "dialogue.cinnamon_latte.Krobus": "",
-    "dialogue.hot_cocoa.Krobus": "",
+    "dialogue.baked_void_salmon.Krobus": "Baked Void Salmon! You made my recipe!#$b#I never thought I'd say this to a human, but I really appreciate this. Thank you.$4",
+    "dialogue.cinnamon_latte.Krobus": "Ooh, it's like coffee, but it's spicy?#$b#I love it, thank you!$1",
+    "dialogue.hot_cocoa.Krobus": "What's this? 'Haute koh koh'?#$b#It's weird, but it smells nice. I love it, thank you!$7",
     //Dislike
-    "dialogue.mushroom.Krobus": "",
+    "dialogue.mushroom.Krobus": "Eugh, this is Dwarf food.$2",
 
     //Love
-    "dialogue.gooseberry_pie.Leah": "",
-    "dialogue.omelette.Leah": "",
-    "dialogue.green_salad.Leah": "",
-    "dialogue.garden_salad.Leah": "",
-    "dialogue.mushroom_crepes.Leah": "",
+    "dialogue.gooseberry_pie.Leah": "Ooh, fresh Gooseberry Pie! Is this my recipe?#$b#That's fantastic! It looks great, thank you, @!$1",
+    "dialogue.omelette.Leah": "Ooh an omelette, this looks delicious! I love it, thank you!$1",
+    "dialogue.green_salad.Leah": "You made this for me?#$b#You know me so well! I love homemade vinaigrette.$1",
+    "dialogue.caprese_salad.Leah": "What a tasty looking salad! It's for me?#$b#Thank you, @! You really get me.$1",
+    "dialogue.mushroom_crepes.Leah": "Oh wow, @! This looks amazing!#$b#Did you forage these mushrooms yourself? That's so cool!$1",
 
     //Love
-    "dialogue.minestrone_soup.Lewis": "",
-    "dialogue.sweet_potato_mash.Lewis": "",
-    "dialogue.sweet_potato_fries.Lewis": "",
-    "dialogue.pierogies.Lewis": "",
-    "dialogue.spicy_chocolate_bar.Lewis": "",
+    "dialogue.minestrone_soup.Lewis": "Well hey, doesn't this look good? I'm so happy you liked my recipe!$1#$b#Thank you for the thoughtful gift!$1",
+    "dialogue.sweet_potato_mash.Lewis": "Ooh, mashed sweet potatoes! I love this, thank you!#$b#Evelyn's recipe, you say? She's a heck of a cook!",
+    "dialogue.sweet_potato_fries.Lewis": "You made me some sweet potato fries? Wow!#$b#This is great. Thank you, @!$1",
+    "dialogue.pierogies.Lewis": "Ooh, I love pierogies, thank you!$1",
+    "dialogue.spicy_chocolate_bar.Lewis": "Spicy chocolate? What a novel idea!#$b#I actually love this, thank you!$1",
 
     //Love
-    "dialogue.omelette.Marnie": "",
-    "dialogue.pecan_pie.Marnie": "",
-    "dialogue.cooked_egg.Marnie": "",
-    "dialogue.fried_egg.Marnie": "",
-    "dialogue.the_egg.Marnie": "",
+    "dialogue.omelette.Marnie": "Hey, this is my omelette recipe! You made one, for me?#$b#That's so kind of you, thank you!$1",
+    "dialogue.pecan_pie.Marnie": "Oh, I love pecan pie! This is great, thank you, @!$1",
+    "dialogue.cooked_egg.Marnie": "For me? I can never have too many eggs, haha!$1",
+    "dialogue.fried_egg.Marnie": "Ooh the seasoning on this looks great! Thank you, @!$1",
+    "dialogue.the_egg.Marnie": "Wow! That's huge!$4#$b#This is for me? I love it, thank you!$1",
 
     //Love
     "dialogue.guacamole.Maru": "",
@@ -397,7 +393,10 @@
     "dialogue.catfish_dinner.Willy": "",
 
     //Love
-    "dialogue.unknowable_dish.Wizard": ""
+    "dialogue.unknowable_dish_alternate.Wizard": "Wait a moment, this is my recipe!$1#$b#You actually managed to make it! I'm impressed. Thank you for this.",
+
+    //Love
+    "dialogue.unknowable_dish.Wizard": "Wait a moment, this is my recipe! Where did you get this??$1#$b#And you actually managed to make it! I have to say, I'm impressed. Thank you for this."
 
 
 }

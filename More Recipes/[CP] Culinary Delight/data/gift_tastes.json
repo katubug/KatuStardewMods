@@ -212,7 +212,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Fields", "Haley", 5 ],
-                    "Value": "{{ModId}}_unknowable_dish {{ModId}}_heavy_cream {{ModId}}_mushroom_crepes {{ModId}}_mushroom_stroganoff {{ModId}}_mushroom_skewer {{ModId}}_beer_braised_mushrooms",
+                    "Value": "{{ModId}}_unknowable_dish {{ModId}}_donut {{ModId}}_heavy_cream {{ModId}}_mushroom_crepes {{ModId}}_mushroom_stroganoff {{ModId}}_mushroom_skewer {{ModId}}_beer_braised_mushrooms",
                     "Delimiter": " "
                 },
                 //Harvey Love

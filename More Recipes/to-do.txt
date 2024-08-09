@@ -6,7 +6,17 @@ figure out who likes each dish as a gift
 figure out how player unlocks each recipe
 make cat-unfriendly dishes get rejected by jean and jorts
 
+[spoiler]text here[/spoiler]
+
 animal husbandry compatibility for meat dishes?
+
+
+
+for honey creek:
+16:56:11 TRACE Visible Fish] Spawning fish in FarmCave.
+[16:56:11 TRACE Visible Fish] found 20 water tiles
+[16:56:11 TRACE Visible Fish] Attempted Spawns 4 Failed Spawns: 4
+[16:56:11 TRACE Visible Fish] More than 98% of spawned fish was trash or didn't have an aquarium sprite. Stop spawning fish in FarmCave.
 
 
 debug action MarkCookingRecipeKnown Current HeyKatu.CulinaryDelight_unknowable_dish false

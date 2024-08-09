@@ -10,6 +10,7 @@
             "Entries": {
               "{{ModId}}_maki_recipe": {
                   "ItemId": "(O){{ModId}}_maki_recipe",
+                  "Condition": "!PLAYER_HAS_COOKING_RECIPE Current {{ModId}}_fresh_maki",
                   "Chance": 0.05,
                   "MinStack": 1,
                   "MaxStack": 1
