@@ -356,13 +356,13 @@
     "dialogue.the_egg.Marnie": "Wow! That's huge!$4#$b#This is for me? I love it, thank you!$1",
 
     //Love
-    "dialogue.guacamole.Maru": "",
-    "dialogue.pecan_pie.Maru": "",
-    "dialogue.grilled_cheese.Maru": "",
-    "dialogue.spicy_chocolate_bar.Maru": "",
-    "dialogue.enchiladas.Maru": "",
+    "dialogue.guacamole.Maru": "Ooh, Guacamole! You made my recipe for me?#$b#That's so thoughtful, I was really craving this. Thanks!$1",
+    "dialogue.pecan_pie.Maru": "You made me a Pecan Pie?#$b#Wow, thank you! This is my favorite!$1",
+    "dialogue.grilled_cheese.Maru": "That looks like a mean grilled cheese! I can't wait to try it, thank you!$1",
+    "dialogue.spicy_chocolate_bar.Maru": "Chocolate? Don't mind if I do!#$b#*munch munch* Ooh it's got a kick! That's awesome, thanks, @!$1",
+    "dialogue.enchiladas.Maru": "Oh my gosh, enchiladas! I love these, I hope they're spicy. Thanks!$1",
     //Dislike
-    "dialogue.burger.Maru": "",
+    "dialogue.burger.Maru": "Oh, uh, this isn't really my thing.",
 
     //Love
     "dialogue.tomato_soup.Penny": "",
