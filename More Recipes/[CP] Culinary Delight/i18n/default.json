@@ -356,7 +356,7 @@
     "dialogue.the_egg.Marnie": "Wow! That's huge!$4#$b#This is for me? I love it, thank you!$1",
 
     //Love
-    "dialogue.guacamole.Maru": "Ooh, Guacamole! You made my recipe for me?#$b#That's so thoughtful, I was really craving this. Thanks!$1",
+    "dialogue.guacamole.Maru": "Holy Guacamole! You made my recipe for me?#$b#That's so thoughtful, I was really craving this. Thanks!$1",
     "dialogue.pecan_pie.Maru": "You made me a Pecan Pie?#$b#Wow, thank you! This is my favorite!$1",
     "dialogue.grilled_cheese.Maru": "That looks like a mean grilled cheese! I can't wait to try it, thank you!$1",
     "dialogue.spicy_chocolate_bar.Maru": "Chocolate? Don't mind if I do!#$b#*munch munch* Ooh it's got a kick! That's awesome, thanks, @!$1",
@@ -365,32 +365,32 @@
     "dialogue.burger.Maru": "Oh, uh, this isn't really my thing.",
 
     //Love
-    "dialogue.tomato_soup.Penny": "",
-    "dialogue.apple_melon_pie.Penny": "",
-    "dialogue.miso_soup.Penny": "",
+    "dialogue.tomato_soup.Penny": "Tomato soup! This is the recipe I sent you, isn't it?#$b#I'm so tickled you actually made it, thank you!$1",
+    "dialogue.apple_melon_pie.Penny": "Oh gosh, this looks delicious.$1#$b#Haley gave you the recipe? Huh, that's nice of her.#$b#Hmm. Well, thank you!$1",
+    "dialogue.miso_soup.Penny": "Wow, how did you know I love Miso Soup? Thank you!$1",
     //Dislike
-    "dialogue.fried_sea_cucumber.Penny": "",
+    "dialogue.fried_sea_cucumber.Penny": "Fried...sea...cucumber?$3#$b#Blech. No thanks.$2",
 
     //Love
-    "dialogue.fancy_ramen.Sebastian": "",
-    "dialogue.shrimp_nigiri.Sebastian": "",
-    "dialogue.fresh_maki.Sebastian": "",
-    "dialogue.baked_void_salmon.Sebastian": "",
+    "dialogue.fancy_ramen.Sebastian": "Ooh, Fancy Ramen! Did you make this because of the recipe I sent you?#$b#Wow, that's...shockingly nice.$2#$b#Thank you.$1",
+    "dialogue.shrimp_nigiri.Sebastian": "Shrimp Nigiri! I love this stuff!$1#$b#*munch munch* Mmmm, thank you!$1",
+    "dialogue.fresh_maki.Sebastian": "Salmon Maki? Don't mind if I do! Thanks!$1",
+    "dialogue.baked_void_salmon.Sebastian": "Wow, this stuff looks intense.#$b#You know me too well, thank you!$1",
 
     //Love
-    "dialogue.grilled_cheese.Shane": "",
-    "dialogue.shrimp_rice.Shane": "",
-    "dialogue.fried_egg.Shane": "",
-    "dialogue.enchiladas.Shane": "",
-    "dialogue.blackened_tofu.Shane": "",
-    "dialogue.margherita_pizza.Shane": "",
-    "dialogue.spicy_chocolate_bar.Shane": "",
+    "dialogue.grilled_cheese.Shane": "Hey, that's my grilled cheese recipe!#$b#You actually made it? Wow, I'm surprised.#$b#No, I didn't mean it like that. I'm...just... thanks.$1",
+    "dialogue.shrimp_rice.Shane": "Oh heck yeah, Wasabi Shrimp! This looks awesome! Thank you!$1",
+    "dialogue.fried_egg.Shane": "Farm fresh eggs, but spicy? Sign me up! Thank you!$1",
+    "dialogue.enchiladas.Shane": "Enchiladas, huh? They smell fantastic.#$b#Thank you.$1",
+    "dialogue.blackened_tofu.Shane": "Okay, so I'm not sure about tofu, but I do love spicy, so I'll give it a shot.#$b#*munch munch*#$b#Hmm... hmm? Wow! It's actually good. Thank you!$1",
+    "dialogue.margherita_pizza.Shane": "Whoa hey, it's like a pizza but fancy.#$b#I love this, thanks!$1",
+    "dialogue.spicy_chocolate_bar.Shane": "Chili Chocolate, you say...Yeah, I'll take that!#$b#Thank you so much.$1",
     //Dislike
-    "dialogue.mushroom.Shane": "",
+    "dialogue.mushroom.Shane": "Ugh, mushrooms. No, thank you.$2",
 
     //Love
-    "dialogue.fried_sea_cucumber.Willy": "",
-    "dialogue.catfish_dinner.Willy": "",
+    "dialogue.fried_sea_cucumber.Willy": "My Fried Sea Cucumber recipe! Oh, me old heart be still!#$b#Ye managed to do a great job with it, thank you!$1",
+    "dialogue.catfish_dinner.Willy": "A Catfish Dinner, eh? Well, I guess I know what my supper will be, eh?#$b#Thank ye kindly!$1",
 
     //Love
     "dialogue.unknowable_dish_alternate.Wizard": "Wait a moment, this is my recipe!$1#$b#You actually managed to make it! I'm impressed. Thank you for this.",

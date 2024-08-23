@@ -290,7 +290,7 @@
                 "AcceptGift_(O){{ModId}}_mushroom_skewer": "{{i18n: dialogue.mushroom.Shane}}",
                 "AcceptGift_(O){{ModId}}_mushroom_crepes": "{{i18n: dialogue.mushroom.Shane}}",
                 "AcceptGift_(O){{ModId}}_mushroom_stroganoff": "{{i18n: dialogue.mushroom.Shane}}",
-                "AcceptGift_(O){{ModId}}_beer_braised_mushroom": "{{i18n: dialogue.mushroom.Shane}}"
+                "AcceptGift_(O){{ModId}}_beer_braised_mushrooms": "{{i18n: dialogue.mushroom.Shane}}"
                 }  
             },
         //Willy
@@ -352,8 +352,14 @@
             "Entries": {
                 "AcceptGift_(O){{ModId}}_baked_void_salmon": "{{i18n: dialogue.baked_void_salmon.Jean}}",
                 "AcceptGift_(O){{ModId}}_smoked_salmon_bagel": "{{i18n: dialogue.smoked_salmon_bagel.Jean}}",
-                //TODO
-                "reject_(O)ItemNameOrNumber": "{{i18n: dialogue.rejected_gift.Jean}}"
+                //Rejects
+                "reject_(O){{ModId}}_fresh_maki": "{{i18n: dialogue.rejected_gift.Jean}}",
+                "reject_(O){{ModId}}_lobster_quinoa": "{{i18n: dialogue.rejected_gift.Jean}}",
+                "reject_(O){{ModId}}_fried_sea_cucumber": "{{i18n: dialogue.rejected_gift.Jean}}",
+                "reject_(O){{ModId}}_fish_and_chips": "{{i18n: dialogue.rejected_gift.Jean}}",
+                "reject_(O){{ModId}}_broiled_tiger_trout": "{{i18n: dialogue.rejected_gift.Jean}}",
+                "reject_(O){{ModId}}_catfish_dinner": "{{i18n: dialogue.rejected_gift.Jean}}",
+                "reject_(O){{ModId}}_salmon_filet": "{{i18n: dialogue.rejected_gift.Jean}}"
             }
         },
         //Jorts
@@ -366,11 +372,17 @@
             "Entries": {
                 "AcceptGift_(O){{ModId}}_baked_void_salmon": "{{i18n: dialogue.baked_void_salmon.Jorts}}",
                 "AcceptGift_(O){{ModId}}_smoked_salmon_bagel": "{{i18n: dialogue.smoked_salmon_bagel.Jorts}}",
-                //TODO
-                "reject_(O)ItemNameOrNumber": "{{i18n: dialogue.rejected_gift.Jorts}}"
+                //Rejects
+                "reject_(O){{ModId}}_fresh_maki": "{{i18n: dialogue.rejected_gift.Jorts}}",
+                "reject_(O){{ModId}}_lobster_quinoa": "{{i18n: dialogue.rejected_gift.Jorts}}",
+                "reject_(O){{ModId}}_fried_sea_cucumber": "{{i18n: dialogue.rejected_gift.Jorts}}",
+                "reject_(O){{ModId}}_fish_and_chips": "{{i18n: dialogue.rejected_gift.Jorts}}",
+                "reject_(O){{ModId}}_broiled_tiger_trout": "{{i18n: dialogue.rejected_gift.Jorts}}",
+                "reject_(O){{ModId}}_catfish_dinner": "{{i18n: dialogue.rejected_gift.Jorts}}",
+                "reject_(O){{ModId}}_salmon_filet": "{{i18n: dialogue.rejected_gift.Jorts}}"
             }
-        }
-        /*,//Wren
+        },
+        //Wren
         {
             "Action": "EditData",
             "When": {
@@ -381,7 +393,7 @@
                 "AcceptGift_(O){{ModId}}_baked_void_salmon": "{{i18n: dialogue.baked_void_salmon.Wren}}",
                 "AcceptGift_(O){{ModId}}_smoked_salmon_bagel": "{{i18n: dialogue.smoked_salmon_bagel.Wren}}"  
             }
-        }*/
+        }
         
     ]   
 }
