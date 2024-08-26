@@ -116,7 +116,7 @@
                         },
                         {
                             "Type": "ContextTag",
-                            "Value": "flour_item",
+                            "Value": "flour_item, item_wheat_flour",
                             "Amount": 1,
                             "OverrideText": "{{i18n:ingredient.any_flour}}",
                             "OverrideTexturePath": "Maps/springobjects",
@@ -211,7 +211,7 @@
 					"Ingredients": [
                         {
                             "Type": "ContextTag",
-                            "Value": "flour_item",
+                            "Value": "flour_item, item_wheat_flour",
                             "Amount": 1,
                             "OverrideText": "{{i18n:ingredient.any_flour}}",
                             "OverrideTexturePath": "Maps/springobjects",
@@ -523,7 +523,7 @@
                         },
                         {
                             "Type": "ContextTag",
-                            "Value": "flour_item",
+                            "Value": "flour_item, item_wheat_flour",
                             "Amount": 1,
                             "OverrideText": "{{i18n:ingredient.any_flour}}",
                             "OverrideTexturePath": "Maps/springobjects",
@@ -985,7 +985,7 @@
                         },
                         {
                             "Type": "ContextTag",
-                            "Value": "flour_item",
+                            "Value": "flour_item, item_wheat_flour",
                             "Amount": 1,
                             "OverrideText": "{{i18n:ingredient.any_flour}}",
                             "OverrideTexturePath": "Maps/springobjects",
@@ -1018,7 +1018,7 @@
 					"Ingredients": [
                         {
                             "Type": "ContextTag",
-                            "Value": "flour_item",
+                            "Value": "flour_item, item_wheat_flour",
                             "Amount": 1,
                             "OverrideText": "{{i18n:ingredient.any_flour}}",
                             "OverrideTexturePath": "Maps/springobjects",
@@ -1178,7 +1178,7 @@
 					"Ingredients": [
                         {
                             "Type": "ContextTag",
-                            "Value": "flour_item",
+                            "Value": "flour_item, item_wheat_flour",
                             "Amount": 1,
                             "OverrideText": "{{i18n:ingredient.any_flour}}",
                             "OverrideTexturePath": "Maps/springobjects",
@@ -1237,7 +1237,7 @@
 					"Ingredients": [
                         {
                             "Type": "ContextTag",
-                            "Value": "flour_item",
+                            "Value": "flour_item, item_wheat_flour",
                             "Amount": 1,
                             "OverrideText": "{{i18n:ingredient.any_flour}}",
                             "OverrideTexturePath": "Maps/springobjects",
@@ -1351,7 +1351,7 @@
                         },
                         {
                             "Type": "ContextTag",
-                            "Value": "flour_item",
+                            "Value": "flour_item, item_wheat_flour",
                             "Amount": 1,
                             "OverrideText": "{{i18n:ingredient.any_flour}}",
                             "OverrideTexturePath": "Maps/springobjects",
@@ -1648,8 +1648,8 @@
                             "OverrideText": "{{i18n:ingredient.any_mint}}",
                             "OverrideTexturePath": "Maps/springobjects",
                             "OverrideTextureRect": {
-                                "X": 256,
-                                "Y": 112,
+                                "X": 16,
+                                "Y": 128,
                                 "Width": 16,
                                 "Height": 16
                             }
@@ -1780,7 +1780,7 @@
 					"Ingredients": [
                         {
                             "Type": "ContextTag",
-                            "Value": "flour_item",
+                            "Value": "flour_item, item_wheat_flour",
                             "Amount": 1,
                             "OverrideText": "{{i18n:ingredient.any_flour}}",
                             "OverrideTexturePath": "Maps/springobjects",
@@ -2046,7 +2046,7 @@
 },
 {
 	"Type": "ContextTag",
-	"Value": "flour_item",
+	"Value": "flour_item, item_wheat_flour",
 	"Amount": 1,
 	"OverrideText": "{{i18n:ingredient.any_flour}}",
 	"OverrideTexturePath": "Maps/springobjects",
