@@ -183,9 +183,9 @@
                 "{{ModId}}_shrimp_rice_unlock": {
                     "Id": "{{ModId}}_shrimp_rice_unlock",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current Elliot 6",
+                    "Condition": "PLAYER_HEARTS Current Elliott 6",
                     "Actions": [
-                        "AddMail Current shrimp_rice_elliot now"
+                        "AddMail Current shrimp_rice_elliott now"
                     ]
                 },
                 "{{ModId}}_croquettes_unlock": {

@@ -10,6 +10,8 @@ make cat-unfriendly dishes get rejected by jean and jorts
 
 animal husbandry compatibility for meat dishes?
 
+TODO: add dynamic token to change "Rasmodius" to "Magnus" if SVE is present
+
 
 
 for honey creek:
@@ -23,7 +25,7 @@ debug action MarkCookingRecipeKnown Current HeyKatu.CulinaryDelight_unknowable_d
 
 Villagers Giving Recipes:
 Alex 		x
-Elliot		x
+Elliott		x
 Harvey		x
 Sam		x
 Sebastian	x
