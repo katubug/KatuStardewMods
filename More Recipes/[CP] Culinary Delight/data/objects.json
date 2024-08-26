@@ -2720,7 +2720,7 @@
                             }
                         }
                     ],
-                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
                         "color_pink",
@@ -2763,7 +2763,7 @@
                             }
                         }
                     ],
-                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
                         "color_pink",
@@ -2806,7 +2806,7 @@
                             }
                         }
                     ],
-                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_pink",
