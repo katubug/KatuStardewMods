@@ -18,6 +18,31 @@
 			"Description": "Turn this on if you don't have SpaceCore or if you want the alternate recipe unlock method for the Unknowable Dish."
 		}
     },
+    "DynamicTokens": [
+        {
+            "Name": "DSVElliottCompat",
+            "Value": "false"
+        },
+        {
+            "Name": "DSVElliottCompat",
+            "Value": "true",
+            "When": {
+                "HasMod": "DSV.Core",
+                "DSV.Core/ConfigValue:JewishElliott": "True"
+            }
+        },
+        {
+            "Name": "SVEWizardCompat",
+            "Value": "false"
+        },
+        {
+            "Name": "SVEWizardCompat",
+            "Value": "true",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        }
+    ],
     "Changes": [
 
         {
@@ -28,6 +53,13 @@
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Dishes",
             "FromFile": "assets/foods.png"
-        }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/dsv_compatibility.json",
+            "When": {
+                "HasMod": "DSV.Core"
+            }
+        },
     ]
 }

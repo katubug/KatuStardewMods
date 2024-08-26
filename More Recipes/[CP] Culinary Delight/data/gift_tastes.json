@@ -114,7 +114,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Fields", "Elliott", 1 ],
-                    "Value": "{{ModId}}_shrimp_nigiri {{ModId}}_shrimp_rice {{ModId}}_lobster_quinoa {{ModId}}_smoked_salmon_bagel {{ModId}}_fresh_maki",
+                    "Value": "{{ModId}}_smoked_salmon_bagel {{ModId}}_fresh_maki",
                     "Delimiter": " "
                 },
                 //Elliott Neutral
@@ -456,6 +456,23 @@
             ]
         },
         //Modded Compat
+        //DSV
+        {
+            "Action": "EditData",
+            "When": { 
+                "DSVElliottCompat": "false" 
+            },
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                // Love
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Elliott", 1 ],
+                    "Value": "{{ModId}}_shrimp_nigiri {{ModId}}_shrimp_rice {{ModId}}_lobster_quinoa",
+                    "Delimiter": " "
+                }
+            ]
+        },
         //Edel
         {
             "Action": "EditData",

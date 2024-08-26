@@ -1,10 +1,10 @@
 {
     "Name": "Culinary Delight",
     "Author": "HeyKatu",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Description": "Putting your ingredients to good use!",
     "UniqueID": "HeyKatu.CulinaryDelight",
-    "UpdateKeys": [ "Nexus:???" ],
+    "UpdateKeys": [ "Nexus:26650" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher" },
     "Dependencies": [

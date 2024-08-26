@@ -43,6 +43,17 @@
             "Entries": {
                 "unknowable_dish_wizard": "{{i18n: mail.unknowable_dish_wizard}}%item cookingRecipe {{ModId}}_unknowable_dish%%[#]{{i18n:mail.title.unknowable_dish_wizard}}"
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "When": {
+                "alternate_unlock_unknowable": "On",
+                "SVEWizardCompat":true
+            },
+            "Entries": {
+                "unknowable_dish_wizard": "{{i18n: mail.unknowable_dish_wizardSVE}}%item cookingRecipe {{ModId}}_unknowable_dish%%[#]{{i18n:mail.title.unknowable_dish_wizard}}"
+            }
         }
     ]
 }

@@ -213,7 +213,9 @@
     "mail.margherita_pizza_sam": "Yo @!^^I found this super fancy pizza recipe in one of mom's magazines, and I thought you might like it. It's probably not as good as trusty ol' pepperoni, but a pizza is a pizza, right?^^                              Yours Cooliest,^                                       - Sam",
     "mail.title.margherita_pizza_sam": "Sam's Fancy Pizza Recipe",
     "mail.shrimp_rice_elliott": "Salutations, @!^^I wanted to share one of my favorite recipes with you. Without exaggeration, I can categorically say that this dish is absolutely inspiring! It has helped me on countless nights.^^The rice and shrimp fill up your senses - and your metaphorical gas tank for long writing sessions - and the wasabi adds an extra creative flair. I do hope you enjoy this dish as much as I do.^^                                  Sincerely,^                                       Elliott",
+    "mail.catfish_dinner_elliott.DSV": "Salutations, @!^^I wanted to share one of my favorite recipes with you. Without exaggeration, I can categorically say that this dish is absolutely inspiring! It has helped me on countless nights.^^The catfish combined with the humble butter and lemon fill up your senses - and your metaphorical gas tank for long writing sessions - and the river jelly adds an extra creative flair. I do hope you enjoy this dish as much as I do.^^                                  Sincerely,^                                       Elliott",
     "mail.title.shrimp_rice_elliott": "Elliott's Shrimp Rice Recipe",
+    "mail.title.catfish_dinner_elliott.DSV": "Elliott's Catfish Dinner Recipe",
     "mail.croquettes_gus": "Hello @!^^Today's your lucky day, because I'm sending you my top secret Croquettes recipe! I used to serve these at the Saloon, and they were our best seller! We discontinued them for reasons I'm not legally able to disclose. Anyway, it's a shame that you can't get them anymore, so I want you to have the recipe.^^                                       - Gus",
     "mail.title.croquettes_gus": "Gus's Top Secret Croquettes Recipe",
     "mail.apple_melon_pie_haley": "Hi @,^^You know, I thought farming was kinda lame, but actually I bet having access to fresh ingredients is pretty cool! Maybe you'd like to try making this recipe - it's one of my faves, like top 5. If you make it, I hope you'll share!^^                                        - Haley",
@@ -223,6 +225,7 @@
     "mail.smoked_salmon_bagel_kent": "Hey @,^^It's been tough, integrating back into the civilian community, but you have helped me a lot with that. A lot of people are too intimidated to tell me the truth, so I appreciate you always being upfront with me. As a token of thanks, here's a simple recipe that I've loved since I was a kid. Hope you enjoy.^^                                       - Kent",
     "mail.title.smoked_salmon_bagel_kent": "Kent's Trusty Smoked Salmon Bagel Recipe",
     "mail.unknowable_dish_wizard": "Greetings @,^^You have progressed much in your short time here in the Valley. I would be lying if I said I wasn't at least a little impressed. However, I wonder whether your magical cooking skills are up to snuff? If you dare, try to make this recipe. ^^                                       - Rasmodius[letterbg 2]",
+    "mail.unknowable_dish_wizardSVE": "Greetings @,^^You have progressed much in your short time here in the Valley. I would be lying if I said I wasn't at least a little impressed. However, I wonder whether your magical cooking skills are up to snuff? If you dare, try to make this recipe. ^^                                       - Magnus[letterbg 2]",
     "mail.title.unknowable_dish_wizard": "The Wizard's Questionable Recipe",
     "mail.sweet_potato_mash_george": "Dear @,^^You've brought a lot of light to this grumpy old man's life. I don't take that for granted. I know I'm not always good at showing my appreciation, but I hope you know it's there. As a small token, here's a recipe from Evelyn's cookbook. It's one of my favorites, especially on chilly fall nights!^^                                       - George",
     "mail.title.sweet_potato_mash_george": "George's Sweet Potato Mash Recipe",
@@ -271,7 +274,9 @@
 
     //Love
     "dialogue.shrimp_rice.Elliott": "Oh! My Writer's Inspiration Bowl! You actually made it!#$b#I am simply delighted. Thank you so much for this thoughtful gift!$1",
+    "dialogue.catfish_dinner.Elliott.DSV": "Oh! My Writer's Inspiration Plate! You actually made it!#$b#I am simply delighted. Thank you so much for this thoughtful gift!$1",
     "dialogue.shrimp_nigiri.Elliott": "For me? Shrimp is one of my favorite foods, and I positively adore sushi, so thank you kindly for this!$1",
+    "dialogue.fresh_maki.Elliott.DSV": "For me? While it may not be albacore, I am quite fond of salmon and I positively adore sushi, so thank you kindly for this!$1",
     //Dislike
     "dialogue.margherita_pizza.Elliott": "Oh, I'm afraid I'm not very fond of this. Too upsetting to my creative juices. And stomach.$2",
     "dialogue.mushroom.Elliott": "Ugh, I loathe mushrooms. Would that they would return to the mycelial dungeon from which they spawned!$5",
@@ -294,7 +299,7 @@
 
     //Love
     "dialogue.sweet_potato_mash.George": "Oh, did Evelyn ask you to bring this to me?#$b#What? You made it, @?#$b#Gosh, that's wonderful. I'm glad you liked the recipe. Guess I did alright sharing it with you!$1",
-    "dialogue.pull_apart_bread.George": "Is that Pull-Apart Bread? For me? Hah!#$b#Evelyn usually never lets me have any, because she's always saving it for her stich-a-long parties.#$b#This is great, thanks, @!$1",
+    "dialogue.pull_apart_bread.George": "Is that Pull-Apart Bread? For me? Hah!#$b#Evelyn usually never lets me have any, because she's always saving it for her stitch-a-long parties.#$b#This is great, thanks, @!$1",
 
     //Love
     "dialogue.croquettes.Gus": "My secret recipe! Ooh, they look great. I knew I made the right decision sharing this with you.#$b#*Munch munch* Ahh, they're just as good as I remember. Thanks, @.$1",

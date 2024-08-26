@@ -1259,7 +1259,8 @@
                         "food_lunch",
                         "item_sushi",
                         "food_seafood",
-                        "sushi_item"
+                        "sushi_item",
+                        "food_tref"
                     ]
                 },
                 "{{ModId}}_smoked_salmon_bagel": {
@@ -1346,7 +1347,8 @@
                         "color_red",
                         "food_seafood",
                         "item_cooked_lobster",
-                        "cooked_lobster_item"
+                        "cooked_lobster_item",
+                        "food_tref"
                     ]
                 },
                 "{{ModId}}_charcuterie": {
@@ -1432,7 +1434,8 @@
                         "color_orange",
                         "food_seafood",
                         "item_cooked_shrimp",
-                        "cooked_shrimp_item"
+                        "cooked_shrimp_item",
+                        "food_tref"
                     ]
                 },
                 "{{ModId}}_fancy_ramen": {
