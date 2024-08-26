@@ -1,7 +1,7 @@
 {
     "Name": "Culinary Delight",
     "Author": "HeyKatu",
-    "Version": "1.0.1",
+    "Version": "1.1.0",
     "Description": "Putting your ingredients to good use!",
     "UniqueID": "HeyKatu.CulinaryDelight",
     "UpdateKeys": [ "Nexus:26650" ],
