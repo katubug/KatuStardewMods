@@ -74,7 +74,8 @@
 					"ID":"Katu.HoneyCreekFarm/HoneyCreekFarm",
 					"TooltipStringPath":"Strings/UI:Katu_HoneyCreekFarm",
 					"MapName":"Katu_HoneyCreekFarm",
-					"IconTexture":"Mods/Katu.HoneyCreekFarm/Assets/FarmIcon"
+					"IconTexture":"Mods/Katu.HoneyCreekFarm/Assets/FarmIcon",
+					"WorldMapTexture": "Mods/Katu.HoneyCreekFarm/WorldMap"
 				}
 			}
 		},
@@ -256,6 +257,54 @@
 							"Y": 56
 						}
 				}
-		}
+		},
+		{
+			"Changes": [
+				  
+				  {
+					"Action": "Load",
+					"Target": "Mods/HeyKatu.HoneyCreek/WorldMap",
+					"FromFile": "assets/Minimap/{{season}}_HC.png",
+					"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false" }
+				},
+				{
+					"Action": "EditImage",
+					 "Target": "Mods/HeyKatu.HoneyCreek/WorldMap",
+					"FromFile": "assets/Minimap/{{season}}_HC.png",
+					"FromArea": { "X": 0, "Y": 0, "Width": 131, "Height": 61 },
+					"ToArea": { "X": 0, "Y": 0, "Width": 131, "Height": 61 },		
+					"PatchMode": "Replace",
+					"When": { 
+						"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+						"FarmType": "Katu.HoneyCreekFarm/HoneyCreekFarm"
+					}
+				},
+				
+		
+		//	//	SVE MAP
+		
+				{
+					"Action": "Load",
+					"Target": "Mods/HeyKatu.HoneyCreek/WorldMap",
+					"FromFile": "assets/Minimap/{{season}}_HC_SVE.png",
+					"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true" }
+				},
+				{
+					"Action": "EditImage",
+					 "Target": "Mods/HeyKatu.HoneyCreek/WorldMap",
+					 "FromFile": "assets/Minimap/{{season}}_HC_SVE.png",
+					"FromArea": { "X": 0, "Y": 0, "Width": 131, "Height": 61 },
+					"ToArea": { "X": 0, "Y": 0, "Width": 131, "Height": 61 },		
+					"PatchMode": "Replace",
+					"When": { 
+						"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+						"FarmType": "Katu.HoneyCreekFarm/HoneyCreekFarm"
+					}
+				},
+				
+				
+				
+					]
+		}	  
 	]
 }
